@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13034289,
+            "classId": 20164,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:59:16.124Z",
+            "updatedAt": "2023-07-05T08:59:16.124Z",
+            "tags": [],
+            "classTitle": "actinic keratoses",
+            "bitmap": {
+                "data": "eJwBzwQw+4lQTkcNChoKAAAADUlIRFIAAAGUAAABYgEDAAAA68C85wAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAR3SURBVHic7dxLkuMgDABQu7LIZqo4AjcZjgZHYzfX8A2GZRauMD39iTFIQpIdJl01Xpp+xkgC091Opok6fpCt8PFTTuYcxOaao9jYvIiNz0lscr5JyZzzKjWXnO9Sc805S41RGP9mgrwbqfnbjbAQXBab916yqHguWW6cwnwSScF93ZqkeMyXERTCg/CTet1MlN8afwa5zXCjfcnlwbs7szO8cNud4YWuMqwcuSzvSGP8IFMRVoa+k1meZOpYJ4ZxleHMu9pwZoOtBxT6xiiCcK0NY0CX2jBubm5M/+Za07+51vSj3Zr+MgKYoDCLwqSeafPTf0Y2dcAINmC6A7KA6S0KHjKJJEDYuh1Bw+l1BA6nU3MONmT9gCHIdLgRQhkkbGQQNAao0K5B0kMaozAWM8QccgrjzzTEXMUIVaQKg5YBsZiiZXCyQUuHmHSEiZgx55oFM1Zh3CDjcZMwgxPUEGWAGiKlqLEK4xTGKwxBMEPMUtRQocaMocxynnEK48cYMtTIekCGGjFUVWPrmxlk7OkGJHQZIMaPMXQZwDGgUwobJze0AOut0wtoegSYP52gnWbo+aY1aZBpN4oaY7qm3fTZrmlH5Bmminc/pR9HOSjDNOWgHNOUd+cVhkuK2HFDUJp+FZxjOssUaIzC2EHGPdVsdeCfaqK83FQmyEt0m3N8sw4y2xoyavrwzaIwcZAJg8w03LBr5z7IrMcMe24fNV5hnMJYhTEKw33OlYZbcEeN5t6swjiF8UxTbsWY5OicY68HxXjY252DxiiMVRjHNcX22g8yXHJwpzzKvN72YJSJChMOGf5vJRozyc1dYQ4uB2xzO2Ys12xlzV924jHjuWYrA/6yozCv/MRKCrMoSicozEZebuOSFKYIG7t0iqpml07RDbd0yn0YtwxuB41hmjLUlmnKUDumKULNTmlpmKScCc9MaWkMk6xiUabUKYxnm0cZ8HdhW3oE5pEe/g5kC7XG8Hcg6yBzU5ikMMsgE/+bwhi2CYPMJDfFA8tyzcFfmtmmeMg5rkkKswwy8ZjxXBMUZpKbu8Ic/Rsn19wUJinMojBRYYLCTHKz+zc1s5tVYW4KkwaZ5V8Y5vNnZ5h7pPgvDHOfeNgwgx2+jfEvZaZvY1hkb9p6g0pw/+ZOMxcS9CzvmAnaA9HmrRtgT7c39RoSob5pc4fjslJmhXNGmvR+0orMx0kjMXc4MNUbXDPU1gSueuvLlW2RZ3bjDVDnuXnna9f+ddLTpmy/Y2apTDGgG3CuHCc0oASc65mFawzQZCoTKnMFmuoETSeYC9BUJbV5+W+Gmjpmay8q3u9M+wmWRzv6v8TWWMC4nSFegEzAdRDzCMKyndvP1NSYx0UjcJ36YvUPhOLcbkCxNV8dlaeuPfORont1an3AABnfmvfDABfbGejzSmjDZxP0uSiDNRDmPX4JN2CTgdMzfcYNbJrRj0fgWcAPPAtPMDKiMTNeIecb4feLqI3wu09mtHQ6JipMkJrf4q9YmfMv+dfMuCgVb88tifkDHHzHcGr2ZDIAAAAASUVORK5CYIJXo0LN",
+                "origin": [
+                    86,
+                    45
+                ]
+            }
+        }
+    ]
+}

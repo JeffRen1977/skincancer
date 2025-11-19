@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13035023,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:05:49.234Z",
+            "updatedAt": "2023-07-05T09:05:49.234Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBSwW0+olQTkcNChoKAAAADUlIRFIAAAHhAAABsAEDAAAApFZPHwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAATzSURBVHic7d1LktsgEAZgp7KYJUfgKBwNjsZROALLLFxxZqoSCUnQr18RdmK2yVcW3U1Ldpz27Uauj0ezMv13j8u1+qdWhwfAvz12K2u02+tHUeh40Ap+uPDPdQcu/HMlqQ49nYELl2/8o6urUHci/rl+IBcu1b6vhSnrY2Gx92P2uUQ6jHQS4EHMHrKEDy9clHA31JKUDbctCnocaknQx1gQ9HHIJUH/TujK6nHCJEGnNB90R2g+6J7SCdIF0mzYAqXZ9kJqNmyR1AnShdEkBnWlMXVIeE2V+YNNuIN0oDWTcAbTG2e2zRxxZtsP+vmD2zYdt8hqIm5MrTCaDdqD2rgX6AIEjcq4AI+DTt3DljXsbZKQj6vNSfQwZTKdBjqIdIZ0GWgRHiZcpgcJF6V7mHBRuocJF+pBwjEtOd1fK0O6dLUT6grpfsKlup9wf4nul4tU9xOO6SDVCdK5p6NUl/O1FIO6drCwMQ20tDmgunfIpM2hf0zcRO0hHcS6d8AjpMX4fC0v1PO1vFB7jU1eqM+mHaQ9pAOkI6QV+KgVpdbRmlI7ak26jzdRB2k/UQdIR0hr8EGriuWgVcVy0KpiOWgHaQ/pAOkIaRXea12691qXsL32kA6Q1uGd1lX5visqg7bTDtIB0hHSSrx96lHW6U5rE4bp7TOyNt1b7SZqr9Tb90QB0nGiVuLtO0ltoW61ttRAXZBC3Wr3str/Pzq3Orysjtfq9G9oLQb17Um0uiFj+uezaPXNANP3f0Orb4Iz9eaxxb2s9tfq+iw6aHV567k6anVusP5G1Gp1W9todWvZaA/pCGk1brU+5K3WB63VTq8TEvJWB0jHiVqPG21IN6jXC9efz1YbSg3TzcOeg7SHdNDr+1k66nXz4KHHoK5QoWK6QGU+U+eTtOWAppfVa6G6idq/lp7ZFJ+kpRr0j7N0vFrXl9Vl1Xp8mrbciDKk00nacis5S1/+pPi6N4OmKcar9doULaW2NiZLsazaku4KJWzVHtLBoMuiDXjVloSt2pKwVVsStjZFB2kP6WDRCThhjbbgRZvSvTQmU7oX7SDtLXhpawHS0aKXpmjBi7Yl7I+2JexPSzWdz0W7Cbqeoj2kA6TjBF2QQp2q81sbVnrrt75I3976RXV866v0SY+pM7X/T7WDtOkJ+yRtem+waNP7kvVzopk6TtQB0t6g18/H3ERtKVXsc8G6aOzfgC3FlifqBOkbotvv1Ea1vp+mA6S9WldIN6VmOGR5om5KzXDAb4jGvr69+Uot9n+Y1LpNt/6Q5Y2OSr3B2mNyh3Tdaq/TaaudCu+neOiKbT/7RFdsZad15ZJ3Wlcue6xK2XEMh1fo4+AUp9D1oDVB34dcF/R00JqgHzE48cWLNTaj5xhyTdhyR8s33gm5olZ7+KIJXv3ZY9jUNGxim/ScdEMuTfhosKFMj4YqRpGuAx1Euh9yacL7Ib9kniM2S3I4BVNUbHWkRcVWIJ1GWlSqIyzSxGBjgSamvUZeV0jnsQ68ToimJux6VlOzpB2rqQG7fKEXQvOlmgnNFhs9Qjv+VU1dOJ/wRGrHaBJzmhnXjg3QZlJGb5vpD+yc+UBpdli7o3ThNLlxbttk1EU/JBHN2yZfX4Z/r32rUP7cy+4Sqk5vIyD/tZXe6yeDXpq0MOCDFy8m/bvyLbv+Wh/2XX+tr8hn4s9/AYLxFrtegfEqAAAAAElFTkSuQmCCSyqm6g==",
+                "origin": [
+                    33,
+                    0
+                ]
+            }
+        }
+    ]
+}

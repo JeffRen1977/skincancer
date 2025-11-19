@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13035528,
+            "classId": 20168,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:10:15.798Z",
+            "updatedAt": "2023-07-05T09:10:15.798Z",
+            "tags": [],
+            "classTitle": "melanoma",
+            "bitmap": {
+                "data": "eJwBGwXk+olQTkcNChoKAAAADUlIRFIAAAGQAAABhAEDAAAAIjbkAgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAATDSURBVHic3dxJeuMgEAZQubPwkiNwFI4mbtYchSOw1EItOh5iMRRQP/qEk7B1XkQNoAg7nqbKEN7UXibGxXvQfPjbgMhdeIdew/sVFt5bLplfhHuZi98HPC92nq8BsTwiAuJ4RAZk4ZE5IMyUBcJvLCFwEs6LV5hLJLxG58WrZTwvTi0/YsGppUxIuzBXnw74Ioz454w0g8lEszEvOWm1TJri29B1kiesOTOKNGYmCNKojKSIwYmtEkURh5N6Z84UqcdPE10jpKimjGixVsqo4jeIoImrEEmTWmMqmtQKQ4taLxcSVqtlIWG1Whair9WyEH2tMCVRLgy1vTxGsTDFUMqFKYZSJkVRrGU5lGIti4UsE1EhGo2+SOYKMWjCSqSWsEKTiRpxcPSFJqsJumOKi/gxKFKrvacLI+rEEETWCZUyVSdUyuY6oVJWFxRp5JjKciPHVJZli+RZVi1i0YRRpCV6iINznJPqKr6PrGPaJCt/s5I9JJvYGCK+Ccky1kHkzyXZffwUku1KHUS1icaJOU7mIaQtsvBx0t6TMiIYJIlF4YQhEsKZV3K3mDnEBeCP5IhoV2JdI1pjnJrcxx4Mb1o+2DDat7zXgBIcz4wvvtLMDt6/0ty+F2VEAGQFU+xfxUTIc5UphFikwR7D4WRFK+mfLYMRjTXlbVicLGCL+UcxkRbrIx7sytvQODE4saOIPJ84cIV1kxkkSxcBxedSBpdLF9nQFdZJ0BXWR8R3JXIIUQOI/0Vkg9dxD1l7CCo+dxiYuF9FZpQsOOm4isPbsoNYnBg8lg6ihxD8htxBNpysXUSBZBlCOv62sjgxONE4QR/eHk8JM0ZWnCw4sTgxOIEfRB+P1RhZcGJxYuBHd48fEGzwYcfztAMiDj6FeR5DQI8JGj4e+jqFAsSKkwUnHUddBicaJxNMvs4ggVIuQ4jDY7E4MTjROJlg8joa5mes45jX4cTixOBE42SCSXD83kFmJllxEryVoM4jbifyPGKHEHOICCbRQ8guuHfxDSfhm8jMG38HWXAStBh3JRuYRG9u88iKk/hzCixicWJwonEywST5AMHMIOsQkkxMnUOSjMkhRHCIPkpYW8wYYoYQ+wbC2i5dRFi7UkxYC2Y5TBSDrIeJZJBkJYtzSDIxTvk7SJJkTseMIStOtiEk2WLOIvYoYe0XDifLdyXrLyLbzyDiJOLHEI0TgxN7kPCextxBwnu0Okp4Dz1vILwnmMNk5hD7BqI4xL2BSA5Z3kDEScQdJWfd+GMy5tliDGGt5IQIBkn+7O34e5wTTPqvLAySxMLZMGxCFH4ViRNGylLCaMyUMLKcEkaWMzIfJSvxGzKiopcXwSAyetkS6chI/Gs1kY6MRLUkP8CSkWgmC9VBGYnid9Q6zUn4M5ZHwpkZqk9zEgasqT61OQmCmZhkn8rGJXv1VpIYgrxmtkxU+JogMpwCj4iQiIwQYp++ZpMpJDIV9D+wX4LfxyTPn9uiwL5G4T/rr/uLWV0K5PJKWD6z0rcEzPtr6cyKXyygip8u4Hzhj8KJwEkyM8chCicfOLld5uMvRqY5+Cg2k4h1zxuTTNMhYnFi2OS2HrYb0Wxy/w6yW1HZ4rM4/+6XcgC53mZ0DVf+f4ZYLhx7eoOWAAAAAElFTkSuQmCC/PVExA==",
+                "origin": [
+                    89,
+                    27
+                ]
+            }
+        }
+    ]
+}

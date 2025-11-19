@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13040349,
+            "classId": 20165,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:53:14.891Z",
+            "updatedAt": "2023-07-05T09:53:14.891Z",
+            "tags": [],
+            "classTitle": "basal cell carcinoma",
+            "bitmap": {
+                "data": "eJwB6AQX+4lQTkcNChoKAAAADUlIRFIAAAGWAAABjQEDAAAACCfFjQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAASQSURBVHic7dxLktsgEAZgu7TwkiNwFI6GjsZRyA2oykYLlYkt2RYWNHT/ypDJzGiRRWq+CPqBbE3gdMqus8//rnWpIDdxFpNLvMpvE+MoJMPNeKHRNyOdUIziwZ0XE0TmshhR5HRcL4mxDyMJ3ZPEiU2Gl+HPSL8Mf0Z2MyOTnDcSHdMMifFMc0lMYBoNGJMYboIS8uyHoRHAITdDK4BpCO6FYMN9hvVBqtTE8XK7l21VkYn769yqCJWRdkXkt1kvXzEEqZkzZQJtLpSpBJsKQW2F1JSptCxtHGkMaegJ0YYenKXNa3BmN0yabGndx7Bm4lqpw67IyTJ4XOG0pHBMzdAw9zvoXSGRpZMMzu6KQrVMWIefGt0y8zqUdEKmZeL6z6YTsk3jlh9JC6lJ4q/lzyRDrfQkQ2SnZ7v8yzTTUzCKbbYgWLbZKoFNtiDwp7MZJTCOXTm5sYARkGeC+JUTX5XNr5z4SipiJOk5YhRgNGAMYCxgJORhROl5GFGoH0aJTJCH+mEMYKzIeHmo1z4VddzjCYQYWXoiEOoIhPoKhPoKhPoKhG2Wd8Ja1gowGjBGZoI81KuREdgI07MYYXpgowCjAWMAYzsZIelppKVzN9IyQI1w4cWMl5fo/T6I0Z2M6WSs1EzyEv0xX9PY725moOd+DGx0D3MFTMSMEpsRMA4wHjLi5/btAfRjvPxzFWjEnxN/DGgc8EDtaGwP4zFjvrvp+OFfbKYvZnp9qJiBh/0MfBGegS/pM/ACYQZeVPQ09pubCTRGaJCXdh54OeiBl5AOeNnpgJe3sLGAMZ2MBowCjHCFg42wEBzwC5MRNcLiwY3tZAxgNGAUYGTFgxtZwS1EWDyrERXC8z/J2C9mDGB0J6MAIym4Xmb+D4yk6SbAhANG0tyImb6YORIDyaJ4yFi+mXsb84mN/sRG8c3UyTx7QbIoHjKCBe6QETT3ywgadTMWMOZDjX8ZDRj+fVwnMwLmJDdXwMz9jeaa6ZhRH2nCMcNeePwnNu6YYS+KYydz6mPSDTPcRf6o4T4Y3vbLWMAYwGieedtDpXgmpIZZpIjxgHGAGVPDLLiT3FwB8753jFek02HDK+zwbizH+HdjOMYB5p2wmmG/1VExzH4HIiepu7CxApcZ3TZ+bxRgGB2UGUYQHGBGwOwJw+Tbi9sdlO+SbZvC5tWmyULNMFmoP8hk6WGYnDSbobT72zRMaRNzy4SC0Q3jC0Y1TCHUH2LGgmk1d4FAptF0xQ39jQYq7ktvmPJ28boJgHF/zdiqGf+pMZ2MrpoiqTcDcX5E1RDHIFSbgTidADHVBgqA8WVTbSBXNtXCHuWGPN7D0oY8paJiyMMjDG0CYDxlNG0oUjH0QR1KHoKKIadTKWzEONLQhT2Shi5sktBFWjuAxhKmdtCNIUyoGCpwvmKowbma0WUz1kw5co3Tn1TJNA7oKqa1dfBRKXShYUozci1jctMihcExzijLUHNopyyxrLO5BvltdkninkplE+OZJo03k6RRYB8Gd5HfJglCYJsl3L9Ft7ld+rpUK/98tqcDjvc7l0f2B2OnQ4iv9TUeAAAAAElFTkSuQmCCMSdHYg==",
+                "origin": [
+                    71,
+                    11
+                ]
+            }
+        }
+    ]
+}

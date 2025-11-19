@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13032570,
+            "classId": 20168,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:44:12.715Z",
+            "updatedAt": "2023-07-05T08:44:12.715Z",
+            "tags": [],
+            "classTitle": "melanoma",
+            "bitmap": {
+                "data": "eJwBGwHk/olQTkcNChoKAAAADUlIRFIAAABOAAAAVQEDAAAA3XVABgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAADDSURBVHicvdNBDoQgDAVQjAuXHMGjeDQ8GkfhCCxZEP/YlhZmYmYSY4bVi9FfEn+dO88GODkBQGRNp5CYK7G49iZQmeBDmoX7yUVIEV6YNADIGiBpQVgtC0cb+07YBJqxXDDqMOKqTDrsg0GZfxMXLCPDH1nvcvvOco/5Sabxvw30yjj+7rnTWrJbjYihsbcPvZ5HL+3hrGi1t7pY17m0LYLp28UsItq2oO+QrAhHyOJwRBZ6/Uou1FZvsq/oFlG58cMXMvaUdk6nQCoAAAAASUVORK5CYIJAOnTs",
+                "origin": [
+                    284,
+                    182
+                ]
+            }
+        }
+    ]
+}

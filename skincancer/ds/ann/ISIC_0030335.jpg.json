@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13033606,
+            "classId": 20165,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:53:32.204Z",
+            "updatedAt": "2023-07-05T08:53:32.204Z",
+            "tags": [],
+            "classTitle": "basal cell carcinoma",
+            "bitmap": {
+                "data": "eJwB3wMg/IlQTkcNChoKAAAADUlIRFIAAAGJAAABDAEDAAAAC27YlQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAOHSURBVHic7dtNcqMwEAVgUllkqSPoKBwNHY2j6AhaeuFCM8EG9NOo31PGlCs1rP0V6n6ScBwxDMo1xRi1z+SX+SvinRGfcb1uuLDxeTnuFsRtzCHiAomvmF4zQmxGAkIyAfXZ5ATp2VgQr4qPQgBttiXRiymFXsxXTWb6JkoyVe1qMZMkWsXIn2+N7OQWjZGZU3G6BTTESZuFPLRibIvIxUwtIq5mMcPjkshnm0j1mzbxAhnbRFhmyriklinjksikkLrLzejXiy1eIFolsV5lWiU10YdVxg8Mq4hfS1EglicTREIilIXyjwhWfQ9JF4w+Iyti3oncf0bsy8hyCUkX//g64t6VzAeZQOJ5Ei4hyewHRTovUbLw5Jgx4DYWkyzBPSkmWeJkzxLcxmISjIHJ7QfEwmTPcoTJnuUEkz1LXGwED38neJL7jMGT3IklyMz2eCcTQTzdsCdhGvYkTMOes9/wxDLkRvf4SSaG3Nl5/CRULA9CxfIgVCzdxFBkoZN8kPHVJP42Mv0S4n4Z4UQPofeklXB7Ug9Z+gi3862bUgfhdr71YWE4Euidb328jhyZL5mVffPl9bEEnng+Sccn6a7Y9zsee3d+R+4ggd+S/CVkflfi/pO3JG87Yd6WXLOQPb8pXUPmTjJSxHUSS5HhCrLw5PFnuOEJ9VXhxpP1ucd97VnD575crUlyC+YhmHm5/dBneEK0bPsFkqh//51zhEkY6GJ2ghfjN4Ln7zaC1z/sVweZQJH8Yj+CJPm/gAVJOAjaZX8QtMvzQdAuO5pk/6rHSEjJBJE5JSNEXEosRAaaLDzJT1AYhASeeJ44ngw0WXgSeJJXD+WSC2SOlSdOAFKengHIXBB+XMBCLscFbEpFKkgsZSlWFdWhnpEeF7DB+JLopTi6x9WRJn0Xr85a6bGULQZiKYVO6qNWViNVi/UkyxbrRDhop5HAk3pcGhFuohHhJgqRbtJzlNE0xMkZ2wYRRzW0ZrI/EefrZT4Tp6vSnYozcjqq70smLSFvSu3zyKNEQpNYsvhBzlI5Wi1l6dtEyrI9LqnL6jH5emT6ke9qaMD5/dIEnZRxeoAUec4I+eBJfhsHkazTkMhGhr3wkC0b9I2PpM/oCx9J/QEkhkxyyFrmQHLMM7RhSZcDSo4uo+M6uky8h7O1zONkaxkutvqJd322ncYxZCQrGR5hcuJ7Zgb9Q38AW30Ep8DUC1cAAAAASUVORK5CYIIx3c62",
+                "origin": [
+                    114,
+                    91
+                ]
+            }
+        }
+    ]
+}

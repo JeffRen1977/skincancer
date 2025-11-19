@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13039449,
+            "classId": 20164,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:45:21.529Z",
+            "updatedAt": "2023-07-05T09:45:21.529Z",
+            "tags": [],
+            "classTitle": "actinic keratoses",
+            "bitmap": {
+                "data": "eJwBiQV2+olQTkcNChoKAAAADUlIRFIAAAIjAAABggEDAAAACExRJAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAUxSURBVHic7d1NcuowDAfwMixY+gi+wruBj2YfzUfJEbzsgiHvAfkgiRxL8j+QxySrtgw/Ykm2aacWPz/q69L+6p88XL5t65Fz27ZNtWL/KbdqpW0BzPmh1I7JPZVrPXG/ghq5jEjFkF4Q/ZBeb0WfJfuqqAPjJ0rUIacJog2vmSpJp0zDol0epmFRpvo8RZSpvswU3VJl50rQKH6uRI0yR1QFMw+uLtVGqbhJeS7CwiuY06QkTguEVzB2koblgHgF49qXGUfcCqtgTv3Q/T2OjlJiyegye6MyPFxNWbHdy1EB6a5URLrM/hIZHi5GweSfLFDIpMyuctmtBHW8ispiTVIpBqJYjhJKiuMosaR4hMJJdHkKsBJdVAxEsRDFQxQWUlJ4wS0pDqLwkILCHFBBsRDF65XzMLkME6GUcXN3euXcremspTKr2G5NZ98Iqfj2sY7yFpac8iiRKBvQUnk+O4oGtFTs8+fc2s8oonvIKh6iaJCNFFGZZBXuivIORVSyWcXsSLFfpziI4nekqJC5opuMc0U3jeaKbhrNFbMjxQEUZVRmivJOZooWmSjKYpkpBqJYiOIhihp5VZTzeRNFXbm7VcyOFAtR3Ncp/usUPXIob1IqFky4ot9f8UrFsrtTxexIsYdCKu7rFH8ohyJQKpB9KjVb46jUbGqjYiCKhSgOoniIUoMMSlWKBqVmrx8VC1EcRPEIpWoWDUpdinqlLkW9YiCKhSgOoniEUploqFJZLp1SWS5QxdQhiG1k+N8tW6VcIUrakYJduw/lUA6lXnFVSoQqfgdK6JQqpN9IKrdpiHKDKnVvGfpNzexA6f/v1kIUV6UkSNElSNElRKJ39QtJRCS6XxhcnQIplxtE6UvXVymY0m0gSkBMgH51qVP6sOgmwLV7YqhSwnONHA4YqJRrl5dQpTzD4cdTCirlWSU+1SnPkfz5qVKWB3Q0yvLUhkZJEKWBKAGiLBCNQpyhUijEwRqFQhzyUSjLRGuUZaI1SoQoAaIsEYVCHbn7lEKd5pIr1MkyuZIgSrOZIt+n446UsJkify+FUSgEpPiPKPRZ3M8o9DFP9x8r9PHXzyhpR0rzdUrckRJIxQoVEhH/WWpLRfqXE4iSaV4g3O4zJ9qFSuZ0vXCLTRClgSiRVoRbbAaRKdkuFV6iZIIrVDLBFS4NAaLkENECk28BIlGywRUtMNngipQIUQJEySISZaXphmDJxCgrbUQES+aKIlim1lqa8JW0oniI4thKs7li/0slrigGovCnwPYKfyKFzRX+dFxT+NPxDYo/lEOZXmsIW1nvjcVVEkSJEGUV4SqFxmNMZT0s71UaiBIhSoAo6whTKfWG491KqU8dT0nrCHNXiwil1GORp5SCi+nGxlMKYcko0U6/LyAZJUzfYhW7GtLvyGZ4KimGQq6z1JXCQiu/05Iud+S0DKXc7NFRSppO9aaoeEpppnpQheUezRel3HeSRO4vbofB2VhCMvX/cpNFIjuge2b7agwMxZYUVvNWRyrXcaysRrJ0WO5Vdhq/LF2ZhS6NL5AYSiZFaRxsZCiZX9QeimUrZkV5PsZAckoz3Ce7Sy9xPYbxiDyr77CjlfB4cLgrpTI+GDiKX1Mu3EbKNCLslJ0pXWHX7owibCudmQBCZW0CvFsxWyqNTLG0EnekhE8ojlZkSEaRtq2nFWkLfb+hIu0UTysJojQQJQoVEhF/JgCtCBFaEX/iAqmIPxKAVBJEiRAlIBT5B1FAUkQqCaJEiBIQiuJTPiDBpZQkRv4C1TP+o5sgud4AAAAASUVORK5CYIIhE3kr",
+                "origin": [
+                    53,
+                    64
+                ]
+            }
+        }
+    ]
+}

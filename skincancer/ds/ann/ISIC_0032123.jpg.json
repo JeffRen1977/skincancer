@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13033145,
+            "classId": 20166,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:49:25.099Z",
+            "updatedAt": "2023-07-05T08:49:25.099Z",
+            "tags": [],
+            "classTitle": "benign keratosis-like lesions",
+            "bitmap": {
+                "data": "eJwBFgTp+4lQTkcNChoKAAAADUlIRFIAAAE6AAABewEDAAAAeIjV1gAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAO+SURBVHic7dtBjuMgEAVQR73IkiNwkdFwNLjJXMVH8RFYemGZiZ3EAVNUfSLSabfCcvQU86ky8aRN120juA4Y53AZ/7wMdVjHLEJ7haE33lw+928Rhnh0p9AX3CmB42UiDoHLGGj4lcGRhucMBhqqHNLX1jmkr527MGFZAr1ARJZArjkxRTqNoaAnoKUgkSYv4DrALFQacorUJMkpLrU5pckLU7wsuUk/lKzLem2bFryQZRnpEikU6jKcXwxNAxieg5aB7odAxuGw/xmweCf8Ojig0DeH8VZR3FGWMaFwRmHckDzsURgtJLPrhSQ2D6PYioUBhg6FAwof1dY8HFE4NYczCsMboXsdNALsP7AJHI4EtQD9kaA6AOQ3+7fC8QO5MVVD/lHhpZB95HoJHKsh+xz+1CceAUol9K+D7e8Z9XPh1rj6ANAIcH4f3J5d7fdDdwDYvx+a74dDLdQS9LVQSXBE4VQLpf1xa3EZ3vpM2sO3hZThLbb0hbSlkeE9jQx7sHPvaWQ4gn12TyPD25IDcMAa8t6SAJxQOGMNGW61kfusAjoU9r8OKhQaFAJuhcBdeIXyBhCuJURCr1Cj0KDQohBxC4RWZ4HQ6lRBaBmroIIg2I11UCNuroEGgVMNtAgcayDicOjfB4cKiN0yfXNYc7ceAWIbBboxvwZiW08NVM2hbg5Nc2ibQ8h9IDvm98GpOaz64oKgRzvcozfXgO4U63+QkJ10fRRGFugKbUPo6qBBoW4OlQy7D2wIgR6vhMA3diWEf51p+TOOq4QWhQadIww1ClVz2PBXwA7sirkWil2x/R0AhlaSd2hQqFGoUCiu+B1K6wO/NPSAQm2it9MUC6MXv/hZxi/GWQ7Gr9oZFGoUquaQrSL83mAM4TcR2dvhOWgZ6GNomkONQoVCrjTPQa6Gw1OQK3YCuRqm0KJQo1ChkImdQibNDpbT9Ck0RehSqFGoijB15f7ZH9Mprs/+FEaxLbLjGiWYHWexBej30BTgsIe6APunoSpAt4elFd+7EszPTxVKkx+PKZSGOD5EQ59Dg4UuLWTu6NjElek0xJXJ/qFPoRGTJI9MUdWmD2ERtelJmKcpHZQDr0zEpq+cF3EouGx9XAnuilg+87eLXYrS7WMXp7hLQ5fvOhT4gWkaDiZpegYmaRwH4zSci2vDH7GM0jDL3SVpBhZGneZ4+EjDu0ca6bjoVkQ+yyP27jhePr7kzrmNK/QytCg0yGovQ6PwLPfidXwh9VuHAeq3jhO2jN0ax0Ow+6Pc/p/+A0nVdqFPe37aAAAAAElFTkSuQmCChzfgJA==",
+                "origin": [
+                    127,
+                    22
+                ]
+            }
+        }
+    ]
+}

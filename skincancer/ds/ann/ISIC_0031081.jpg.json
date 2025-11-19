@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13039195,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:43:25.241Z",
+            "updatedAt": "2023-07-05T09:43:25.241Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJYmBgEmdgYNzEyAwUydUrOQ2k2AJ8QlyB9P///5fenH8XyGIsCfILZnB4diONgYGF19PFMaRiztu7vnmPDXhYH7BFVpxU/qBhI1U8eadX406Pvgup4mtNM5OO14ckdq5neD2xjPfOepGvWZYrG/btCel7F/R77uUJq+9feGIeVPVV6PmUe3vcpl/afX3BlEtHM0+c3WHFu1dS3k9Z9XuKX/lh8YmfD++o6nmXuMPKif/wVUG5HvN2xeaL1jy+J21nqwfGn8w0WsVtqV6vePfMCl4pIM1kIJKgsr+QSUL2gELDQQbl1N67ndapPdVZZfdundtmWFIVrzg3t+fgbYWw4zdMlknGmU/PV9dYZlj/9X1q6NfXy8xOR/gWaLkd97uvIPt2c+YatR81mxYcnz79ofptXdmeqyztqy/Pn7jEtTJFapfZvm/zzmYnf74W+j1s8ruv69Nr6y+u2bV9Vol+Su3T6ztmgYQ3PU6euXSnY3VvSlhsxp6o8O9hiz8/Prtrl/njibLvwwSqrOV2fkxkXXj+iLJx1erKvVsj7vd0G34MOixVq7Zs6bF3M/4xNc8SvPSAWbJIwXm24KUCobMd2RXb/6aZPN4uce/45bQ/PY0RtzW+B5+o03bkYZNgMRB4f1Tgva8g26PabeYrDJz5UzyMnaRqFJpnbTSYY/4toK24uEHyHO8yybaHd3SSJaWOTGCWvNPT6shuVDPbWefw9oNHjGrMvz30/xbIwyrBZCCRIHCgoLXWIEZRmif8BNth0QkXAxoUGZoZ2Rh5/B3cDgtPuPhB591loBjI9lfmNvt3nKgROJDQsJDhsKPC++Udv62S6hWB0eDM0PaL98hniUc7J4BZ6ZY8BiwJGgc+CG7YP3dLcZ93MwMbM9BKv0cZz3n2fPxhxJFgcCCg4aFqXpu1nPnhvVvAGKwo89ihC8ySeYskz/7o5+FN8hBobpYQOeLw5nfH834NtkeVbzzYHkmKJ2UIOINUcyUp3BNW6nGeKx0OcvjswojmJolAu+056R/D29gMl0hyN/OnBAgon6p86zxXNwziEZEjGenu09kezXG0tv7F3MYACdnnzQLpcw/NsXeV4DJQ6TjI0MzgNqV4Q8fnaRM2b0EKLpavmRZNv0xkHGul+hp82ph4GCV4DDgSrrCnGL1iNpL8yjiz51fDGbj6FXF3ZgbevbIzcDYQW8+E0LOvtC4Eh3LPqaOxElO7dxtoiYvnhbCpLFsIDEqg8K4Fer272tb0rHIKcwsNCne7mnIN6EwmCVPeSGnTE8dWvHh17YXdX7eftyLcMr11Fm9RXaYIcu/DuFSp1u9ptwUawM6/qXvR7NSkLOlU7smGILdoZGUd08jyOKehqZI+RWSSKUeCyJ9/6b2b6pMmSP7+PM/82/2Z+8EKb8huTjNZLHl2hdk/xvt8Sye2xUotB5YSDJ6ufi7rnBKaALen4PY=",
+                "origin": [
+                    65,
+                    16
+                ]
+            }
+        }
+    ]
+}

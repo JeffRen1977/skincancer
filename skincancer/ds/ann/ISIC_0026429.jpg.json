@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13041795,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T10:05:52.513Z",
+            "updatedAt": "2023-07-05T10:05:52.513Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBTwSw+4lQTkcNChoKAAAADUlIRFIAAAGfAAABQQEDAAAAkhgwiAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAP3SURBVHic7dxNjqMwEAVgRrPopY/go/ho5mgchSOwZBHBKISADfX7okZoFG9nPmFXPSMFcDcNN37mmf03eoT5OSYP+TOvY3CgeRv+6yyjtaFUofnhv5BxbYlA2iR/KDP3Msokkhf2lzTK/Bgjzo9ekTI/snTL6FhD9WgdI4sCj/jERx7xpcgCYi8lIa4UQh34+bFdWgbTKhkx2zjKqCVRkhG9KNnQoZCLx1SC20vbAIpHtzdoiKpE1BBViaQhqhKaoSqhVZxclFpxalFqxamNGHR07lQ0oMFd8ZkoejagU9Et5rgRDW2aT52yoQFBh0oYAjGf2msIxHPUlQg21COorkS0oTroyYbqSmQbqoNkNFX5bG2a6/IZ21SXLyAoWlFZ82RFZWQzgqym7K5tNy0DaFOJzG0qIxHsqPO3qUTZjvbw2c2OHBXfw+eo+B4+R8V3FBxoC19EUEJQdqAt5g6zIU+bNuRp07Y3IOTp7YYigpILtR+gjCCXWfe7q7dv5GvTinxtWm8SAUERQRlAzuK97mHOOrxQQFBCkNMsd0tnHl4oICgiKAPI29oFueuAoYc/RAsKCIoISm40gSjfG7nNf4r82+nu6AFs3Psj/30FReHeKH7RCyU/Gu+O8hc9x4Ahv/mij1D/Ra/RIYH9ostReyFKX/QcyM+nGfl1dx2aQBSuQegP6ovQiDwkuA4Nl6EeecTSXYZa5FkThJCne9Nl6AE8hH29qvGiAUE98kAVQi3wCHtGHpZPOHLuwhFBA/KqocdfakDIGXPo7U4DoPdbuORB7zeL0YPeb0vDr6NhRa4cQahfkSt8ayB8OVoD4cvR23giMSFo/6IiISja0fgZCnY0IKjfkCNH3WfIEb4WQZtxJLb8FuqGCPpsaETQUKBkRT2CugLFX0Utggpj3lATgqqvGK0bakRQ2Vvzhip7a95QHYLaj5F1QzUAOnw3mk3ogaDDV8vJhPoaRRPqEFQbW8yP31SbEnv8etuU2OGATDnqENQch8GcP5jPOjouyYT6E0o6ak8oqoY4txJURJw20NGxS40lR+cl6Yg61qCGjzpAoaKBQGr4iCXp4aOMliP6SJKCqCWBh3eijMg6aDkijYKgo0/MeTM5EnTxsONcMqKLp+SIMWJ32XNtEmIP60UEBQH1HJK623FI6m7LIaFRwvlIoA7S3mVnJzRKOg8cgdnxjeoFxDZKMCySZsd2V5od291WQkyjlAPYyT87phLaSW8SibVrmPJ1CqJyrl2IrIRqiMgOOjpXotXRaVGGC53mZzuN/wNc6DA/67H/CFyoDoXRVPPTw0BcqjOjYifazV4K018WeA9gdtuq7GVYRvQ0trxYJ/+Hf9meiqEmib1MAAAAAElFTkSuQmCC3uT7+Q==",
+                "origin": [
+                    46,
+                    64
+                ]
+            }
+        }
+    ]
+}

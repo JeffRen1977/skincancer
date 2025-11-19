@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13033129,
+            "classId": 20167,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:49:25.094Z",
+            "updatedAt": "2023-07-05T08:49:25.094Z",
+            "tags": [],
+            "classTitle": "dermatofibroma",
+            "bitmap": {
+                "data": "eJwBaQSW+4lQTkcNChoKAAAADUlIRFIAAAGBAAABYAEDAAAAZ49XQAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAQRSURBVHic7dxLjiohFAZgOw4csgSWwtJgaSyFJTB0YKStpxZwOOfnGmLsy6Q7HT+L84CqQdGnU22YlKp/J8clpRQgYR8iIuDnAdINEWoSd/QSKTm5OC8iyMVlEVEu1CKAQHRCAzGr8LCIsJDX0CY09JTA0H92ER4zvEJCOrXzQUhynAnBtC5HIchxJgSBZEKwReTCwcKzQmUiwIJPr/5nwRfEZIIvSC74glhY5IAvYSE8LAIDfmBxLkRkRN6IvFCF4NpEg6KMm2us8gpcY9mKaLZJmVpOlKnlRJnaaTg0jKaoglbz1qrRFvVUtZq3nqqW0HURaWFgYeui0bx10CHodifK8VZBFLCxpIgCNtodF4oS7n1CU8JTwgwQlhKBEhQgBdUkq1BlXagmWZbUpRIPWfJZmMrsdEvMU86XliXFdZ1y3vYkmMQyZWmqpu9W8y/uIFRT6PmXY7KMQByTZWlx377vIBphPEV8KYXXDZE28SxI69OLsEdB98culp+356SY4XJhWLHm5S4W/pwJDqSYiVYpjmMT9OKjBJvcQqgBQg8QZoCwHynEYKSQN/tIIV9Q/UK+BPuFGiD0AGFhIQerULAwqAD6cBVAV61CwULDwsDCwgIB3yXslwgzQOgBQiEi9QlgZ+8SDt1LOoRHd7gOEeAl1SksIiLcvNcB4jag3e+f2bz+S5o39gkLC4OIEa04Qoy4g3TeDzDh/ouPEwYWFhXY7jMJbE+cBLZT9wmFCXgJJrgcuLjDBcTFDb0ZdIjrGAG2Li7inxVhgPAfKbq2RFDAD33fIu4DxA1+3P1Mce0TFhGdD/q4MIgIo4RGhIcfqUeI6ZkPe1qaBfQMNwtoEc4Cat5FWFhoWChYIMlaBJKsRSDduwoFC6BPVgHUcBMWFhoWChby0Dchr+Em5MnahZWKDYj75PlelRaK51sW0mTFXUiXiN+FNL17qqTpfX2hzIrEbYC4wiLCIvxZ4T9eGFjoLxEKFrLtx70I2WaCi9PrkIDj26wWFkYgjq8nalgogQgHISmIOwjJ/eAAJAWRv2W5jfxNTsOKkAk+9Fzw08oB2yexEBq9BBdIeQmuhiVgQq9cggm9Bpo1rF6iKaqgld76JVqiDtrvIVeHIoWHhYMFAWhBvtlPCvL0ACnIUxCkiLAIsPCwcJR43yEI+qAFtdDxwxyRFNT2HkhBbSaeFgZMFVWQ1jGvenpbh8/qyYoNUQ+9ETgRumuJ6rRaoDot5qhlZVrMcc7KtLizgGByT7W7TmBEGYhnhC6EQwV7jlWBya0I9jxu0fARFgEWjhNFm3CgEPyx4lywYRS7HBtGLgSHzzMR5SLMHYYc1Bd8dBvSFOXCoUIy/33YSXhUQJeYtwboEpNA/rfGaV62ARMXNopffzkDMwUDjPoAAAAASUVORK5CYIIzgPJ3",
+                "origin": [
+                    55,
+                    33
+                ]
+            }
+        }
+    ]
+}

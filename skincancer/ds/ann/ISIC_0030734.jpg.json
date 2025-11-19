@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13033142,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:49:25.098Z",
+            "updatedAt": "2023-07-05T08:49:25.098Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBGwTk+4lQTkcNChoKAAAADUlIRFIAAAFpAAABBwEDAAAAVkslJwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPDSURBVHic1do9kqswEARgXBtsyBF0FI4mjsZRdASFDij01hjbQpqfblcRPKX7lWvUM6zBaBjE9VvKLP9FXKWUhOu/Dy8Z5+GP33Ee/3iB9e2hy8LUQhS/67KC+ufJN5D/Pjm61/HgM8bDwReMx4MnSN8ODSb5Kh1McnpxKJqft0aiqTQSTax4dvVYaX/kb7X2owkn7g5ZPHEvmnMtbjS/DU+UdpIMLbeTnFpuR9NqO5o2F2ev3U7t4seeW2MQe25dIYI29irs1BqDH4knlQvBWGMgBGMlGSSuJzlJXJ+aKHE1eDFHPXhxp3qSYul6NHLpWjRK6Vo0SulaNErpSjRaLcpMivO1ryTxoPJMlS4HH1UuBa/vVAxevPCORe1U5HrpUp+M0iVulS60Ve9pkdoaLJ47Plm8b6ul+7aapfdtjSZvkzRTL100Zuqli8YuvYtmdHgTTXB4E010eDPCnj4PmRdMk6QXTJNkcPkpmsnlp2iiy0/R+Po0ZACvkvTm8bGqJP3YT0mOAK9mMgC8SnICeCH5J8mI8E+SiK6igfg7GqRL1Uxi/J0k0tTyiQbkr2j8S29fmeMrxwvJE8dXfNz3NXM8cTxzfOX4xvHnXnGeOJ45fuf4yvHtUl5IPnN84XjieOb4nePrpXzjeLmWzxxfsK/V10rg9+R3PINfqx9O6MfQXMjXS/lG8/gf8+k6Xq7mgeEzda1eztH7me84eGP4Jcduao+F3mF/+ITrjecB59d+l92Ju9qDE30ieYafVfaV4Aenfe0PIBHm+33qBPOB4s+b5oDyleP3S58PyKeP5ZtHIXgkueey7avHOJTfOZ45njg+UHzj+OtpG7y2M8cPDf4rIH8USRwfKF79CkjVgvH5w6Ov658YJ5/XP2AGn+eKjz5PHF8qDoxkFQwyYwPFT7/s+lNQBwO0NXF8PvHoaPIH+HMt7tAsZx4cftbeFLRvYZwpaN/xOG1dOD433JmCoV2m7t8LThbv3zoGi/cvv0aL546bwbc5Okl22kxSer8adZ4EPqlafNcbiI2aSUpaT1J+4a8mOYucfN+vzaR20GJiSld5VniQeeK4opU+qWdE5D5ppStcK11p66Jxua0zxzUtc+PUksSNM1FUMDJfdB6ZnYojaZ3PClTpwoyZB936oZkt3g2Ncx6R2OdjnZPMjm6iMQt/rJH68Doa5PBtxRPAuQOm9QUC6Cp47HAsEctjvfuUID4xO/20FTzy/GoreBr8Ru30XfwC8pFo0rsa9HD38fEZ5gNT+vPj0XPp+5qcyv8BelM3paKNimwAAAAASUVORK5CYII5aQMN",
+                "origin": [
+                    140,
+                    125
+                ]
+            }
+        }
+    ]
+}

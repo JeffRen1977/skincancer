@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13037961,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:32:58.988Z",
+            "updatedAt": "2023-07-05T09:32:58.988Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBDwTw+4lQTkcNChoKAAAADUlIRFIAAAEjAAABVAEDAAAAVcnIFwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAO3SURBVHic5dtLctswDAZgZ7zwkkfgUXizUEfjUXgEdqeFx2gTUzIfAPjT0SRuq2X8jQX+hOQXcjq1h7l1f2IOSwFQjpAnc0RxrDwhT0Z/jgCpFVK0QCoO0NunSpC6QkrO4r1QUvlvOaUzaeVfcskX0goz+RFD2iltfsSSdkqXN8ZlxW/SVozPis3ivrSsSeoLm4u57IpZ5VbzL3oc/So99Ud3yjcGdX3Boq4wwypqlONVXRh/wnaTLoKqyxfKarbSCqpepFB8s+FeUHUUEqp2UgoCVWWsZ1FFSCVIlbFKG1THKqvbtDKiIkwVsVpZBUjFWeVklSC1QuoKqSJWLyvC1DKpFFSE/3UV55R8ocEqHajWF1V7g8m3CSoa7ABFR6rl21U4UEVIbQ0m31ZxtUJqawqjqhuk6EiVt8geoQKkIqRy+E5XK6SukMrhe10Rpu6BDdA9MPVm8nHEcUNT/dngq2oFGqf5nKErO1I3SBGwjXQPH1MeUkMEqvCiKh6oEpQqptb/QF0PVu4gdYMUQVftD6jl29WrJoHco39IDV+H/gE1fN3+VMP3APeXvrHCXvoC1DoBWmSEFhmhRUZokQlXHlIOqgtT9kBlIDXcIuz9Y8Tfiw7Dn1EeUm6g0oSyL6rMX6rWF1XXl1ajy/Z4NboFzKjRjSJ/5MaUh5TTVf4qwELKQGccRDGlBoFNqUGsm/KQcpCykDKQ0gPblB7F/iWrqvavT/3X1f71qVPVAgUWoMA2pV/eEYp1U3qsm9JjnVQeUk5TWxJ6rJPKQEoNf9ttPfxdqeGf9kNB2O9ShXKQspAykFICm1ZKrNNKCb/8ERVTHlIOUhZS5kCF/TQtxzqv5PCrGQNMeUg5SBlJVRMS4iIrJS6ynrbAlBdUqpSDlIWU1BWxUlIUtcJmWKQoQq08pByvlmeU5dUJUe38k2FVOz/Eh4+pdi6L36JW8VuUIBUhFSC1NIpvihaxqh8941Q/xsapNghedcVzzcoMsTGqTYtV3HBdr7hBvV71K+Quj8goixTPqIVRBlli3/jsLGLX+FzxveKK75uVK75XHOpbB1LCUOlTSpgWRULtVIJU5JWvVYAUjxolTepiyiFBNCoJyiJBNCpAahGUeUIJqL7UxMHmSolD0tWlJs54VxdRklTVYFFUHgi13shFVGX4IipjVWbii8CUmfIzpIrAtMF5JNQysKioR2BBUY8oFPSIQp36PyNlPRa5qMoN96d4sjRQdpjDx3FGTng/ZRwqN1xhLgz4r4xLF/xv9t6HO+VJJhkAAAAASUVORK5CYIJOW9mj",
+                "origin": [
+                    159,
+                    48
+                ]
+            }
+        }
+    ]
+}

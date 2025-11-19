@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13036757,
+            "classId": 20166,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:22:19.848Z",
+            "updatedAt": "2023-07-05T09:22:19.848Z",
+            "tags": [],
+            "classTitle": "benign keratosis-like lesions",
+            "bitmap": {
+                "data": "eJwBaASX+4lQTkcNChoKAAAADUlIRFIAAAFMAAABUAEDAAAA7rTV/AAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAQQSURBVHic7dvBctsgEAZgedypj7xBeRQeDR6Nvgk99cpML+lMxqrlyDbsssuPbU2STnRJxvpiLcsiJAVNk7Z9U/dW23ecHnBqAkxtgqnLOH2FqZ8HaELpPKMR7OYZjWB/ogGjhxONGDU4tSeaMOo2of5EMySXtIJ0j9MlV/MLRC1OHU49TmeY7kYpVNt7nB7O9Ph+1ODUjlJodA9QN0yRPvAz/LWrnH/2R+183XJH7m60V4gF7bXsI9Feyezfmx4+J+2V7J00PI2azWl8Gi2blTahWadFvfZOBDucXk9vz6XuRnsnAosHW9JOf1U04TTjVA+2onoOKqqP74rqg7amAacZp3UKXFRolYI96RKFGhJPTY/1rleUepJnhdIukemO5tmJlN2weJGamdT6LNLleIkcRaCe9J4V6Y52iRepOX8Q1r96qc5DhL4d7xzBYfn6g0zX410aGH2XxvXXP7NIL6nJLKGMmuKTJr0lp/jIaHRX7iZlUtFTWv429zK677OV0lRL25FVhUY9TkH5RZeiH6AepeH9qUNpHKEWpWkjanCKDsMRmtHTwELp2fk5FC7YjBdsGqIOp3YTakAahyhaBAGeCxaK9uw0RMEiOG5CXxoXKY/TjNNUXjUAFEtsrK9GtC0UV24YRcp7GzptQY93UPOJaP9c8EU/Du2fjv93+u5dYCTxm1Er0V+XX673zU6igVEv0euXpD69hBYvVJJzuORm6tO1H48AXXddWyXPMLG8w+/R/fqzS9O6b0Io+Z+oXK6JPmSRaT6n5yY79Mc0IZQ9SZQpe5IoZ4A/dHQS5Q8d5bHFqBxsYHaAepyK7YqMWokmRo1EM54t/oxYpLy7xMTy7pKrYICyxGpjFqYssU+hGacsW8p1MU2BMsfRYBVKg1UoLRglVlowCqUpeA6ltTVAtTsp2gcKjYQ6mSZCrUwzoUamtLuUSxLaXUoRPNAH2j3yQB9QamUa8GxRqmSLUiVblA4MbyVbjHqcOpxanBqcyol9hA5M9AOTzMhELwbLqRhuiwrhtqgQbpNanLZb1qTtdjVpO9g2bQbbps1g27QZbJs2O6FNm+O2LZspwKn073j3EJXWAzSotMrAPkQzTtMmNDxOG8kSZIOKyyw8o+LiDU7FJSGcZpxGnAaJsgzI60wYlVevMCq2itOEU7FVnIqSUWVNDqXKSh9CZUho0mRNVVnRzvKpkmac6qHeS6NObUHDFrS3jtLgtJgOe4vdCtpbQlfQ3KHFJJs6tJhkwya0I4upu79S3N9B+0u6r7S/rn9jmnGankkd2q93UeANADtOgZcwLjTBFFn/b9G+ug5ZQK504HUR5PjrOIwIncBeXTaPtuqtCLC3cM6JzRg9wMdfsgW/4magl1XettT++B+vWuEIaQtT0AAAAABJRU5ErkJggljjEuw=",
+                "origin": [
+                    143,
+                    2
+                ]
+            }
+        }
+    ]
+}

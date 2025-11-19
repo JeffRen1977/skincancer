@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13037049,
+            "classId": 20164,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:24:41.044Z",
+            "updatedAt": "2023-07-05T09:24:41.044Z",
+            "tags": [],
+            "classTitle": "actinic keratoses",
+            "bitmap": {
+                "data": "eJwBRgW5+olQTkcNChoKAAAADUlIRFIAAAHjAAABXwEDAAAAR7E2dQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAATuSURBVHic7dw7lqs4EAZgfBx0qHQyLUXbmuhK2WxL2YSzBS2B0IGvGWOEeaiEq+pnTPfxKOpD8zVQD0HTbjXNNE5d2+iH7/qhxOcH7pJO20FfVPg04O6m0ibrLkA6ld+7b71uazvq9nERs71PjFz4bjnW32k39QpPl/+VN8QNfFrr587Pk0p1fV7r8eDTj93I5Veh86HMtKV+7qXOUXfTlnoZmkLfVpe9lfNS5xOdb6lqW+rHhS9yUb1wQj8uc5GLtqZdqR+XuYxmTftS38pzqh28xMORiE1MHcoSpONWFuqw67qI6FOvabvaRJdbWahdn/Ci8+hyq2i33kT3maF0S1wPqdfXN2jiZwa2vhBbSV1c4EP7clukNLHfXRPb+Po3V1OYHJQuqkKkyUIlBxVzstTepA2kLaQdpD2i+emmOpQfcmp2sGxNzUyOralZ0bN1CwWN0PweoZ58+CGnGtTwdUASRhWLY2OqWDyk+SdOFAuW7iOL5chSE+hQanOgtnxdYoGmCtUdqD1bU/Mxptl4fy1o0G+mBe1NaEGDfjNtDtT2QO3epYnZwUOaj0FNzMgSHdZY0KCojmstaG/i/i1oMVS3a20kunjiEulc6Emnh2I7Tadg5fp81emhVL9uSh2Gi0W01erYEzfVu0w/ysVP9a7Qs4qV6T7TJ7Xuc3WeVaxMd7k6lToMU/hVp2OeCJNKp9xWF5UexxXStw/VHaaHJnWQ9pBW4mGCEN1C56OF9CNlohvwYkRI9z0qugEvxgXS10Z4C12MG1Coe2j3gbrDdDhQR/3UcrzW45+tvV6HYzPmjtLpQ3X7Y/XPjfkHa3ugNpDWP6/1da5/0uy1+hl5eMY+Unu1vkAPTdcDH3M7TAdIR7TQMQ20CayBJktQk0VIB6jJMI28Ohh+A8e0g7TV6sdLMqPV/S//+lKN0HuLBnlnkt9yKXV+N+h1Or+XdDrdQm/YsjY6nQatTHjWyoRnrUxZbJCgj9qqdGiQoI9aF/SMdUF//rVH1WXT34ow7SHtIG1/rDb/67drTYvupTUNft1Ja6aHC6RbSKedtGZiC5BuED3/sIp/s55/bsJB2op1u5s2Yp120/LpIc60vMExHXbT8hZtdtPyJttR+wO1g7SFtIG0uE0WWlyqCy0utoUWp2xP7WT4tqe279QXSEdErz8sakR6/SFZmW6lOsz3iULdn+uzlYrPyL7Sqd/JD1+X/+HySodZYlKhX00P850KfL+mf7bwkKJT5cTv3/hrS2fRf7mO93j0jZEv1Vb/F3pzcorjEar/A76ln0eoHHpzcnqWx68a3mqz5/n+UdUbKW+r6Dk2wobp9FpvBD0ytK9qBq4HnbXeRDXomGatlFHVLaQTpANHVzsc0xxcLVXm8iKY9rR+sY7IOBytmcuqVMLGXZSFPvWWqemDJ6amcxbfoumMB64mw/YBGovap2oy5lz87TR/xSZMO0Izp9T/RPPXubLfTCe2NoSObE09PrAxdTPhJ4y6HUgWJkOCRpVLFOgy6AJcBl20HlsR9CTR9fXIWMMusXApuNWFS5ehW0Y9CjVvDS2WFhT5MHirf9XGolGCVM8ynsR24rpV/8aCaXX6pEv1OHSpHodXpXocTh3wftjub/1lN+ZqlOssZq8P2kMrayVrdcibvk1bSEdAn5GQ30sdwE2DhLxp/uTs9C8wltQk3zYb3AAAAABJRU5ErkJgguXYqKQ=",
+                "origin": [
+                    68,
+                    84
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13032750,
+            "classId": 20168,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:45:53.567Z",
+            "updatedAt": "2023-07-05T08:45:53.567Z",
+            "tags": [],
+            "classTitle": "melanoma",
+            "bitmap": {
+                "data": "eJwB5gMZ/IlQTkcNChoKAAAADUlIRFIAAAEHAAABWAEDAAAAZL2rxgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAOOSURBVHic3dpLjuMgEAbgRFlkyRE4CkfDczOOwhFYemGZ7vEb6vHTCrJ6hvUnpf6qGncy5vHYj0kPcHIG5J3zrAuTc46qcN9iUoXP6GPy3zMo4LUIrRCzCO1j7CKyItwqAhRJFn4VSkdWoJW6Cbkjz12Ipb52IZb63sUoCbMLMcwhxDB2F2IYd4ggCI/E0Q5xRV6nSLx4Q3FGkRpyRpEackaRFvEC+JY9ryJy4nUVbJhCsKWaq2ALsYXgCikFt2a+EFwhuTyBgGclaCG1SES8KkHH+64EHZ6pxQAFKdXWgpTqakG6SgQJ42tB+k4EiUtFHZeAenb1WGhDGDFCMUNRhamHT0vlRFkqWQ9SKicmKMowhhFl31lRhLGciFAkKEYoijCOExmLAYoARYQiQXGdnWdFxiJAkaCYoLj0nQfXUiUxQBGhSB3ECMXcQeQeYmgW3ENqPaGj4B5j64m3Cu5Bt559/OYDsS+I7SCcKKZm4T8Qc7MQwb6o8nrsa4iFPNoWEcDwW0SEIoH12IVVxNhBTGA9WsTcKLwicqPQQIMYOojQQcQOInUQYwcxQTFDkduEV8XQQQQoYgeRwL+XFjE2CauKCYq5g8jgSZeXwdwggv5MzsvogEi3iPEWMXcQuYcYbhHhl4j4z4j0H4nx1wjt22ebmG4S2nftVgH+rN8kZvQnuU04KGwHYToIsIaT/iPodwmwZJ0EWCEsRvi97z7hoLC3CHOL0Je9Tehr2Cb0JWsTn/4cS/CHUjfhoLC3CAOFOn4sYptQF2QR6vixWCpVx78KD4WDwnQQ+H/AtJatQmvIKrSGbMJ9IuIqLBQGCiXuJpS4m1Dihk14KJwohgeKuwsDhTz/DcgNOV5+iA3Br0fOd04eCieI80WOhcIIIh1CasgppIbEQ0gNOUXDezwHheXFcAohzEUIYU4ghbkIfrrFS1oPheNE8V7bQmE4UbxOZhtSCLYh6SrYhhSCbUgshGdEKIRjxFAILm4B2LilwPcemDD1RRAaphY0TH3dhIapBZ1M+rGgYSIU4eeCNIQI0pChFrYWNSCC3noylaDXkbCodygRUbc9QkHCkj0koG47d3GuFPiaGI1SD4ZGqdtOo9SCAWXb2WtzRdvZi5WF4KKUbeeilG0PnCiayoJrU4XrjJeGCHdELw3hy9jj/pEvkb60D1jOUxzZcbyccztOzrkdI7X7WkhSwffH1J/xBbcKWAb3ZNqZAAAAAElFTkSuQmCC4XC5pQ==",
+                "origin": [
+                    145,
+                    37
+                ]
+            }
+        }
+    ]
+}

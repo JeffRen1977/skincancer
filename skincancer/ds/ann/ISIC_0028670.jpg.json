@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13039476,
+            "classId": 20165,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:45:38.947Z",
+            "updatedAt": "2023-07-05T09:45:38.947Z",
+            "tags": [],
+            "classTitle": "basal cell carcinoma",
+            "bitmap": {
+                "data": "eJwB7QES/olQTkcNChoKAAAADUlIRFIAAACPAAAAlAEDAAAAkLzoiAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAGVSURBVHicvdaxrcMgEAZgLBcuPQKjeDQ8mkdhBEoKC16CObi7nygoxXP5KXD/IQIY8/7sZdS35KRpy9krshl+duSc1WzuRVHSS9TI5U355LQWEpNthTxS4LQXEiVtoRtJpDgK5QHxFC5Dikq85CO85FIpIbHGV6JeciPqXe5EvaQl6iUPot6Sa9RKNmkll04eiVKsnSjF1olS7J0SEgWzjE4dvgVzjLwOT8EWTlEnpWAbpwSxajD7jU6dtGZ138jr8DW+pDhFN1L6lfKAzim6kDxSQIpTdCOlKcpzdA7JKbqQPFJAinqblI40Jb2/StYdg22aLrnJn2AzFOQf5iFYigHFYZMDOhQN+r6x7zHtipKBpUgGmkwGmvywdxzSMUX2V9r/nbZfaUVSyzo4iW48+z7RISjiafuJdkEBzveHViQZ38ONUskhHVMksl54y5TrQwYrIoLRtcmILlcWjK5gVjJUYmvhK7GSl4H5Sfr8gzdFf3m0lkKjVtI3Grx12vxdaKR4qumCrc1gYKTn9BQ4Bb2DlHF/5f4se8CQqGEAAAAASUVORK5CYIIGIdqW",
+                "origin": [
+                    228,
+                    129
+                ]
+            }
+        }
+    ]
+}

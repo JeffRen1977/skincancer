@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13039489,
+            "classId": 20166,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:46:04.503Z",
+            "updatedAt": "2023-07-05T09:46:04.503Z",
+            "tags": [],
+            "classTitle": "benign keratosis-like lesions",
+            "bitmap": {
+                "data": "eJwB+AMH/IlQTkcNChoKAAAADUlIRFIAAAFTAAABKAEDAAAA32CANQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAOgSURBVHic1dtBsqMgFAXQpDLIkCWwFJYGVb2Q3gqz3oZLYOggJf0TNYIC7147VKWd5pQf7nui/pDLpX7cY2h8mh82RpTeYoRPrH8semL7tANEr08aR8jeXnaCrHpZbMB6tg6xZrYDYu1sA2JnGh8AvS4WCeK2WCSIO2HVah1hg2x1jPAozGbF2OxmxSEnVKxzakObXlMrNPwttcLkMiv0xD21QsKqk9WZdR+zhrC2k81o9C16ze3Qsrfchpa9E1YRNi9Fu4EjaFV0uxiqzf7jxptgzXMG1/jn56NpF8PhwojPNjXzZ7/b9vVnf8XKsZ9R69gPF7eWsE2aN/A+/X+w/hDZZ+yQ2n1Vd0cg7EjYibBZMZRgHWE9YdPQtGDDSWsEmwZsO1mBplZoX84mK4/QvlnzSK2TWiXZeM5qwhrCWsKKNLkwCCuW7aQVS8xZj5dts4awMn1bIIa3Bab2zkHs9MQqwmrAEpF1t7aTBei6liBlW60C7Lr2acIawI6EDURkqwXoet9EroozFinFerkhV9BqFWE1Yh1vzact0Q6rtZ0sQiPRDics1DoTb6E2m4g2Y+yDaDPGjrw1iA19re1kEdrNjkSr8xZq9W42fI2FLmPKDv+ZDfiys9QYsw/CRsY6wnrCDoQN8DK5hAbaB7z0cXYibOxlHWktaP0X2OELbOhkR/SW1dE+OloL2qmjNYTVhFWExe4XfS12746vhYex2LPRbOHmYRYpZvHzROE8EbAngnjdOS1mB+ION+BPJrMFq/y6I4OTmx95GGsgOxKPXcvrE2SXVzhoEMtrpCasIizz2otVbrbMKz0WmiNCc0RojgjNE0F4IgjGDkRoZ6wlrCGsIizzn3ukym8LtLtbLfPNCJDaZuVBXLaDseIgEqsFmn7VKw34rJWuo9RK1ci+mhbs46y1hDWfs+NZq7/AKsIyWxWE5gmpFZons0JDDJm1hNVN6zOrmtZlth1EbtuTy2m703a2NeD9lqPWgPe2VbnDFinG2ro9bNPShFV1G/a2EcSwt40gDrYRhD9YW7XuYHXVHmj9Wi5szaxOrrQLrjbg0u662oBLVlVsKNja5IaCrVXZF2wtCEfYAq11RHmXrC3a8oZEU7TljY6KsOWAQ9GWAy7bcmhD0ZaD8GWrCXtbxpdZV7aX5TwqtRX6rMa0G0x1I/R9jX6z9Q3W9vAaKv9SYYs6iHab3iDbd9M5wK4nBug6YuxHGAY+7eWV2zvcv8H8tGXyLko1AAAAAElFTkSuQmCCmlTqWA==",
+                "origin": [
+                    102,
+                    65
+                ]
+            }
+        }
+    ]
+}

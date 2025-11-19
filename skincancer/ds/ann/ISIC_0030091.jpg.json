@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13033120,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:49:08.415Z",
+            "updatedAt": "2023-07-05T08:49:08.415Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBHwTg+4lQTkcNChoKAAAADUlIRFIAAAE4AAABiwEDAAAAae8c8gAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPHSURBVHic7dtNcqQwDAVgp2YxS47AUTiafTQfxUfw0gvKnup0aPwjyY+MMkylwvqrYD0JEgg2pj6WUh3ZsIetXfEc+9Wwkjj3u3WFc2vnuBNvnYs0e+tY2aEy2GSW3hUHlVFKgMrgCrGDo5MeGF3IEEuhOzLEwhTcd5creCEcVQjlqAWulCMWuFHOj85SLoKOKIRiREeodlCFUO0oRNJUO6hCFtoN1wjjhkI22g2ds4zzSHxjwUx8Q8FMfEPBTHxDIbxzjVtZ1xa8sa4t2LKuHUGWtZ1j4yttwWx8pS2Yj6UtZBFcXcgquP0TbhNcHYwVXF2wxConxVdPghRfHaDsIhRzHfQqujPATdlZ0Z0NEdk5qdI0Pw530cltOxsnt+NsHOqWiTsavE5cuui2iTsaZ5Xc0eAJOxo8a9vRuFnbcOehth2NQ90ydRFqG+7SJbdN3X7JWdBNGewyNi5PNx+Da24+Bs+B1naLsluV3absrLID2BUHjN+7A8bqSxwyVl/hFmW3gm5TdvYmh7ALDhrTAo7VBQeNyxe4Rdmt38Rtys7e5CCm77DL6Ps47DLP6g67zFG3K7sE3jZQF5VdAG8HqPPg7cCp314gl5XdDroE3q60XQRvV+Em55Wdu8kp/xWWQbff5NJNLiq7oOw86NxNTvmhNoNuV3ZJ2UVlF25yHnTuP3dG12Vlp/1uUtslZRd/HHmEH/dPnAedU3ZG12XQ7cougS4qu6DsPOicsnuy+fMW6DLotP+1mkD30d7pcy3qwkW3TpwHnVN2H2z2XiUru9enEZP3TahLoDvaO3sPh7pw1U3eO3rQOWVnMJcvO/lGtCu7BLoIuqDsPOgc6AzmMuh20CXQRWUXQOdB50BnMJeV3Q66BLoIuqDs6nZIv6gd6Iyuy6Dbb3IJdBF0AXQedA50BnMZdDvoIuiCsvOgc6AzmOs/WOdc/wE85/ov/v/WRdAF0HnQOdAZzA37Bxg3bJhgXB8L5/pyuQeQnjFu3CpEu3HfB+3C4FasDMY5zBEbgBbKRdCNpyUdtdGKcmMq9IPKmArtCEY9gJD7wAhHLY9yRCrUgwC9/Wx0kXTjHxIedDQbHLM7brjgmNMOzjFuaxm7DXFtHbu7sHORcwtWRuf4XZLtALLL6wYmsK4dBHZ5beOETZyN45r7OCxURtu4KLi6IUIZTdBOcHXQAquDlmKpg5bKrQOMojsD9KI7AxTZGaDUNVMFKJdxBhhk9wrQye4IUEz5cWDLewU4Wd4rwMnyjmAm6ZkjmDh1b0Bz3w/sxz1P7CTwB3gWAJkVyhY6AAAAAElFTkSuQmCCT+vrOQ==",
+                "origin": [
+                    172,
+                    34
+                ]
+            }
+        }
+    ]
+}

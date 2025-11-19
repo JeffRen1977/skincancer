@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13033631,
+            "classId": 20165,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:53:32.211Z",
+            "updatedAt": "2023-07-05T08:53:32.211Z",
+            "tags": [],
+            "classTitle": "basal cell carcinoma",
+            "bitmap": {
+                "data": "eJwBwAU/+olQTkcNChoKAAAADUlIRFIAAAJJAAABogEDAAAAySXAqwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAVoSURBVHic7d1NdtwqEAVg5WTgIUvQUlgaejvTUng7YNiDPiaR3T9qCcGtqtsJp9OM7c9ScSnUjoOGAR8hCb64LuXMgX7k3+PEkD7y10h2yefLMEs/c2ZZ/k4l2kXlPJmosKZMs+jWUj4bpB8PUv40UOMjZZjDzUVZ6u62VFRTYUslrfRzK+mncFt0wxTu7k89hR97SUsVLirPKmkXKn0aXInSLej9/C1j0lClUuniUCxVVgW+FAWlVS7VMsSrxx9S4kQcS9LSH1VdUa59g1kPEXU4gV9DFHpXpUShH+tUElC+TknusC5JYlqfQFG06hOYJe3UtagIU6FF4cVqSXiyqitQdoetCcx4SF2bQos18ijfptBGE3gUIIFpALKAUkAW0FXYXMw45RAqQtSIUAmiPEJhPTnwKETCVg4UKyYF7RRQQjEKSihGOYiCWsOIUROPmv8s5TEqAlTgUZjEpFJbwtYNlQK6DLYEIQpbglCXcTxqBCmgNXiQAloDkQooNTUpVGq3BjQL7UWIBjS3V07AqUbc8dtrZlRwUY2MCiqVG8EaRdRMqlSup8HLqHQsof3zOippEN5fLQ1BSFXSIJQqvUF6fxVqFFPxiPI8SiwdBkuaqgolr/phRh2P8nLqKO4K6ijugUfJpcM+yqMUsTpahLId4jLmIqVI6NEidBoqFanAozRSOe6qqpcpp6KKcVdJxYzqLqpIBSU17STVqilTqqgvY6aVqkB5LRVpVd9T6qozqbSldAtwGbudUJ2FPeV6oHZdZuRRXk3tGlbgUWpp17D0CaVS09Mofdh3DcvxqLEPKj5SnkcFHmWQmFSiJXRD6Tt73rZRImVZN8+jRgv12Nz9q1PBQj1uORbpaZQp7I+7l+NRI4/yPCrYqOnVqfk5lH9FKvJq9fJU4lHrjdAmvT51fgpleubrlvrsklrtXsZ9vldq6pwyPbUvY35T8IjPoJyVSjdq5FHeSt33idAlZZVWzb0n6vPVqVtzN+9dvVLTm4LHfKHMO+q9I/dJmTec3inXJTW+OuXtVPpXqPCm3tSVskv/DEXY5/umCPv89ZNJZ9Tlkwlhn79+BnhTyOiTmtiUe1N/gxpfnfJdUqFLiiF9U4wd9UIx9q4LRWlX35Trkhp5lO+SChSKF/bPfinOEjzzqBOPSrzGEHnUzOsxbMp1SY1dUp5C9dn52BRFYlK8Jpp57epN4YO9d3FaO5E6kSnOLpF4VOxyl+A9H38/qHkG9f07tcCgTmyKIV1+K8qj3o+Pf5qaeKt5oFHfS3BkUGc25RnUiUclXmMgUvHVqZnX+aYuqYFGffKoM4868ajEo2YeNdCoE4+KPGriUQONOvOoE4+KPGqgUcQ/hU03KliYMa//htxAnZe9ffWfLwzU17cnBrU74EFPzVvKa6X9KTJqKvKonaR+gCwcuKOlCgdoOSW1L5WamvaU8oNJ6UAh5Sev0lljSioVKOWn1IKk7H2li1JShfkbdK3h4FQ2DTWXKS+XypXSLMIjSbFyyjUfFCvn+OBHYdz/rxwhKaQO726Qrpz6yaQiKlWpIKFilfISqlYqYbCqkmgKW8cfC6jEo2KDCjg1NyiPU1ODcrT7E/SG1kUJ0tCS8AUNnISNUsD53AGkgAPIPUilNuVAampTYBqQdy+AaQDuD01DBCgwDRNCBUTC3hXjEWqGqJF2UUCwJgw6SsN/8fYjBO+QKklxuIcXl0pTuPpnLNGbu/yemiXfvxr7uqtfWLhdOtpLWobnXNIyPmgXtblDi/QYB9NFPRTL8u7RZaziYH2v7WoZJiO1qns0Uqu6W6V7+0tm6hbSyUxde5Y1CsvwpKIPtzkkSMvwlnz+Am9PIoPPPW0AAAAAAElFTkSuQmCCLyizFg==",
+                "origin": [
+                    13,
+                    0
+                ]
+            }
+        }
+    ]
+}

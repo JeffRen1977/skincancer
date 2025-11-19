@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13040704,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:56:14.166Z",
+            "updatedAt": "2023-07-05T09:56:14.166Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBlARr+4lQTkcNChoKAAAADUlIRFIAAAGWAAABTQEDAAAAGc/bOQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAQ8SURBVHic3dxNrtsgFAXgRG+QIdMOKnkbndGdmaWhroQlMPTACn2x4wRjfu45UWkUhq0+2Zx7wX59pqdTbnwFk/3z2tDBwyaEGSWXEOCbG76NA834bTxGzt8EndBtOuGKmdt0QrCQ0YvxkFkINqGv1UATuqwmIEbdjQHMcDcWMPpuHGE8YSbCIAV6xSBF3QxS1HEzhjCWMEDYDwMEtxEkuIcBgnsaQxhLGCcl59eM72TEjfD1mhE3z4Uw6mnEzTMQRkfGEMYKzRgZJyNRScUFusRGGHY8HenqDruBX0ZmvvZEVKAhMRa/NZFJiKSo6XQkq/uSmrURftSMyppztR3S2JbmOdfLNKbmut5wbVopWYqqqn13Phq/3rApmkPUyxXqdcqYYNSWRX4cyhONklEV437nja6YUnZVU8iuSvImF1vL1GILhfWnCDMQRteNy5mxbnyGZLp6N3I9pxom1wiN6WRNg+Rau9EFWTM0jUGTDpmitpLOGdU2Dr+1gxHc2qF5BLeWGglJ3zC0xOybVDKbkDRCYyfYhonNQJhRZnaNICM7I4xgZ9pL52iEse0aThFmEBqPdk5iRsIISWykUcdGEWYgjCbMKDUTYZ4LSNrV8YUA89hFxOWJHluAeew80tXzP4wCjOlkLGEcYSbCzIS5EmYrEFLTLWzIWMI4fC1s2whjgLX9KOqnGfHj51UzdjIaMHMncyVM6HSddzZMBm9tDN7XlLG8Qci2YUPGdzJTVwPtvfdNBDPrAoKecy8Y6LlNmUAb1ckMmDE9jX5jM2LGwkvuvvGAxsNLbjXY8uENuBSWjUcRRoNmJs1IGJAsG08ng7bObRP5LGM6GQsvn9uG0Md4eJlyZupkZsoo2EwfZjxlBti4TsZSRncxBn6U9DP4Y277DT40ZsJMhHGEMYQhHsHM68FEGE8YSxiDvyLNxNu1w9/i15/mMDMRPzE53Pw5wT/NMf9K7glj7wZ5nhriOifcTITxhLG9DZC1IcwJN8/vUOTvljNhnr8Jlb9fe8I4wtiPNfJN3ryxeRL5w4QwV8LMhJk6GR8Z/Q+Ni8xAGCU0NjLSDS420s3qhJvd13zChbr/iEtmPGHczoyE0SJjCWN2ZhCZE26Sjy2VxMyESb7lEzWpJ8y+PLIm3ZdH1qSM2ZdU1KSHb2HHtjl8pzu0jUuNahubGkGB0ggEBTp+DtwOO/Op8tgy/mh0yxxiEwR3iEAQ3JE0g8t+gt8w2SM9Q91kYmtWyOZMI+0sqaddOCRRTS47ncaETN7UWq54fkOXjSsZhd9areVKpBJC5awMHkElOF82AxxBJbgyKQZXO6ZW6rjq0baCwc5MraN6VK8wIV8zhZtzVaOyxlbN6acOZnSJqZNtjOKon4M5rbi7kPTYatwSTmjiBI3UPBctcLR6mdHtpJmcLL13u8QvwFzExYwG+l8zLBdylb/8C2WDxw+mTwzIAAAAAElFTkSuQmCCkwQbeg==",
+                "origin": [
+                    101,
+                    27
+                ]
+            }
+        }
+    ]
+}

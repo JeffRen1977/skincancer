@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13041988,
+            "classId": 20166,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T10:07:57.064Z",
+            "updatedAt": "2023-07-05T10:07:57.064Z",
+            "tags": [],
+            "classTitle": "benign keratosis-like lesions",
+            "bitmap": {
+                "data": "eJwBHAXj+olQTkcNChoKAAAADUlIRFIAAAIKAAABPAEDAAAAm8QLOwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAATESURBVHic7dxLstsgEAVQOR54qCWwFJYGS2MpzDJlqIFLJJY/AotPd19SUaXC+PnYNLf18ZOZJuYI3BccxmWNDiSuMS4goWK8Y8It/h7wh4hxhQjzIKIFhOsmQGuinkSQC7enACzrWwAI8ybEybi+Bfmq3nBiPgWhPoS4S/TZCCskzE54IbEL0j67JISwSZJ5CJskKaYwW7eYDQlhcsKyAR0jSMzfAp8wOHEQ2KeBm5C47H91LAWNuO4hVkJC7/E5VpPUqj/2d7ocBRKh9kYoVJNEmG3ClzAVq0kiHn8XJrVOxWpSjjnbyW+ZtrcrEYRjzvbh18t2cNEFgnDMeb7zvL2fkRHJy3xBoBy2Si/LRlcopYlJlNKUD9sj5i7heoTCCd0lfI8wONEVukR/TbvEtU8EuBQ9gjCPHkGYR4/ox7tLaJwwMEEpRYdQOEGZRzudlFR0CFIp2gQlFR1ixgl1CkKfgjCnIEjCnyZoLTKCCA2C1mUjiNYlH61Rm9drRKJ1vTbTiNbFFpWwdUIRCYcTvk5oIhFwohEMKtEIBpVoBIMoNIJBbJHYCMZMJhxainowiAecFkGfRyVbd/p6lAnGJB6jFE/GJB6jFE/DIwrxZM6jFE/iQXMfFi1FKRiaSxyXxHCJQz3Z1Tw2Gr3LPyOgC3IshuIT38XQfOI7GQLhKxmCan4XY5YQebMqCZHX00iIrFkF2XyMdElE1cwjLsjmY6SrqmREALMZ82AYnJAJabaEC5ISwgVJ4yklkngqnNBSYk+4VNgTLmyylJjFhIdLsTeJWPgkXJyKPZ4KJzROyIV3k8hT8SGknZ4QwIK8iRknFE5onDCnIABhHIGE89UjEDHgU6xwi/w7RBxAWJzwOBFw4o4TK07EAYTDCY8TASeWUxB3nFhxIp6DsNi1wXkI959Iifk/8e8R6u8TFrsEH0SAl+BjiBW8BI/bqQi6+I3bCRE9BwScGHDQsniLgHep8bmmCiMWnAjgjW58XjOChIWJFb1Xfl3FY8SCEx4nHHrH/rq7g4QVJxacCDjhcAL/DuX1JaEBiIATHiccTlicmGBixYkB3x0vOBFwwuOEw4lXLJAT4gQTd5xYcOK9piP+ySMnLE5MMHHHiU815dedDicmmBjwD92AE3YnhPcjfgKJKRsSwucE/9T+8/BMj2EK9htgHzxLTxEqHjHgeTNXIHgJLz4NyYtn+bFOFhGKhOYQhSVl1rPyYCgn4rXHUxlE7SFZTSfK1WTl01eImU64CsHIZ41gLImtEIyZ1AT6sjYeOdZEovHsNHUmoU5QG97VCWoxbIMwJKH5S0xFIpq/Sp1JhG8R/Yz//gRNoZtxyi/xDQp0ikESmskg7ydQn4qlEvWpUIX6VBibGii0FPV4cTZ4qBCBQegy4RlEZSaOQVQahUNU0sUiVJGwHKJcDI5QKQaLKBaDuWlHqRhMolQM5u4jpbMadw+UAYTGiflIBCZRSIZnEoWZOC5xnInlEsc1YQuHjyHZlEblhGRrnK+EijboMVAstpHPxEuIvF2dhMgTKhHyYgg3sUqLIdwTLF3WICPSkDshkczECokBe5vtayLfpO0zEy8mPgV1cmKGsvkcGqzmY1yAbL7HDchmYliQmIjz+AV48QpDxW67cgAAAABJRU5ErkJgglSvL7c=",
+                "origin": [
+                    40,
+                    80
+                ]
+            }
+        }
+    ]
+}

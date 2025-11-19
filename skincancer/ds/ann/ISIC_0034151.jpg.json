@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13034540,
+            "classId": 20166,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:01:35.722Z",
+            "updatedAt": "2023-07-05T09:01:35.722Z",
+            "tags": [],
+            "classTitle": "benign keratosis-like lesions",
+            "bitmap": {
+                "data": "eJwBLgTR+4lQTkcNChoKAAAADUlIRFIAAAEyAAABZAEDAAAAmd8lbAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPWSURBVHic7dtLcqMwFAVQUh54qA10lZaipUlLYylaAkMGlNUxDlif97mqwo3b3QyTU+CrJxklPIahPX4RPyMOlyLCTEoL4tL3MersencTdro0q8ysTv+AfnVJY5cHS0FxDnPXH6aNtN3cJLuNKYH3y6YbdlllYNzTBejjyTPhkrlJcCZz0kzwmRMCf6X84IOYwvFBXOEi6wrGBykvywexpWOD+MoxQb4qxlXkWjtmCjaOCWJqxwSp43JBXOPoIPWwcEFaRwdpGLOWCEcFbsqR6KlFOSrwhXDUFKQcFbgpLxOYdERgQ7kRdMTAWMoRgR3liJlAOiKwJ10bmGRtEKq8iagw45rAjGsqTE0DKjBZ3tRWzjCu/oCWcfWFWVeNoONcdWHPuQV01QhyrJoKTDnuxwi6IjBXtlQF5spWBxFcEURyeRAjuClzVnAz6PLKOcHlU8tLLoBuBN2zckJ5Ux5YKG/KA0vlyCssu+fAGNkF0O0DY2UXQbfPGCe7fQD9MW4faJk9Bxp08jRIe0FUF/qcPK3SXrjDXISm315gc5SbD3YLNE1xd+tzTnPpNc4f5sJLnMp+JupJTl2WuIuvcOryPc9NPU79enl/N/c4875ugb7WPsfdepx7X5fe3YUO5z/EAWy9gby5A25HpzrgNtPlgK/xLmdOcvbNnTvJ+SNdwJZRApfbDXQL6GbcQcttAl08ePmGgx22O13LgSzzBXQztgtbt52os4CLoBtBh97ND95FoLuhBXTrrtjrbgJd/CSns8dfv//dy1040/k/74Z/y91OdU51j/+K2r/ezV3OHObW2wewP0Bd7HL6Pufh9P3a2OX0L5gwYBP1xznQWc0Nfc4obHsqpBUEddtTK61wqNuelmmF25+qKW7qdV52cXNOduPmrOxCrzOyGzCHPq1Fn/4+nVxg9KnzXg5lIuzlUAo8Pp2X3IC5vJ3BCS7vFrCCm0CXxRULPIIuYK7o3hBc0dYiTBi0aySCbgTdgLkFdDPoJtBF0AXMVc1DrFtAN4NuAt1YOsO5ALoBc3VXGufqdj3OTaCLoBtBN2CuacJjXNOdyLim+Y9x9bBwro7LuYC5tsmSnn/Nx2NcBF0Tg3ENox3RK0o6oveUdG1c2rVx4V5b8obeMrgXmLrxU83UlKN6kNGeZmojQQwL3HMN93B7aFjwHnMHDQvlyLhwr7zBhgXu5W8mDPd6Cha3dRPj6oGJjKsCs+9WVIH5l06QUb4ftnAsKy8svNxTLJHIu2JkguAu0GWLE46i20+ovbvloNPtJ5TfZLofVh2UDOqnG9Z1jLBvyP7mN69PbzME5Ww0AAAAAElFTkSuQmCCKTL8pw==",
+                "origin": [
+                    133,
+                    45
+                ]
+            }
+        }
+    ]
+}

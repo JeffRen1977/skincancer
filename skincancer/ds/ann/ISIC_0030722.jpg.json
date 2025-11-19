@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13032566,
+            "classId": 20170,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:44:12.713Z",
+            "updatedAt": "2023-07-05T08:44:12.713Z",
+            "tags": [],
+            "classTitle": "vascular lesions",
+            "bitmap": {
+                "data": "eJwB5gMZ/IlQTkcNChoKAAAADUlIRFIAAAElAAABUAEDAAAAw0b6RgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAOOSURBVHic7dpLbiMhFAVQWz3wkCWwk2ZpsDRmvQ2WwNADy3Q79ePzPtcRsjtKapoj8bhQVU7xTif+skH443b5UqKuSil3FV3+qaKOaR5KHdI9VNaUL0Bh5/JxKeqyqCAruyilMLeoq6xKAQq7bEoszGwqSspvKgvoXBC1DyhO0u3qhpQlreRRlhTYr0oFVllE1QPysV4gZSHla5UYVM+QVwZSDlHNDFllW5WB2jnlENVVxagekeoMKTsoYuMPVZHKI6rPilYGUsSAo6IGHNUYA6UoNKgxd0pRMxwVWdagPKLosnpFl9UrBym6rE6RyzMoCylmwFYxOXSKK6tVxH2xXM1rwUDKcap5eXhIcahRbBDNi4idYvOKMZCyvIpAEI3yiGJXsdQPfGGK1SNTKL5SQvHV1hGKr5SADiWsYrXBMCXFdSgprmODiWrfYAZSdqJykPKiCk8pEW2bVVygXYkL9KSSF2hTRlbpGWUh5WSVkeg3JaNVKdGvSgl1vSGVUFdlJioLKaeo2xPKT1QKWh8nkNKW8RmlLfaitMVelIGU1VSZrdxE5VUVYKUiXKmLjaqIKnXjoCqhSt2EH8pAys5SGdk4/626osp/aaWjyQq4hSYr4Bb6UZUCHibfRJlvoOyLVQaVm6j8l1YAeoNKP+opFb+0Ci9X0M8JTN3fobyubhPV63885ncop6sEqfhyFSYq6H/ymeo+Ud0mqiv0pSO/XCVIRUgFWBlVQd+iMIV9/bpB6gqpDH2Vi5AK0HfAE66018J6cuJldYVUOiFfaiOkFqRssBuktuMoI6oMqXWKyqYIq5KXe0XyQh6HopI6Dmu9oPKunKDSrqyg4q6MoE6Iqs59hVir82gh1uoEXIj1CEKKNVXKsypWyrEqVMqwqkJ8FM1hOhtF2/vFqdwoz6gEqdgox6jQKMuoBnGBdY1rTGBdExwT2Kf6UZhYc6c8pBykLKlSpwyk6MBip+goekVPMvSKLH9QZGE9oldyUFT5RMcjoYjuSWKSRKuZgxQRRR4VMUlCEYUlQo1ZUGrMIn5eDYUFSg2JUWhMjFT95qHbW/tc6VbZPjC67bZXmVR9YJhKtOpijbTqYg20spDqYqVRFwXbWdwUxnYpW0iZWrF90U35mVPNrkicatIPrKqGxFqspaZupKy6sCioI32++Dp9AR2TlHrNH4v0R05+uX6f1QE/Li2t5fJKWltp44B/AZtGGVep8Y0nAAAAAElFTkSuQmCCBmvHbQ==",
+                "origin": [
+                    135,
+                    81
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13036230,
+            "classId": 20168,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:17:30.854Z",
+            "updatedAt": "2023-07-05T09:17:30.854Z",
+            "tags": [],
+            "classTitle": "melanoma",
+            "bitmap": {
+                "data": "eJwBigR1+4lQTkcNChoKAAAADUlIRFIAAAFIAAABZgEDAAAANXyRNgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAQySURBVHic3ds7kqs4FIBhbnXgZKqUTqadjJYmlqaFTKAVTCkkcMG4aRoEnCP9+KKa6iFsfyXpPERjW+468XqM8t/Pl516KN00moDk9LrQAh6fciKDulkmIP0sn3X4MX1dPZycLHQi8pE+075cqSTNuE1eDsm8wvBIfhb8G5ar5Ke/H6ucSvI1kNlkX5Z2k0GHv14vu03GIsyvpMqPt+X0hybNUf6jSXuUap4clv4kgwyPSdLlKXQ196fQ1Yyel6lIYZnTIMoHlsIylQ1isXSClLeSAJWtJMogQClJcpGEWk5y6mUpLVRK/CR2qJGlEBKXVpZC8F6WQvAyFEKSEy8NqqRTGFRJpxCTUeWx750qj9Pr8JB8NfTTQvXQj3nSQz9KW5D74F1B7jeoL8hd8KXQd8GXIt9Lg6Utyyx4V5bZfcyX5YhldnuowCyhNbkGX877lPVIJfFZmrgsNed8Pa9LU5Nr6m1NTlz2rEEy6asywBKtspr4VVbTuUqDpa3LRJP0XU6PZR0uEqRzaRGQzqVFuASJ/9/KFvkk1bwqSS9dHbNFh5gfIlFEPZahwZg9rnug96VFuh8iLZARy4RbJOEW4XLAsz+xHHDs85h/eSBHOOI0byT3Q6TF0jSQfHbXQPqb5Qj/x8wS3elmaZgcrkh7t0w48REn/pJk8CVhiV4SPQbMEhbzdfemsr8gTQPJ2xPKZxtp7pZ8GyUsY4MxL0nLZGywicMPkf1/KUf4PPv1vHK3HBpIPjuP/VqWPB6TyUvPAVAODWRqJB2WFsnYQAb89InfFE/4beks2TMDlvNnW+iJhcsnlsM1iTbngN+Sp2bSAcnfPnPZUTlelaBBFwnabpGg8N+fztfl9yf+vioTlh2VI5bP69LV5IBlxLKncvuS6z45YJlWaSsyYhnekAbL2kbaZG0jYZl9D1mRAcuurSzfGsYGcnfo5CY5NJCpgYy59Fi6kgy5tCXZ59JgWdxIOSy23YjlE8td4ottF7DsqBypPJ3cUmXE8gjVZjof8dLkaXJVht+QTpH9SVoakNbKCcvzMhUpHYOTpXRcT95IwjIVGbEUAlI2Uo/HFKASuyTFMcVTheI65ZOKNHS5QaXQ5QYVoRSScuJYCCnJUghJXqYUkgJ/R6pHqGnowpjqAW6HpT1K+XSsJJMmzVFGTZ4WymW4QR5D0uWx73pVHupZOmPv35Rqibpj8AnLiGVfkPuEFuDbks9+jzR4nbsWKf+uhBZzn/pUlPYtGYoyD74vyvwOXoS7NJXHzGUsyvyJMZSnx+vMZO1HQh4WMy9nTW5FSljGityKFCryA8tfWG4J7e+THs/u8JgWS4PlA6/zDVmdfS1nDW6pr8sl9eAHfA7LJfXgV3lL6mvbqFs7NNVlx6Wnsy9VikB+sLKvY3IJ4FeaQOK7z+CHPxF8VT4x2D2i+tK/NJd1n74d7vAAAAAASUVORK5CYIJIWjEc",
+                "origin": [
+                    158,
+                    79
+                ]
+            }
+        }
+    ]
+}

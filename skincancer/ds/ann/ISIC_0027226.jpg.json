@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13038833,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:40:32.244Z",
+            "updatedAt": "2023-07-05T09:40:32.244Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBFQTq+4lQTkcNChoKAAAADUlIRFIAAAHmAAAA1wEDAAAA9QxgMAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAO9SURBVHic5dtBstsgDAZgOllkyQ3KUTgaHI1dr8ERPNONF5nQ2IljGwvQL02ni2r1ppOvgCT8YptnDC9cKYn50WvcSimTuUeZDi89G/+A4U9jbFniaUpB8e2lwqrLDV/7e9wtnqD2J10ib75LkfLrpzNe/4kxYn6tdjbmR6Vn1tDbKm2lOQt3n8+mLd3Q1L/mV40ZU79dDDL1erGnYC+bjDTSvqfzSPfwa6P2497Vo13aXfZw6n08GLxX7TW62o90e+phHk283az1fsQWblm61eqepVtp4+HGxa3fZHskzdB0ySxXT5qhyYJzV00X3LM1VXA2pgo+3FqHiIqJEwXnbZBPZHnGC1HwoNFIzq7t4iBdt0uAdNUuFsJ1wT2oTyWDir3EKW0W1U/NxM/7BMbHtEFd+o6smfixVwOu96RjPV5rK9B7pzuBLppl7yWD23SNpFj2XnAv0lvSRXjbJ7Jlb0mX9MoSSbpF1siKlG/7xAn1Q1GwLelS/e7VINVJ3izlkzaxfiha7Z02aauVtVelrVbWtFm5nlR6ljdqWZPu5brodJY3qlrPKv1QagX+bzXjbvuv6ekf6qzSxOM3IKJKK34RrVcmhZ5VOquua5pf3+sXFyfFs+ZrS1F9ZUoqLb4fWuKh0ln1NVVxQ7Tf1Mi+9WSV3u5KRBeX/QZaovNXB4H+Yskme6r04XGLw/Wk0lml064truOuBZvMaPTxCRe+yY6PifBtciiYoNHzUQdUHzHcqucHew7U50eSFtRZpdNJo+1iNLp6lgo2W/UcF2y26azBZksqHSsdIG00+vK+wiP68q4E0pf3NA7RdcEwnVW6Lje2yepyY9tEp2sMbbLryy1kkxEv1gBNvNQD9HTVga8v5YYa/VIwpNmo94l8Tb0JtWxNJA1oNkrzmy2rNFEwoFWJggGawPxWpU8bBKamTzpwNZVyfqNTKee3Kom5unFEg6kbx0OYml42d5NFjW6dLeHp1qkYns4Nzbs8NJbN1A3Muzw0z56xdPMUFEs3T82xLi5ZpVNLsy5NUaWbmKM7B8/CWHcOKvqxntrajXVuazvWqa0Z2yS29bhVe2f9xs3WWTaj4J2JjwveP1jqBzp1tevjweFM29dTXw9KFvu6X7LhUd6uziPte3qEu2ljHJ/u6DjWrolZh86DYuKmnbjM0q2WiTxNX2OAPxOwv6UTf4diaHNN/QTpc+Yj+OcN7jNigNe8hF3157+JqL5vqbqhGTPm0zITzLaA2usSXjP0snD50K+p87ZkI2zifvIPLQnrBVXrjcUAAAAASUVORK5CYIJLjg9L",
+                "origin": [
+                    92,
+                    122
+                ]
+            }
+        }
+    ]
+}

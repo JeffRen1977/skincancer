@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13035868,
+            "classId": 20170,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:14:14.350Z",
+            "updatedAt": "2023-07-05T09:14:14.350Z",
+            "tags": [],
+            "classTitle": "vascular lesions",
+            "bitmap": {
+                "data": "eJwBvQRC+4lQTkcNChoKAAAADUlIRFIAAAGsAAABTgEDAAAA4Iq7ZgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAARlSURBVHic3dxBcuMgEAVQTc0iS47ANWbH0dDRdBSOwNILlzXlTGQL1E3//qpyxtE6rwS/G+yKhKdpeH3U6c/4L6RrvV9XrwqfbF2Ym7lv93Wzda0ulja2etSvh1qLg308mWeU+ckcoexutq4zzOKe4aE0Cg7ld8vQYYaO3TCWOgZ2Zq/WC6L6qYG3i0eG3O4wNSyUo0JG2ccPjjJLzBzlL0nZnfIhs2qwKDNr2SWZWctHUcbkhM76dy1DFjRWqakZBc8aGxdcU+NMlB65X2XA1CDHmQSdjfok6WzUJ3nA9EwGiYwyUVbNv0sveBgxveBpxPRuHip1csNE9IIPE9EziWOm9clYaVEO+njEgsGUrkwWm5mpKfW2pqbU26jaqtQ7mEysdzSZWO9kMnGUtpJGabS/Nko7SLG9AsCE9oocywibmSCFrrQ78n4VJkih3gFih3pHjiWOZYj13YV0pMCw/A8sYKzv5cSxjLG+l0HVMTDInmEdeWCBYxFlMxVkx1DVLm84yJaBHdkzOP92MwkcSzCrVP4Nw4NsNhM8kYZFjiWc7TcTXO2ZI5H9ZoK3VsMcQe5ZdLDd8k4cyxzzqOeu4Ml/xzz575a3J/8dCy5WqLKdZsnFKlXtJ3Ops8zXJA/ma5KzzNdbj7qRLLyUxXdg6aUs+9i2l/jUSeZcNxtzLoCNOTv5JAvvwOI7sMSx/A7MqbYvGD+YefeEc8y7lXwL8+5AK7dxrdxWcjvFopNdOXY5xdJ/zeopln8iK9/BnOqdPgL+8015OsO82+TtFAtOdj3FopOd24Eyx5yKXW6Fa8mF6y2SzVRvfbHwUha9jGvJt2Dkl5nXfge6cov7W76VvIgVji0vZTPHJopt/9XPPnbl2PZYxae2anv38sKxr/yde/kWpJNtQTo/Ai4cqxxbODZz7Es5P6duHHs86IsuVjlWNpZcbOHYzLFN+Rb3jWPPR58etXuI7GKP/MnHfC72TMS1J1w5djnLXKu0cqxwbOHYo2y+PeGhXIt793g8Odju0X92sAvHnmVzrZvCsYVjM8cmit04Rr7oceFY5Vjh2MyxiWJXjl04Vjm2cGzm2ESxG8fadzQzyirHmiDxfXKiWPeuZQRZ99ZqAFlpGfpB1SYCf3bPFOvfPiXfrAW7i3z9t3Js6VmC2Eyx45vsEDu+bg+xQyIYOySCLYFDIuzb9ggTjgQgTDiAEAB2DBJihWPH/KFd4aiQ5S0d3QGYdN4E2BXE0y02E4JElrcQJNIms8SCpeQzUGbh5INaZgXkY2FmBarIzCjFIO3dRAzSzkRW1ijVk5HjUJREJqPiSiKTUTolkfs1UKMTrUlno7Oig1EOj93qodQR02+3jJgeylCpnWKcBdca0zp5rrBiMKUxDUWfjhdrYI1Rmd1is8RMTawB8vMEwuQqwITJzQjLvcJ+NuOQSYFYpMbI/ohFXwFsjH0F4N8RaaNcUNZkAs5s6tYcfLPmdg61zc5F7tdnDapX3a8AZPEXtAKPSURq8fgAAAAASUVORK5CYIKfKFiY",
+                "origin": [
+                    107,
+                    77
+                ]
+            }
+        }
+    ]
+}

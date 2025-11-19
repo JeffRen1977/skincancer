@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13035815,
+            "classId": 20166,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:12:43.599Z",
+            "updatedAt": "2023-07-05T09:12:43.599Z",
+            "tags": [],
+            "classTitle": "benign keratosis-like lesions",
+            "bitmap": {
+                "data": "eJwBKgTV+4lQTkcNChoKAAAADUlIRFIAAAFYAAABTwEDAAAAMnFEIAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPSSURBVHic7dtBcqMwEAVQUl5kqSPoKLrZiKNxFI7A0gvKmtiGIKFu9f+uaJGU2U3llavVv8nEIA2DdF1SmsQf1NdnSukG2vhl0xX+2IRVcXlS6IPDZhNcAVTEN02rRd1hrSI+MprmtvW5bReRV2AVUdJmEZ8n2yoinmwa4Y9tFREqu2j0UlF9fuqP1Se+pur8CCWoRQglJC26KNpRoh8ilTvsZCsWLJcrj4RMxYLFjt2vBS5XLEIpV4w5albomkrrrilJiAWrbUj1SNS3z3FNaMtS3WHfsOfFtey5w7FhzyPRoqfFNdqbzsm12ntenCOsb9oy5dC0ibFF02Lb5k1rt6xsWrtl5fRYNm9aa3rv10rYfNIcYb1h8zCCZbMwomWn16xFs+CsiPPgrNjy4KwocusI6017DEQw7RFyNO0Rsk2/rd3ew9rtPYYHsRNh94FwP2z34fGAvRJ2DzkAdg85AnYPA6GUHeFx2IPD7AxHvIdh35msXWnrIHuDx4GzzzDCz9sJHrMtOMZi9BkcaK/wmPWzKzy+z5B7WWx80+OuZ6xD7chZ38NOnA2oneFR72pRer+JCIuOej97pSx6W9wtPOqUXfFR/9P2ht9ub7tfv86Gt33bzMa3fdsXLU7/to1/1t6I3yW/z/oudu1mXRd77Wb7/L3OWeb7BW6XbrbPd7K5m8V/UZLfjwNqme/+5DMFxjrUks9W4GEnLTyUxPMz1qLDcyOeT96IZ6SMXYlnuiv+XPlpwTBoC4Zxxd8dbDYSNnSy/sftQrwQ4F9gMC9GsOAY+3huD4b8go2dbOhkPWKnAR+IFyw0PJuFhmez0EBsFgp5twGw44A3eLeOsEjTdsu8xUaatlvmrTv1Np+xgbCesI6wdhjHrgY7jMPaYWRbYiJhA2G9ZbPtPo6wZiPybUSWzbcnWQXn1io4t1Yaxb6y0LZLbo3xKazRidK2i5gL6wjb7sRUWGY/ILXP0BPWEbaZRknbM3yyzcWdbdBptfvVEbZRcL0Dl7H64mrrVVtvW9bTWCqrL662+gjXVl/cXFt1cYJ1hFULnmqrFjwKVitYslrBAlXTkKyyOHk/P2PlRsiHIIJoF9F6wsojPItWbtokWrkRo2zFRshUbIR2tEJqhHbGRGqEdrxDasSsWGl6JsVKjdCo0Aj9TFW9uMbJp6qIRbceXppQxKjbanUNev7g9tGysuL2sacyO+OwWFHx0rbF3TEZNq9iNGw2msAJu+/GmUfQ7tfWuRmxF2xpzwtc2uMKcLnb8mbMfuAlPIrAjiQOj/+VUPrVNfhjh+Ff/o//XFR8tqG7kCsAAAAASUVORK5CYIIWxRkc",
+                "origin": [
+                    114,
+                    53
+                ]
+            }
+        }
+    ]
+}

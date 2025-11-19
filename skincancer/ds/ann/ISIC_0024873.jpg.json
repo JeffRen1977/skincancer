@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13035340,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:08:24.512Z",
+            "updatedAt": "2023-07-05T09:08:24.512Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBLATT+4lQTkcNChoKAAAADUlIRFIAAAIwAAABCQEDAAAAsKKP1AAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPUSURBVHic7dxLbqQwEAZgerLIkiNwkZF8ljkJHM03mCt4N1vPjgXC03RDmoayqcffIxR1bSN9sstVTgI2VVWINqUfpZ9z4mrcojMpl1lJvYn5XJjRxLiFSRExmGsEtfKRnkOZoDYhnO1gruHlymWvaOqHGIxmODXFRKlCzkm+7p80I81Ok2GEi55RhPMi10k6HpdHUhqYSFtCrgEYyhS/OUp9pLCKkKEcTytXdJvwJYNHHMwq00Rk5Hf4WqAUKtmJmGwli5RsJUsyM0WGKbQiGZ4eyx8hQ+bYCZEMI1bo5CgYaskVDDUcDUM4KmY/LRWz708Vs//Np2P+bh0ds9u9lEzqA4RJz1uGgVkn2sJ4DDNgmBHDrJJjYgKG6THMgGEeS25jegwzYpivWRmZiGFGDLMUspUZMMycZDMTMcyAYe5JtjMRw/QYZsAwCcR0GMZjmIBhegwzYJgEYjyGiRhmwDDXAoQwHsPEUzE9hhm+IzN+Rya9mTfzZs7InGujOBdzrt8MbyYfoL8o+sN3QP+TiYqH4K9kmhMxQfge59UM8yVZOTyG6cQvcl7LSN9OvZLB/evb2pXxVMz0WMBhmOY0zPTIpLYzEccAWhzETE+lAC0+MYDe9BgG9HD19qi3PRXjrMr9JUFzEub+NL3GMOZugDLmprq/6zJ3A4iJmLc5ICZUkKaaGXcO5v6iy9xUM1NjGGs3YBlrU3UVpBtmxlrGYKa1MbNiLeOFaU7F1BjGWMYLYyvjr9MLtjJ+nHsBMQ7DNBjGtFSPYy+mpQKdUFodt2sxjDMw8cE0GMayVOHBWHK8Zpye8RVkVt2KMTT5mjFUzlrRz2pz2BPEtEpmc4i6VjLbg7AgRjmcuGGUpRM2jLIhdkytYvyW0e3I3ZbRbV47RdUQxMUEzVpR9xtaOUNdKGjkDHXWXbFWkWAUfRUoxmGYRsx4ipFXTkcx4srJXIuRMpl7KE7IRJqphQyZGnkB0oo0x9nLZjImkxphAeZvvkkK0GcVyayKl/kcmwklpmYzXYnhz6rMcCvw8Doyb7UOr0vymIBhPIY5UnhJZlwB5TCMC6kc5jA1rDbnXGJn5DgyGMYeyJgTJzkdh/nZHijMi8MOkBoGE3hMg0hNdZRk9qcPyrPiDqa8JXOR4nBEH3PIDydImOymI/yyRI7hXlmfI5ecIGNyyelkTCY5UaZUdEcIxzIFMS3N5y2IvVQxGOLfNK9RdrMSlswSF4iyreSgZVZJ9lrjaTjqkdzCzYrtgzFfs7Ipy1rZPoJTLX0VrMwFMafqXsnqulsFiPkAZHiKX8dF8w/+kJYFeNhz2gAAAABJRU5ErkJgggXX4ps=",
+                "origin": [
+                    0,
+                    57
+                ]
+            }
+        }
+    ]
+}

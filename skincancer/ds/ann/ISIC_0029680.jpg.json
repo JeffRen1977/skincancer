@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13039833,
+            "classId": 20165,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:48:55.363Z",
+            "updatedAt": "2023-07-05T09:48:55.363Z",
+            "tags": [],
+            "classTitle": "basal cell carcinoma",
+            "bitmap": {
+                "data": "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",
+                "origin": [
+                    20,
+                    7
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13040793,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:56:58.135Z",
+            "updatedAt": "2023-07-05T09:56:58.135Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwB/gMB/IlQTkcNChoKAAAADUlIRFIAAAFLAAABIQEDAAAAzBYQ4QAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAOmSURBVHic1dpNcuMgEAVgubzIkiNwFI4mjsbchCNoqYVLSpAlq/np7kdVqNSwyng+G3jdTDw205SPed/3ZULGc08jINQcdL0f2HfP0Pmg2+fPX9nz6vnJK1n6vGzYk0Y6S3MFj1PuL/pAaFF30euVntkU9ab2O1pDfm5uKg0yTSsCQ+h71mzh7fnPlzJFyp/x2Onw93PlpR6buZ5bU5vRn9Vea/cVdTldPw/UdC/Gv+uHIC+VjooalkZlqRJlZUX5+Ss683TJ5Rcvy9biN1VRYf6iCx+CLLqQL1UaaFQltSL1aABFv8w4FWVWLjGrvAZyVlkNFErTkpolDZKWUWjEKdmXVSjZl1PohlMSwazRgNOI07sLNEnSUukLpxtO9w4acHqlpRyCNBacrji90tLOSx/dcHoFq53CTurf1AA0DKERp2dlLUBXnL5GUgfQbSSdh1BADqXAgd3PYzCGIgd2KEXOdj81/xG1Q6j7azpD1I+jkOyhAT5ag2gcRrED20uxAzuQmiHU/jV1Q+g8hGKyk4KdnSjYromCjZWowakFaYCLleiMU1D+UDTWHup7KFqsPorWdcdbYBg1v0+3UdSC9DWErvh56aDLEBq7znYHnUHqcYr/895BN5y+cLoOocuo31ooDTj1Qyj+lriDbjh9DaFrJ51/my74/6A6aOykFqKhk5ohFPvFeVDs/YDvpNh7l4NirXVIrF/e1AHy/NjJ4tQA9PzkD6nB+SklEuzypkiw8U2RYMMEB3tRp1M/wcFe1OAUCPaUQFod32zc1OHU4FTtAvL1VgfVFkuoxalWBPKtnbYvQrV6LTfVIog4DYTOMvWEOpxamRKpNMyG0+yLdrlcK05pBZTKBpx6nE4wza8PiK3VcSlhxWmWldyFEachp7NAJ5iWF34cT8trRAItApCOQRGA1Nu+oELDFlLol+pyFF/Z+soVvCshrVBRi+6Kp40rXwbeFUvrXbE1qHfFUl9Tplytu3xMuVrX4xjaWCpT2aUlm6eLuXXowJVO7co2V9ouV1u2gmWW2oqAWWprXwtH6y6IHK0XGzhal9ZztKoXG0BdBDaAel/8/OViW9czPwOX+b6iSB240imPQEgqDYMllQZNa5Ep7YIoUxqsx6ksaQ2UAGgN5FpNtAaLRu8aRI3ewXqNfiJQapUGPP8dgS6vfalRTZ/eApZ6NUwE6LmvgFCHLvXc1wJR/oZ4PeClvheLyZSs2tbneGIFOAa81BSXZ/7mG4L/6aB7AAOjAAAAAElFTkSuQmCCqBDmPg==",
+                "origin": [
+                    77,
+                    34
+                ]
+            }
+        }
+    ]
+}

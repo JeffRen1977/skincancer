@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13041571,
+            "classId": 20167,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T10:03:44.777Z",
+            "updatedAt": "2023-07-05T10:03:44.777Z",
+            "tags": [],
+            "classTitle": "dermatofibroma",
+            "bitmap": {
+                "data": "eJwBvQJC/YlQTkcNChoKAAAADUlIRFIAAADwAAAA9gEDAAAA0sKYzAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAJlSURBVHic3dnNreMgEAdwRznskRIohc4eLo0OtgW2A44cLLPxFzbjmT8oXiurIL3TT4aZMeFh6LqijR1qz+QxR8Qqwd51Sj1gm5IT8eeRkhibSun3i4Pc8dQG8eG5CaGnrcGH+cweWdnMzM4ePsxl9uvAzEuxBz4n/jwok7jCnIqGAmPqokt2mD0cmtblQZjUhUT2yux5jE4RTn+K/jXlsn975mPlznrM/cnxPjgNnPTO8l74U15zy5Vl8joOznPO3LCcZ5x9h8dGZnWfkLdw/63s/n+2b7H/JyyEVuHwQY6XeMCcmpiux7n1mB3mpejsmjm1iHnJjF8z07a6VFhJnCo8J65Fdph9AxuRA+aIeQQ/kqlVuK+zrHNdAHvM4RJHzMOdPF7i9Enu72RXZXsbe/QraWENOGCOaG2ZZxPiscrisje1CveYnbwiT81f4oA5Yh4wj5c4fS+L/6C/nOHac43Hm9m+z8NVNoBjdd2rsMKMlqZQZfQ7CGCjWufKzsXjXZOHO7YW1piVzA7tkhcGZXNof7/ug6+xxWzuZI1ZfZDlV+bhV9PC8iubWX4nC1vMRuL5y0Wu6sJK4tjCYl2auPKxKZZt/cqusMVs3uP1GE1fYvUJXk8XxKJ3uKptbGFoUlU31piF6bSxkNnGwnRqPTblQ89nsgozH1tmPrb9oJyNLXRwcJ+ZrdvO7OB9ZvaV71o7wmdiK+5GzsGVFy+n58n1BOVQssFMR/cl09K4kunglG3JPWGSGlEaG+XafVOROn9Nl2elcD+5xR94Npi3+DzP0+Cjka8n1+MMJ/DaR4+4U6+/vxHF4r81+ENKAAAAAElFTkSuQmCCUqNnfg==",
+                "origin": [
+                    175,
+                    108
+                ]
+            }
+        }
+    ]
+}

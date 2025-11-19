@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13040254,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:52:27.509Z",
+            "updatedAt": "2023-07-05T09:52:27.509Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBJATb+4lQTkcNChoKAAAADUlIRFIAAAHbAAAA+gEDAAAA0zN/UAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPMSURBVHic1dtNktsgEAVgT83CS47AUTgays10FI6gpRdTIrFkaUD8ve7nKld65UW+ETQP2Vbw7Taue1yAf9UoE6MeuxhnEYgxrsnrRWK//4H42F6amP4hpDYRwz1OfnuFjXu/3ne8FjLup5puN1/gH3i4lUIm7VoYmXTTvlrfq682Hk/63sbPPnbcw//p2O64e2506d6AzwoNbBHcahpiWyMvw1ytWT/qVsc9hqu3o06y8qr126C41m+H4sq44VHXWgYu1LPW+3W5DI7LaVsJvsbMi/BluUT2chcWNPtZecOhvfxbeceMDOe3cCvDkcJZTJwQZ+32Qpy1W2izdguXOWYdE+ypVyUdM2KcpNuKcdIxJ8ZJxrwYJx2T2+R+wGD5MidrJV/mZK00+NwawvvIVme6jQKvDD4X2jLYafCx0F6DA4OPtdLYY1Nq0nkutA5HfTrjsTU06YxHu40OL/qAHR1T4j1jTokDgx8MXtXRfhaFJwYHBj8YvGq381YUnhg8MzgweGHwg8E/H8Mrib1eU3hS30lYPHPYfgyb/xEH7fvzG7DyY8UbsPLT0Bswd+/1H8PuY9h+DBsG63dGUH/gjtu7uz6fM/OpZGKxZ7DTYuazfiS+ouxYnRLia9mO1SnRf489sGew09mV+Tr5Bqxc6JX5/v3DY2VKHsTTjgM7FX49aDEqHJjHHfvTDmW6pxe2DDYa/LK6SR9YE5Pfp8WOwYqNlTzZl+vs/xQsg40QLymWLleGpRszZNgz2DJYuFo5Fk56zrFjsGGwbG9dsGzcVyzq93TBooResWjSVyxa6avlsP8Ydrgtj/NYBhscl2cdBBErsSBi1FGHEgvyuRRYELFQYs9gB+OZwVOJLYxLi0esdlINjlgNwympHeOBU1I9u4TihcGhhj2DHYjnGjYgnmoYXeiahdeqisF0N85RYpduHcKELt3C0KWbxz89gw2DkaVuYmTS7aOjFHYMtgw2Y9w+swq0u42BdndOy1LYD/HSxo7BlsGGweN3rA4er1Vo43G7e9gxeBjQuYOHGevi0aW7eHTpqYttH3ftKCd93B/36PcC3ZYND+1T2DG4tzvGP1ToXHqMOy1bhrhzaQC3Gx4A3Lw0gpuzngHcDPgE4OakIWwbGLHNSUO4MWnwZ0sUrk8a+eHRrbW1xvtir2rLFhBXMxpgXBk5jiuXnnFsCjzhuEwKbsukiH4Xd500mJG6RjOy153Bl1kvMpyPO8jwtrvW429I8ZOfR2ZmMd7qSxqwrL6lActKGrCsjDRgaX2JM5KWVazUWfek2X8BqiS/7xJW744AAAAASUVORK5CYIIAogAN",
+                "origin": [
+                    77,
+                    133
+                ]
+            }
+        }
+    ]
+}

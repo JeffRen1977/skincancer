@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13035252,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:07:32.257Z",
+            "updatedAt": "2023-07-05T09:07:32.257Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBZQSa+4lQTkcNChoKAAAADUlIRFIAAAF3AAABfAEDAAAADslpfgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAQNSURBVHic7dxNdqQgFAXgqpNBhiyBpbA03FmY9TZYgkMHHulKqlVQHtxLQh87aWfJ+RLfH6a0Qt1u50OPmW/Kx0uYKa9DGBhvQxgJfg+BCsg8fMD5yzsnElAf3nHhBA/7D44X6Bk+XqBnOHACOqzHQESDZvD6tnskAxOiA/AxBwK6Jz5MNf+S+mpErwfvK14dfK1E+uCXijcHX0vAHr0r8vuRV1pwLE8t4WN5QmVIj+WpBXQqTyWgMy9W9FyeckWP01ZL4FzOcoUy5SyeIO/ljHXeiycweS8Otc17cZUJXDyB5IWeZdtbyDjb3ueR9fn2ygEp2WcDKvjshVHLPrtqjOyzCRd4bqgL5ckWqBROxsvdfT88F06mAbrozw2wnC+Hf25YOfyzL4d/bnA5/FODC2vlebjUm5r3XDhHX+OHBlfDPzSsUv1wbICq+vQap6s+bZghvSV9nScDURnmk6+XMx0gTXrL+fo0hGTgkHBij4QTe4RHA41UPx5oKN3II92Kvfrvv9Sz9Wc9Ng9js8fi2edfdfYa8q6zHzr727fxqodf2j00z5/wbDyQ711P2g+kd82evf6wvvf1k/17fQ0/k34hfejth1aPzc8+oL29wrxv9Rrz41W9+e+/1NvOHuPX9fYafvph/mr1/7HeXMP7Vm8x7zr7obO/cX5p9qaLn7+N15BfOvvQ2w+dvevs/cX8SPqJ9NsAKcwH1g+kXxsG3h/R3jd68P5xaxjqJ9LPpF8bjL2/wPttIHp7S3oD+nVANekV6dGBWz3a4NWjDVsXTPdXQIb0mvSK9GBBNw8WdPPgRO/eQN5vXpNekR6b0HHz7CNQrKC7xwo6tXuL+Oh/AgzpdQ9/ufcYBnKAWO/IgWO9Jwe03WMD2tuPZPysn0g/kz4aaMgH1g+kd6TfG2YhP5J+Iv1MevYhAfsQYm+Awbxr9RrzvrMf/5ZX1/DTD/PbAgPvARbSbwsMvWdYPXrPMDR69CbPtXpLetPHe3JBsr73AptJvw0Qe1N7lac6I+kn0s+NvtdToNWjC3gbCNZb0hvMb1dE/W/6ubPv/RdsXS/oQG8eHFBP+u33gwO9vyTG/NzsLeTb3zfTpFekZ//Pi73Hox/SGMSPpHe714i/cT7eR6IAP5LeR57dhsF6ZCBYP0Se3XbCbmtBVuSnvCG9Jr3q7IGBSDzQ4MQDDU480ODUW9Ib0mvSK9LXC5r6ekFv6WFJr0lP71OsZXz0lZE4bzUuB5TZmvz+7TfJZzbePhbNJJ4k4++Pk4oLLbcR2Hq5SmPGl6okeSN4L3gleCd4KYFB8FICEpcGW/T5BOTPd9hX2i/I7wHFqZc+7eDPDyyxL35gxjOF6Y76J3RxaceSv5khzQT80BWze/f48jfx47V8ltavlQAAAABJRU5ErkJgglZzMM4=",
+                "origin": [
+                    123,
+                    70
+                ]
+            }
+        }
+    ]
+}

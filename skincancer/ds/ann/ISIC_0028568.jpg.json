@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13032333,
+            "classId": 20165,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:42:19.649Z",
+            "updatedAt": "2023-07-05T08:42:19.649Z",
+            "tags": [],
+            "classTitle": "basal cell carcinoma",
+            "bitmap": {
+                "data": "eJwB9gQJ+4lQTkcNChoKAAAADUlIRFIAAAH4AAABqAEDAAAAkGhlywAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAASeSURBVHic7d1LkqQgEAZgO2rRS47gUTiaHI2jcASWLgydLh8jIiCZvyPltCyr+pvCJJNHdQdTVWN7DcmmqoP2DXqR9vrI148v6sWRfw0G8t9Dl/IH+Wt+PqBP+a8jXx8kcdq3b69TXiZ9937fpLxId6AaO5Fs6R6MnUi2gx4M6QE4nEKGo1nk2Kcf4NinRyDDJ0OQ41MhyPIa9IkIXOJtYZ+ooUt8IoWzfCIBL/ED6jXoDegt6OMJkOfjCZDn4wOY5+MDmOlVYa8Le3Nzb/+VF9f4aAFe5KMFXOf5aAFn+mgBy0yvQG8ivsn0FvSxAGbyaACzfTgABycQp4UDkO/DGZhZvu8W4jKfhzIov/dDcAo+OP9tW2AAaooPDICk+MAUQuGBASSFL1ABNL8fAFL4AwEUNL8LgKT5XQAamt9VANUrZPjP98Th3yUA2RvQewlETD/cexVMmDvP8V4B1FTvFYAEfUP1XgGR+daT08fz5OF3C4jx4RvP+PDBLUBy7ni+LuINP/c837C8BXLvf/At6LvHQ75/POSH03zzO706y0ue1zf3BvS2sG9v7rvCvi/sB9QvBdwU8vrm3hT2FvTtSV4W8ksB14V8X9gvE4DgelXYa9DPBcQ7/57g5wLknd+HvwVQzM8FwPv+4nM8ewLrT/KS6ZcCrkEv7uoV+Pyo1+D4od5g+Qd7W9i3oJ8LkMuXBOJ7A/oW9B3oB9Rr0FvQd6AfUK+Q/B2mACLegN6CvkXmv5N8DfgOWb9mz95AvlsFbODO8OqEApCA1+AAGnAADBjAt2fvYIepAFGP9N+CBWDB8Xv848XjH1/Yc+fg2ffcXZRZvIR8xw2CXjxzEdHT+ttydxFqWr9a7i6imtZPy5yFlhOUZWbR4g1zFzKdABu2Hw9QP6HTzF3AdIKt38PAqoDJC7YfD5DVd1sxzyGTr+Yo0JsCvcNZCQT6zZ/hMRKgu7lvC3sLegN6/UmeMYGhXrleFPY13Vdnenm53/4VcHNzT+Zbz1j/UF96+j3VM8r/8U4T9/M96DfrR83wFvQt6DvQuwsQy2vQW9C3oO9BP6BeFfamsLegb0Hfgb6/uR8e//jHPx72orBn/hb3YzzzC3TQr+sH7zcYzg4U9Q3Ht6C3q5egrznerF5wvF49KwHV6lkJVGHePcFxEnBzgkR9Q/fW9TXda9cLuleY336BRR9AC3oD+g2nJ5B/jQfV+/ewUL0BvQa9An2FeT/81PHzb3Ghen/4rvbW89T894f/au+nD9X76UNcwHaX8BD97hKgi/3uFidxrbef5muaN5/m5b28Pts3v9zTeHGvTvbU5Q/1fvep/f8435D4/hK+a/3+EsFr/f4SxHt5u/OS5E1hr0GvQL/jp/pWHPDALbC187YdN4M2nhOBS1Rdr77mPsb6EbgD1PXTbrSKb8rt3jsf1Y/hGJ+R5dvxk01iVPTeO/tnG3zVbSrpzfpqZFlJexV8uVufMnQJsOO9dxrnmb/Wf8pr61CFjzZzUOQS4LhP/k8dwgvw37ZGyqT8K/YTq1cpH2+x8OW2xh0nRpM54Us0kRO+RHthj78EULG9pPM/+4QVJQabLi0AAAAASUVORK5CYILElId+",
+                "origin": [
+                    5,
+                    0
+                ]
+            }
+        }
+    ]
+}

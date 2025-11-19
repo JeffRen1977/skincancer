@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13041867,
+            "classId": 20168,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T10:06:24.486Z",
+            "updatedAt": "2023-07-05T10:06:24.486Z",
+            "tags": [],
+            "classTitle": "melanoma",
+            "bitmap": {
+                "data": "eJwBIgTd+4lQTkcNChoKAAAADUlIRFIAAAF6AAABKQEDAAAAp3R7igAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPKSURBVHic7dvLsdsgFAZgabTwkhIohdKgNDpIC5TAUguNiG29EM/zyxeN7ySsMp7zRZyHHNkmXZda/Zx8Ob+4GzHgnIPihydQCOBPYBAgnwBJ4rUjNwFAvABQ2PcFkDKxBSgykAvQ1Ph+iafXdU3BWSp4rIDcCIYCvgJy5wQK1qrSW+22RYzvd6BoYNiBpoHHdWBogO3AooDYar4DYiMOQGyEPIAigSOeVtfeA4YCBhQwD1gKkCDwd0TqnATBw4HgFE+4q88XIAyTPIPqMAUXqA8TD4EGd1SdjTC+1uohApVGRDnXGsE+B5XORVWtNULEQPelSkVteCbBS4nE8cvKXaPPgdwl4r5tKwNYFpg04FmQmRCRBZn+ySzI9C8fn0miAGwqPtsGl+lECSQ7ke9bJusi0AkQ36CfgFSZiiA1HKwEUnUtgtQ08RJINUIUgfoBIItA/wAoxifuiOIopQBHgSgDC+acGKZyfDxMxRvUJYapUqR4mIp3w2sprEhxq2vxIaimEILqjgJQv0AAJAiqNXXB9AkCsFBN3Xn6CCm/pk+MyI6e03cMoCSBfh/A2mSvYNgHkJSCmx97LyhdeK4/ey8YDbgdcDIYUTCjwAF9W5ZCgUaBRcFIH6VlTSiYUeBgoFCgvw+Ye4BoCez3gfH7wHQP4M0BvKV/EkgAjJcAEH8DsORHDQ/QHjU8QHzU+ACw7wLmCuC/HOjmoH0O9gpgCBhRMDUHM5r0JSAQ4K4A2RxA8f/BLwayLVDNgW4ODArs94HxDiAgMN0BOARm8B8UHDgYKBxAT5WXAPRkfAlAD+uXAPheqS8A2Ra0f3P9QtD8CQt+hptQMKKg/dM6/EFOo59eYaDQT+D3AOh9prsFIG9M8Bff8FfrMFi+7RcNgX0D3hCYN2ANgb4GgFtOoeAdj9xBC6DP9/arIgwkFUxXgaCC7adUTgV2BeRGmA5shO7Auu6AE4HqwCS2eGoS3gkJGvB+BZckYA/AScAcgJGAPgAta3UAWtZePCnr0zESTgCngyqUXp+OwlCyPgHKO4f1ASXrMxAoYHVgToBQJn0ChDKpEyAMxzm+XqbwgJGogfAIE6+B8JBUtUw2ANUymQBUp0kHoFpXFQJZAWF8sq76KEV8aJAn/9b9j/GxRBbHz161w6omGzF5L4dVTTbCetWLipRqhPGqF8WnGqGOYqSOYoo17LiUt1WdAI9t41ue8/b6JOMMjj2pfXPVk/1s7obRHnnS//MXz/Uqe6lcr3JryPUqu6RXJNLiWAprEsCO3kkgF3glgcV3PNu0vyfuXkBXYEYZAAAAAElFTkSuQmCCRrLOPw==",
+                "origin": [
+                    106,
+                    86
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13038351,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:36:26.242Z",
+            "updatedAt": "2023-07-05T09:36:26.242Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBtwRI+4lQTkcNChoKAAAADUlIRFIAAAFIAAABnAEDAAAAgXWrSQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAARfSURBVHic7dxNlqMqGIDhyskgQ5bAUlga7KC3xFJcAsMMPHK7FBUV+F77xk7f22FYeY74/QRMovX1tR/3GOPz8NfS+AnjQKD6ltEDaUbZyfA+whjo5CSkafLYy3KCIPhbklGUdywfWCos9SydJA2WdpZekpHKG5Z3LJd0ttvuEb1icsmlKC2V90jlA0uFpcUyUnnD8o6lwlJfIA2WFstI5Q3LXTob744r5GMnXVWqC6T+ZVmFJ6TB0v5R0mHpqzJSuW/keicfZHWD37fnCVm9FNg3cj2hR+kqUh1kh2XtRPVB1qYvyEqiTEGWT7Uoi6dqS7J4qmXpsQwFWYTF6P+tLFwxHhr5rCy03qGR03AHeWzPmlQV6Q9SV2R3kKYiA0xnQdaSdCxSLfRjh9qa3KepOvnhRKuTHw6qG3Ibk2nIbTs14Hb6WiNNw2OZR98KfRuSbsoBy/wdYtoyC9625Rp8o+rj6GCS8jQpQa5p0oJcu9kIck2oxVKAWeqxlNK5FukjP/L3SY9lwD0/YBm5dFh6LOf1xoqyx3IO3sjTc+mwTMFrWXaTVLIMWKaEtjfDcfRYpoRKu8wq5VZeiiTLuUhWlrxIDhfJ49R3OKEdTmiHEzovDu+Rzwtk/5Ef+S4J3nGnJXi/Xyj5lqAukFqWw1lpsLSvlPGsBDDSVkpbF5egQdImxyVopbR1qdfKABskbTNI9rCVkrREDrTsJ2Q8JVGDjC2Cyj5KVPaTUl0gNZaGSdogYzWZ7E9Ji+TzI/9KyTuEywHLyKXD0p+RhskOy4DXkCeWPV7BBizjGQnX5Ih3hJ/lpNLT/ei7SC+XATfTE7fIFYXvcZEGXKQBXwoM+PIifuRHvkjyruPyeYEMWPozF99M9viCPmDpqAyv/7w5fQdI5PjREK2K00dtRSc/8YWulqWfpJGlw3KCZOfCkn/pfsW3YCnxoOz8R4xwVqq3Si1L3nQdbqULpZWl/xOkDN8s3f9Ofv29ki+0/xXJf37ncv4p0LxFhiT1C6XHMr2NwN6RoLzHDVj2WIbzUtzf5yTJ1wyOyuyePUH2WIZV2rbsVmna0q9St6XDcoVCMw2/JNuFz+9p5bdqtsvJZZZ4oZweS5dLe4E0LZnDduE3UmHZLOdGNlO/ka2E7u43N1gqLDfT/9jIwy3X2fyPtlwPO9wlqeeXbpJ8LC9tZOFO/9vykhXkfCi/zW5JpkO5bWuFgkyH2tWhJKdDDbvWqsvnTnZVGXZrii9IlQLatmtJPlJA234pyfsSgM2kq8nxhTz1BTie3pDF1pbPLLY5vYWxnH+W0PIjO8tcWULLj+HYwp0ltQd2wkGGotRz8jLZFaWaAxXlMrLCOyzbMJPSU9urlJ4EX2WHpcfSCXJdzSS4SPnR9nbV82Fh6Kt0VIJ/FWBpQLOUT3N+w3ssZbgupeJQNKC0NAQg7zSg1HYOSP7PHMY0sX8QoWFAU5o6JB8w9DFNLKBsLRWHgaf5HTyEX6qQzX8ACe8UoFJvwQgAAAAASUVORK5CYIKGM1aI",
+                "origin": [
+                    180,
+                    7
+                ]
+            }
+        }
+    ]
+}

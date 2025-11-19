@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13041733,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T10:05:17.834Z",
+            "updatedAt": "2023-07-05T10:05:17.834Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBDwTw+4lQTkcNChoKAAAADUlIRFIAAAEjAAABPwEDAAAAN/o3jgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAO3SURBVHic7dpNkuMgDAVgp7LIkiNwkany0eBoHIUjsGRBmZ44/gGDpOduplfj3bi+CfITjl0dTVN5/JmAQ+cIKJMXGT1yzhZYMGcPLJhzElV+H0hZ8pLPVUlX+VqVdJXqowKvdEY+bFf8ZZpdeQY9dsS2fD4UE8b5UVxhqlBWrp0rv1yQLv9ZKnL7lGXR5etKUeXPlXKEMpXyhKoQuXtqdUYxl6k8anVE8axqfNbq6PerWv2ijsBUtUNeF2W387qKWF3UXsxcRawJZaqI54vyRUD+UOaiQhFQIFUs1JlrZlQiVSpiXCCVSbWUYVtI7YE9riqXLaGVLZQXlBaUKxoXBGUE5QsVBZURtZ1OpApng0C18OolqdhR19vxJ+p6095SavsHqVJHKUjpRi3l6VtqblQuT2/KtMoWpzfVord6lv+jF/36AaZWbVx/j3ietURcbY29IOrDUUF0lIGUgD6q3c891Y2rUd24GqUGKi0pj4R6RxlISWhVYvSrEqNflRj9qhSkNKRmSBlIiQhXcqhvJYf63l+YkqMHlUWVkhXU7AVSCVIR2jgB3jiYMqJykLKQgu7sBVIJUhH+lpCVg5SFFPRIWCCVoAdHHKgC9HjBlB+oRj72/qt/ofxAFXA1SypCKkGvL5jCvuQwhX2tgspCyv26GvmWEwaqCD34RqoEq/nXlYaUgpT8Kocr+UUUe1PAlbx1Aq6MpPxoNY9RDld6jLLQS8ANha34q2rClRLQAqkEqQipMFB5KAkHKQupaZxaBqoEqQipAKlP9NK97SBlIfVBwvfXAqkEqf0v6XxZmNpCFZ4dfqBykLLjlfCsncYp+meA8tibzb8pYCoOVOGW4q8RU/6W4rvtbin+7jiU4ZTd1Qwpzakd8U+YQ7GBQer8SZQLrPileaQytEp31UyreFdpSClahVMxd1GhmBb5u4ppJKbcQGUHqglRC6QSpJiZjuIIkCqiZ24PBylbKkOpCVH1lNH8I1WP/GhCRUiFSilCVaGSt1oVKnkTVYhq5HUoq6+us099dZ2jQi6RauSEqGYkq6uuC/bbbRHVjrBpZMGe6gydKaAqcjBCVG1Vva3TWbDdOqGDGkXMywFVTU0je1VN1xZR84W1osb4akWNBGo5h28qTyj1DeUIVW8KCykC1VuHHO2sNgU9gItEX2+KQKoZiKsOn0RlrMz0ahEFM2NcRIHNy9LFl4VZRh2dZOeQj8Icp44esWgvX5i1VlIT1wOboZ7EGI7C5NH0l3iB25LIlLuiS/8C+YsEMXxxfogAAAAASUVORK5CYIJ4x98q",
+                "origin": [
+                    145,
+                    26
+                ]
+            }
+        }
+    ]
+}

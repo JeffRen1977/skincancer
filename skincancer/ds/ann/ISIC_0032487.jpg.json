@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13032394,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:42:48.688Z",
+            "updatedAt": "2023-07-05T08:42:48.688Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBSQS2+4lQTkcNChoKAAAADUlIRFIAAAEzAAABcQEDAAAAJQbdegAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPxSURBVHic5dtNktsgEAVguWYxS47AUbhYquBo3CQcgaUXLpHYlvgTTT88KM4kLF1fYrr7SZqZQsvSX8Ex4Lk+AgZFCB5xMoQr4nQIN4Bdwu8FOHF3hnd3Fiyn1IOxBX8+GVnIj+XRj7TaGxT3Cejctb9YhzV+5XM1O/0RDmttsZ9Hd+z0pYFahXy2na2dajt3rLW5Do1ps0NjGj1pOkG4esJEGYdGE6xuNNG9UDdago7aXj0QkpWOCMF9OayMcnCCdsVA6DLKgWjQ0awYHBWWx8LKLZzouWxwEnSq57LBadD1WOa6bclcty2ZE13nsHIzp0HXZcl1Ql+4fluS67clOQk6BTqNOabc6Jhyo2PKjU6AToJOMW7Pn57kDJSq6Lg2ww4cx1mOG+93ceK7O3OOk7OcPcepf8TpNzmOneTY29rm2NvQ5tjLfHNispOgU5OdBh3Ltucl6PixjTl+vM86UMfHYMyJyU7yzow4Ndlp3oHxC2Cs3uqAmA45IKYBjN9jHqgTk518k1OTnQYcGOcAxmrEIbFaT3BITG8nOCTONzCmI04C7grGarbzYPw8GCvUOdwhsbo/3qY6g8XqnQ6JcwBjf4YTAFsnu5HLbabzoHPgZWknP43Ap8wKuhvorqBzoJv8Q+IK/rCGuhvorpOdB+tFnQOdnezMZLec4tQst/5n7jbm5Cy3gi7MdmbIiT/untcl+rcr1KF/M+OdG3L8z3V+yPE33kGn/1Z3BS/Mb+Ik52bfYDYnJjv2ght07IU06NgLaT/0wLl10OnJToFOvsmJSW6fBxeY3RVBsLQrgmAk6fIB10fIKHdtxDE6nT5zjThGp7IyGjGLLtt6Kz7RiayMhouHhz6Lf6pIl0r0rVhEl0q0rTH63aUSTd/FLTVj4aLbt7Q2nY1uL+R6iE/p9g36Q3z2TZcTdnUsaidTGUeX2LZ3z7pL9kG9v+JwXfbfdZ1K9deuOBsm0z7q/hVn0kQaYz2Pwn2ksrpuEbGbonJ+aa9XnSOcrJz9olOVM6AjGOx0yVqHXluOPIZcOfJYc7U//1VXfa8DnQUdxarLkmxfdRmRbamcB52jXHVZWtAZ0FGscmRbKkcfbi8dfVi+vG140DnSCax9lTOgI1l526DbV7rOuwGF67xrUDhPO4W1r3QWdAZ0NIOdxto83YFje8n1XiV5xXmaXV5x7h9x9k3O0K6YW4e94npxzl33DSU97rpvRmXO95yCxlv/8kUvCTqBjS13PZY9t7rjyJ6XzAtjWJuzRnvQub6LjbZ9Fxtt+i42sM/Y18/2tTfQM27ByogFG85JaHt7wez2tlsHu71tcjx7bBB9CxH42jv09Ue/AGtZEQ0Tc6sBAAAAAElFTkSuQmCCjekUoQ==",
+                "origin": [
+                    130,
+                    17
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13036577,
+            "classId": 20165,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:20:52.569Z",
+            "updatedAt": "2023-07-05T09:20:52.569Z",
+            "tags": [],
+            "classTitle": "basal cell carcinoma",
+            "bitmap": {
+                "data": "eJwB4gMd/IlQTkcNChoKAAAADUlIRFIAAAFVAAABJAEDAAAApbwwCQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAOKSURBVHic7dpBbuQgEAXQjGaRJUfgKBwNjsZRfASWvYjiUSYZg6n6VfxOrOlI8frJKn4VdOTw9CSftJ+fF8X8e/Jk94rtTPcG6S9hcRG/hd2hfZa2IBuk3ZCNhJ3jtYIQ8e77DVlJYWgy3n1/BVaJF1olMmiVGKBVYoBWobrVQlAtgKrVEkBWWxWwuARptYYhq+wHaPHS5IaLhE2EzYYtkzXobI14xYlmxCs2fbBsI+yNsFPjomWngJNpC2ErYRthb3fbbNpzaCadQvtCW+605vhONVxlzW3xY1VrnL5vz2kmA2GdEl7WX3uyybHDfvMmZ9zzXgnjoeqVMG4Ljw6t8Jo2xus07RSZW+4QWSasR4d43U4MR7W7tCHe5FqihB5vJKxfQm9Fdu1tvdw+ke7gDJH56fbIgkuZGLrNru2R+eUekS3EcEzkQgxHvMG3x/RG3x6tSITNviXi7danr/fYhek97ELbGPtyj10Yh9sj2XCRjb49tlB6AJv/n93usT79sd/d5gewibCRsMxfJQuhdZsJmwgbCeu/eLDur8tg3ReP1ouijdb5zThZpx9nGwhrv3iykbBmxvMX6ERY68WztUZefNk2ihDWKEJ+McdWftE1ihDWKKIQRUiLi6iE3YSN0DZhA7Ty3xc4CNkM5lO8EZq0GVomYBlEhFYGEQiLjx8ZGg5YhsZMpbE/66dCC9AyQcjFGWc2Y8XijNDE4ozQ5OIytLLLEVrmv1RUEIVYnAjN2J4bEYQI2Jg0ZsvJgJlJu2wbMTYTNkG7fcpGaNtFVjaZsQFaORBfYy87poRlhvIqywz7VZY6ea6yGdombHoAGy+yAVrmt/77W7yJZGaMxRtjExYPcCVskTYjKym02l0mZLU7UglYGRkeYCUGOMAKRVa9ngSseqULDJq2NGS1paFBK4TVKLD6jS59gPWbbbrVb8zpdlOtPuyVsEW3WbM6pS7BJcWiy4CabYTdgI3rMVA2rEemDTu8P6nYhqwywBthK7LKUBZklUGDVFrjUm9ejkyxDdu0HJliK7aRsGE9XmHRZnt75uGx7kzPA2HEKwaiGXZuciWsRacmWzHMjTPLnaxJz022Szg3rtr2eb2Ek22O/b1ewskWxw4DYc3Y+9OtNWOz3VzbB6K6Nq2X25vsl9ub7JfbA66+PYIoCzYvzeP7E5djOCZtIYanj5FoS/Tvm5eq/cBzBX8A8D3R9iIjlzEAAAAASUVORK5CYIIxK9n8",
+                "origin": [
+                    97,
+                    0
+                ]
+            }
+        }
+    ]
+}

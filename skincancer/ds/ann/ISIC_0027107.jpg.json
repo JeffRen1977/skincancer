@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13033587,
+            "classId": 20167,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:53:20.294Z",
+            "updatedAt": "2023-07-05T08:53:20.294Z",
+            "tags": [],
+            "classTitle": "dermatofibroma",
+            "bitmap": {
+                "data": "eJwBagSV+4lQTkcNChoKAAAADUlIRFIAAAGsAAABIwEDAAAAVOCn4gAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAQSSURBVHic7dtNcuMgEAVgpbzIUkfgKBwNjsZROAJVs9FCZcaxrV8aeP2U8WpYzxdBv24lHkvDsF+3+8Askz3DbI4MczkxLOeZUF85MzV5sEyw24N5jgU9+36wqGfjg00cIxL4YUQCJlMJ2I8yx7F8gXmt+nqyoGW3J1O3yXdeDvetsWNeF9wrNh+WV21wXQFSXycF3sHGM8Pm56ywZin2iB1OYFByJYMOVzLocK5knmMRYLZkiWNIKQ1XypFj5wHI2MjdSoYEJ3QXEpzEAnA5gUWAuZIhwVlul0Zgqc9GgQGBC3kjyUl5I8lJLPaZkADCpARSn0kJAIFLCQCzIyUAMDIBaXSQriQTIJkVWOKuBgQnlaSfgBhAf3TEgesFJx3sZwVih7mXwFhjqclMjbUTsDXWTqDK2gk4jlVVO7g6Cw0ljuhrRY61Eqg2STuBBmsdrsUSxxq7bLFG4PKIvlfkWD2DNqtuc2yz2q/+Dqtl12OVOTA9FkVme0w+XZfJrdJlclFclyWOiZ3SVfLh+qxssE5DvldREwuxc00ad639OtcE22NxuBFkp8MZkCWO3Tl2mjmLssSxiWPHCBzMIsdmjh1qqWATxzLJAscSxzLJAscSx2aO3Tm2NYqOBY5FjiWOTRxbE1CpLQEdy59lnmPhP/slFjmWODZxbObY/aMsf5aFj7LI3Lloljg2cWzm2LtN7GdYJpnn2KtNjJZFjqUrbNSyiWOvNkE/Gq3rfoU1/4tFXCR7tgn4aXG34gWmvge981azmRrvN7NadudY5kaAZZ4agRdT9/Irb31TkixxTUl213SFOS271JRGyzJ3p8zcLe/VXfq8A5d34BKIV5jRsku/4tSlfDF1Kd9/QJHMccwq2fvvLsOxkWPqGRi44AYuuEvsw5+PnJJ5rk2uMcOxUckC112B667AtUng8l6Y5ZjRsThQCSxMmcDClKVcmLKUaWGOY5ZjhmMjx3QJrEw3AyvTBbcyXXAbcxwzHBs5pkpgY6oENqZKYGOqZt4x8+9Z3NjIMU0p/cY0pRx2y8Hq8HWhhVnaM7y94p7hNQl7htdkOCwHqtOX0RZkpy/oDcjikaGl9EeGlvKo0FIWD1ZgrHhGxUGsePrDQiz9EsMSiL/Eugn8EVk3gec/CAWzbeWfEZXMNMx9+bkla9VkXn6uL1irmZ/NMYqsVZO0bEdgrs7iElGpWqX0y3YEZnrMiaxeyvVDs/T4U7291g/N4lNT1cPNy3bEZ7Sqh5uW7USJVQPvPLrsKky8yLZGjtUi6LBaLUOHVS7nO6ySeEdVMkBefBEuCL3oVF4QeyGuKGeCWFHOCLGix0B23qXH2LkomDpnQL4iCL+8aoj6D+e5iyg7Hs6j7HA5/Qu2z9z1bwHfxD3+BWgL40MpD8oVAAAAAElFTkSuQmCCVp4NbA==",
+                "origin": [
+                    110,
+                    39
+                ]
+            }
+        }
+    ]
+}

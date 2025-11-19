@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13035005,
+            "classId": 20166,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:05:35.246Z",
+            "updatedAt": "2023-07-05T09:05:35.246Z",
+            "tags": [],
+            "classTitle": "benign keratosis-like lesions",
+            "bitmap": {
+                "data": "eJwBHQPi/IlQTkcNChoKAAAADUlIRFIAAAEXAAABCwEDAAAAyQlQdwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAALFSURBVHic7dpLbrMwEAdwIhZZ+gg+io9mS99BehUfpAuOwJIFwk3Cy4/x/EeKhdp+9a70VzOPAkqGrmOW9txv12VHSO5hwtuEBREdQnCYhBkTsNFKwsCQfjMjY9RmuOy3cNigjcBshKviTWB6gdnTCgGHzBXIHqZeoIPUk7+dphpQHxlXMffI+P3PMqwiMySHTqMjM66HTPpjXJ7jYBSgcbSJs1hPb6MDU7ZN2JoYcpNsE8JnWsLV3FPzOFtfGJWZJT0y58V4rX+hMCY3+bZZou8YnrzMrZHpgQlEmSmjBEYLjBEYi4yDqT8NTP1hYOoPo6DxOHWhMQJjBQaSPwPW8GcaGNvIGGhk1w427gcawa1XYpZvZmaZUVeZSfCoFBr4bJplBj4HhQZezD/RTEJjf6EZBblLzHCh8Y2ME9RHakwjoy80Chj/zcwgNPoiM15opgvNLDQKmEXwmVH62VNi4APMyUyzG5BtYAbBjUP6z6oaGdRUiZkETZ0ETZ0FX5SIjf2lxjQy+kKj/k+zSA24wC434GKeWxpwU2hl1rGCxFiBMW+bdaqgBUa9bdYv6PnGjx1umBcY1+FmrIZvRofNPimyAmMYsw949JtmHyYpgeGasRuu0ONmuEIPHU7edzho1+GAumNVSTTYqwYUzdqqAY2nqQY0nKZaIX+a6r+Qi0wt6NjUgo5ItfWxqSSWzEYriaXzU9qkI01LmnQ0agRGk2ZMjCLNkBg6+dTQyfvE0Im51JBBp4QOOjNk0JmhulGMu4mgC0MEVJh+KXYiJtlF+sREvDgbYYr0x9IUPRtKU5TIEyZPzBEmv8oIkgdNvnmQBU2/DJAGRL9UYFB5nksvffjgypNn5+vmiIohe//ZN1cUl9a2ehjyUUrPmS1oxxpT7da5FExrq+LImxtMq1uDdsAY0InnUjCtV6XxS0045Ef256m+APkVZShbnDAZAAAAAElFTkSuQmCC70FpLQ==",
+                "origin": [
+                    147,
+                    88
+                ]
+            }
+        }
+    ]
+}

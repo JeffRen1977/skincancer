@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13038255,
+            "classId": 20164,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:35:39.560Z",
+            "updatedAt": "2023-07-05T09:35:39.560Z",
+            "tags": [],
+            "classTitle": "actinic keratoses",
+            "bitmap": {
+                "data": "eJwBcAKP/YlQTkcNChoKAAAADUlIRFIAAADdAAAAxwEDAAAAp0fEpAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAIYSURBVHic7dhNcoMwDAVgmC5YcgSO4qPB0XwUH8HLLBjcBPCvnl5Spmk38bLfGEuyGoy7To7Rgz+eYwhBtT6EYDWc7ujIxHDTV7yPBaPZ0ZOJYYM4HoiTOQ0m00dEiw4RUTJTxBXgHBGFG9Ig8aAaDRllLnNGkUsxUeZiCmxz+SpM5FJOFOHOFdbh9oHgUGOdy8iwjqdJtI6nTvQrEDQE24lViWaCfWsliqeWjdKGU6FYstgWuWSBA0CrFL3GCaAjwWYEwWYElnebIUoztQKobEZUA47re3FEuL0Hw3Vc/g8niPYyOr1tE0I7ETZfRNh8EUeMnjz1QGXigUbBm57IgdqSO8KmjajFs6MWz44zQTWeByqFfQHVTB44MpwYmss4M1TtGerV4+hJ9e59q1ePoyWl5bhwnD74wfB4Xb0Dt8u4Pvm90NEztE/QqMh+ijf2U7wy9Awdw4VhR3B79iJT0TN0l9EyXBiSw8V5dFNwZXhj6Bm6y2gZLpeRHb8obi/g/Jd4HvDNL+P5rTL9HI9GUF6uFI9GUN72RyMoh4hjr5XjR0dwY5i+zhF6hi7irAcLMX+5A8y3BYbEg9AxtAxTsGC3i2sGifmpcrdzOHK3fadjfQtT71l726QuKIprG6yqsBAU93FlFcRNXlmFNp4q0dbKXMD9YM7FS8zhtlmWEaEryUGfl/4LRRr76FHd0sBxpueiC9Cu+wYQCpqwQ8Or6AAAAABJRU5ErkJggresHMI=",
+                "origin": [
+                    203,
+                    116
+                ]
+            }
+        }
+    ]
+}

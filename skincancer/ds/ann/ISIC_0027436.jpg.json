@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13039174,
+            "classId": 20168,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:43:12.069Z",
+            "updatedAt": "2023-07-05T09:43:12.069Z",
+            "tags": [],
+            "classTitle": "melanoma",
+            "bitmap": {
+                "data": "eJwBQQW++olQTkcNChoKAAAADUlIRFIAAAF9AAABhgEDAAAAreLDyAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAATpSURBVHic7dxLbtswEAZgGVlkySPwJuXNSh6NRyHQC3CphWC2jhxHIuf1u5ZjoNWymK/SPCgr0GOaxs23RPwrv51aO0Mgtgbt4v1PfCv2eHeJbzN2QEgSb23dKnZErS1W0D63jO3gsmE7MO7jbQuqAYQtMPTCb+MthYo7oDfv1PabCt47kDQQOpCxFHTQp6ACh4I+BXXZ9fEaeBtAlUHfBRUMOWvTN+SszQYBigjiCOQkxng5ibGqyhIaq6osIY8CIme5rlS8tOaonMUBp3IWGxFIIDSCjBfKNKxnrUx0CkKZHAo8AzIH6CIJKyKigIlnO8dVle0cPUn3AG7NcX3DATdMLOCGiQeJBo4FGQUFBZUGngVM53jANCKwgGkED5hGRB4kFGQS8PE4KCioVDy7QjnALjgO8NPNzIZDgRcAOUxBAOQwCfHkMElVJYdJqio5G1JVydlwIqgoIBrhRUA0QgZEI2RANCLIIA0gyiD38XKjCSA3muic3Giic04BQ+e8AoZGBAUMjYga6LNWQZ+1Cvqstfh+XrVGD2XSQVcmbTJaP68GkHfA6WBfV6+DfV2DDhYU7MsUDWBXJkP8LmtD3/bHZGhD2024bQ8zCjbNNoKvNMxgRkGDQUJBQcGMggUFZxQ0GKTDQT4clMNBPRzMrweWw8H5cNBeEKTnANsPyrrl5wDtInQADgX+cBBQEFEAxOMgoYcEgwmt0gT24fx6YHlVEFAQXwmc7wP2eBy0+0B8JXBnWcPhwB8O3CuB5XAwPwkAP+x3AuBaY7kPwBe6wFngCqIZXP/yC8eBBoOMgnr4ol6vThCQUVDABbFmjVzpzuC4rtOE/D3QYJBRUFBQ0d/RGQULCs4oaDBI4E87DjK2RlfgEVDABfEBkAXxMRvIgsDBjI7rPwvwNRpREFDgUQCfjg89f98HkM49CSCzUcErIPzqYQVA5yp6GVfQy7j1kgk4W6YJTOIK7NM0TVjWt/uREQXeCG638qxZ3+5pWbOun8A64TAoKMgoSJ/A2rlbvLVzKNjcqQ4msPwF8CYwo6Cih1RQkFHw1WhjDhtgWxBf8bbp2z2SEA1gd3M+GMDu9r83gLoFzgDKFljKlLfgFHWQtsBSpl28oUzdkyEOBfrpFX72pH+mJ6LAa6B/3suhQM26f6RHHY7aAbVMBQW5A+opP/UgPhr08dq8jo/dKWB8sM/JYHx0UAF1AMpsDEXSwBAvD9PycwTibFCPrYpgTHmSh6k8BET0kAIKvAAe83CveyQgnwaWhokE4jBRQJwNCoitJkFEQUCB5+PpJ/bdAwH9EoHQCOY1BR5UGkQm/Bf3qkXg/n/uZQ6PHRBfJhZwA85kwNeVBVxdmZT5JBILmDXExjPHJL27FylQBRBQ4ClQBEC2TgJk1lkC1DElCVDHJMVTrZNfKiaA/NryI4D8Luu3gHo4KN8MiHHNDwZxAEkGYQBy/Ai0V+Y9ClwPtLf4hzWqfSdgOOX/B98ChhVUFTAsiKKBuAtffmjx3fhZvv6xA2oGPSgoyChIIDB9wGS75kyfI9kOh+mbKtvhKBYwgTvYnsts8V9lsn6B5VamagS3MmUjuJUpGcEE5nwrE/B1ngDlPH3+SBQ7OEFFumwwiFBVp2vWQPxH1uZv+Vw2h4J3+2JYtzesb2sjCgIu+0gYOEFVvWzkrP4Gt4OVdiKCcNQAAAAASUVORK5CYIJi4UoM",
+                "origin": [
+                    97,
+                    33
+                ]
+            }
+        }
+    ]
+}

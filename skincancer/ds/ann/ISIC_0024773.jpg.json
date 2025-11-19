@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13041936,
+            "classId": 20166,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T10:06:56.601Z",
+            "updatedAt": "2023-07-05T10:06:56.601Z",
+            "tags": [],
+            "classTitle": "benign keratosis-like lesions",
+            "bitmap": {
+                "data": "eJwBcQWO+olQTkcNChoKAAAADUlIRFIAAAIaAAABYwEDAAAAQbIw8QAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAUZSURBVHic7dxBbuM2FAZguQbqTVHOMjteoQcoyh5ljpBldxTQxVyL6CbX0A2qoBsvDKu2Exu2yUe9//l3rAjhYhCM5C/keyRFORKbBirDsayxz50Xd0KGzowEM/J0+ikOZiSkd+G/M2PYOoDwh480zXK4Lq3aWByz4TNEX5FV9tlj2aCtKRW9cZEQK7IQDQ6S9se/aZA8sadyGD1PY4AGiZ0CkTM8bA+HNaOZgrgqsnaqzl9Bhh9uE96TZEfeSjeO+HkhYRTZjiOjhgKp9PpTGUWcBvljBPEaJI4gQYG0Yw1SGEMaQTRx3SFtFalMBGpk+a8G6eqIqiJDX0ccAwkqpD65qXIzhuhaM4JEBqI1aog6JDXEMRDPQAIDURsVpLK8+WBEN4RHEMdAAgPRGzKi7/QVxDGQSECAXiIjSGtExDOQQECgkEhLWcdAAgOBDAEBpgEZcQQEy42AgBUpI34ySCAgaFyLiCcgyOwqIo6BeAYSGQhsFBA4wSXEM5DAQCIDwY0cMcQ1v+7gnf5eCDjRlxE3L8QzkMBAogG5Nj45QolJhhiM+yCWQZwhkYBYJoIM8QzEZFwhprBeI56B2IxLxHLNyRBbgq8Qx0DCZBCjcYEYu9olYk3OBeIYSJgXEq0Io5tsGMiajVhnk6FnIMN0kHaKiHk6mRuSJlOTM8Q8T88NSeSaOAbi54UEBhIfh/x9iZiM7b5n3Ia8vvTN6vzvxZZ5OjV/NstzxDKd7AfNoj+7eFmGzmHk9WdPODgr0oXbOmxqrgoFCQwkzgsxGBykvQdiWidRkOvWWAZx9rCUBckezbNOJ7ci+ROlFMQwsX0hecmf4DQgHQEpPCHovhACUngmwYAkBpL3ky9kZkg+nxiQvN8bkPyPQxYkzQtp7xJYy03GfRDLIidDLEvQHImPQQrXDBwpvNeBIz0DaQlI6eUDGCm9GAUjhZDgSHcvBDWKTzuiRik58CguIQ5FShn2KJJuTs7211AwwLj2P5cM8I62lF4wOZufigY22XdlA8uwhAQCAlWkOAk0aC+5IwKOvnJMAgOJDAQzJoQkBtKWDPSbrWJFPi9CiUkRQS9cRQRdCBcRByLFwD4CKb8piiHrZwLSFw1wRZDKSEAM6d1ZCJHe62cg2NAR3hnHer2AYOOvZyAdIyaJgZQNDJH6GoRIfQ1KsbS1gGMgHkF6AYkE5AEdVkK2gYBsCMhqjSDiFhSRgSA1EbdO+XCE0pxPgEQGAhgiAk2PFKQXEGiOlRA/GQQxOJdiAQkQkgghkd4lxhZKM0PKBriynzxCiQkDcS8ExEOGhGwiAwmfEhFW5R5ast0TQQgRiRAiLJQgg4MI1/MHID0D6RhIKiMRQloCMp0vT6RlHwWJCNIzatIxkDR5JH440jIQwfh4RNz4D0E6BiIZCJIYSCsiQW1U9lN0aqSy16v+K6VeRvQ3XnJIgKBUDHV7qtvfattT3RVVi/Q1RHs1TlUkqoyRrTt1yMhGsZfIckiG1hw7Su/3/24WqflraMPwCrXmHXnplqdf+G13A9NdImObJL/der20h1y3b//nh+b5oplje+fua/DkfzTN9pdwrLXbNt9R5J/DD9+b5njuat+sc6QbR9rjz7+dH3gK6orsECn0Tpvg/amtdOiEiGcci5dPCdrW7M4UkeONd3cLstC2ZoekyjFdRarISlmRXWBl5G0CHjd2Ke7EY7ugvGr2I25cLYG7fqbbtP259huAjdLl8rvinP8Bg9Q6wLDgw3kAAAAASUVORK5CYILEgk+R",
+                "origin": [
+                    60,
+                    2
+                ]
+            }
+        }
+    ]
+}

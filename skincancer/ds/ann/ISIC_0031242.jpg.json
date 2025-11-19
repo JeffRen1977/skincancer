@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13039087,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:42:28.134Z",
+            "updatedAt": "2023-07-05T09:42:28.134Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBJwPY/IlQTkcNChoKAAAADUlIRFIAAAEPAAAA5QEDAAAAd0ngLQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAALPSURBVHiczdlLjusgEAXQRBlkyBJYipcGS2MpLIGhB5Z5z3FsPvW5bjWymmHrKFQVZTeGx4MZU+D+Wg+TswfE5Zx08co5rzqZ/pOsR7MJfab3hyxwHj2nXWjBvL5ECcZ8yQxDyVkUz0PIwbxPEuE8YjBlHnGZTCFSvFNFPCteleBTetaCT8k1JIFYhaxbwbXMuyNMYVxHaGGmXpDCPIkghSHTkMJYKvrCMKIrTJ/wZ7SFoenkrjBMOj15YWJY0pSXDaUtr4OEj7ZZAT7ahrCFa4mQUL2OFpNJIOlHxAmk6gZBVESqXNUwUuWukNINUnErYiRSGsZiMmHiROJR5QoRcy4NI+ZciJHJ0TAWk0kmR8PI4iBiK+SzYZSEDmIwsQpZMFlhzgdxCsmXiSa+3fBbElD9R5EIOvcaSX+IzHeRZQhZh5CMHsa8t93vSRhC4hCSMJmvEaOTBZMVk3yBeP1Vt42gv+q2ETFJmMyXiANkwWQdQvIY4u8i4S4S9f8140gaRBwi811kuY9M95D1CrF/hizwjTmIzENIQv9sLpGISUAbgu0VBAncVmzvXX0D+XnBIzJjEtGWeN+dAAI31vuWzKkkYRIwwV8TMyYBftlk/PEzYxIx8ZAcH+4WhqKRgMkDkgWTGZOIiT+IkcSFE49y+iI+jukk4oMUTiI+Ar4QJ5AipKWuD/QsJoYn9fmjUJj6FFMoTKqIUJiaCIWJNXEsCTWZWFILvjDtSbPhSHssy2bdJMRn3RI269gSLqXQEi5e3xJuIVvBptQRJl5yRu8IISf9lhByX0DjTT2h8cae0HgDISReT0gfL3MvYVDONCUaLUmJhtJ3FXu9BOfpu4oTbUr8BV+TknDTVZPEkzqYwJN6Jl7UM4kXn2Um8cbS6oXbRqmMl8gbhlIWW748PRc7ieQBQzmzVu5Fj6yVH/lmrd70vrQl3McT/sineNxv/ANmlE8p5AYVEQAAAABJRU5ErkJggoAVYvQ=",
+                "origin": [
+                    190,
+                    153
+                ]
+            }
+        }
+    ]
+}

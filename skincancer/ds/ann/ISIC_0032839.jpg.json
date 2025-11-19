@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13036354,
+            "classId": 20170,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:18:34.844Z",
+            "updatedAt": "2023-07-05T09:18:34.844Z",
+            "tags": [],
+            "classTitle": "vascular lesions",
+            "bitmap": {
+                "data": "eJwBogJd/YlQTkcNChoKAAAADUlIRFIAAADbAAAA3wEDAAAARdw0FQAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAJKSURBVHic1dlNbuQgEAVgR73oJUfgKFwsGnw0pFyEI3jphWUm3W7jon5eRlhWZ1hF+hRTr0CyoYfhGH+GkAZj3MtXKZOBsXyPWTf/sLKodntaWYGVYk74GCP4x5IkuopKub6iUlGoqExKMNvFapMeJif9ICgmvVHkkzY4MbxT5AvTIJ/UNcie6xtcEbKVCS1OCBeE7V6JDEeEqRszRWZtFo50N3wgvHGkXbhzpK13HGmLPMIgkPQvCiQtEkZaJGLSFomYtAsiJu2CTEK6IIslQRWrQZVijyxKsUcWpdgji9Nwz6IkObIEhFHDPahqe1Adkx1z74Iac++C03FGuNg92IMGHQvE0W7QD5jsBp3BbG2vx5gQzvaibP0zcUVY7OUszxZ1YurGjHC6DF0fzm/A5Qx6E9dfiOEajP8PljNoG8bxDdhf7UXYHyVdhbETM8ZwDfrfhu4NaL90rsIE3van0Pw2eb7R+zEiDAg9QocQfpzYXUjgC+0c2i16B47g0/gEoi/uflzREQDiAo4dGGdwmtkOQtYOywgTOHttBxZjE63oSPc6gUa7WKtF23nP6MIL9SxpQz3LOIByX6aXu6NWbj36a+XWSwOHUMtS7yK0LBW1dZl21ILmihFhkJgqeoljRYdQCVpNC/qPKLtAb6UgRo70sitwnBFOBD3HTNBxTARFUGIiaHvvCYoVQacGWZaxwbZcdoXbrmhusS23fWpbkbiNphVNHGlFiSNpoHLrbpdDw+g/IOgh22mVp9aS9ac+R9R+Pqjjk/z9F5D9ZNf+A9D/AAAAAElFTkSuQmCC+o8qJw==",
+                "origin": [
+                    170,
+                    96
+                ]
+            }
+        }
+    ]
+}

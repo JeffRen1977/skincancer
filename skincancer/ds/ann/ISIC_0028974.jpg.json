@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13034106,
+            "classId": 20169,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T08:57:35.896Z",
+            "updatedAt": "2023-07-05T08:57:35.896Z",
+            "tags": [],
+            "classTitle": "melanocytic nevi",
+            "bitmap": {
+                "data": "eJwBOgTF+4lQTkcNChoKAAAADUlIRFIAAAEkAAABdAEDAAAAsLnWWAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAPiSURBVHic7dtPcqwgEAbwSWUxS47AUTgaHI2jcASWLixJMjMqf7qbz0h8efWey9SvBL5u0Vjj7dYeOk3EX6vjPaXkusp8qrmr0uuIErqvKklKb0pag00JOFuGUuDQe67YMe+5WvqTT0K6plDcxGyhuIkViKvUW6mY6b+Xisn1Xil6kapSnlS6UoFUplKRVLZSdGAJUXUQdKx1ELSqg6BVHQSt6iDoQtZB0IVsEKWaIMhyN0GQqlki2RTNEsmmaBHRFG+EastNLJGIlVgisUhFqWaRRBDEIokgiK6wlGqGJFGdGBVXOySjquahQv06ysTIUJvpY0oxKkCqjEIzqmwew6gyMAspBlWNyKl0XHFlLEvEqzx8rtioykvEFfs7Sl2u9EkVM2UGKjtQsQhUWRJ8e/2U4pvwuOKbEFT+cuV2pa5RWUvok2q5XM2Xq+kfUDFT5pcqO1Cx6KeUsBX+BepXbdGZUpDSA5U5q/yu7OWKR6ByA9WOhCZcBqr5qBIaGlPTf/U64kAVLlf+cuV2hT07nla336mWgWqGVP7EpFgVIeUh5SCVIf5mtUCqeNFhODVBKuTKIpPnbgq+QKdeas3fUUxLVEpBSkPKQMqeUcvlKl2vHJJq1V+cCpCKkPrOy0l9Si2QSphykAqQipCaIYVthUW9DasipGZI5ROzvMpy5RH4RL6nLzzTZkp45siiEO7amdKQMoiSJr8rafL7xSZNa1cWUVIOuxIH3JQ44KZEtCoxrU2JaW1KXuLa+ApSGlIGUnagktGfU1ZWy+UqQRUClUN64qXUQNXpaFB55Bo6pDpX7VAVDqhes8YjyspqGqhGbhQL1NIj1aGLaIzyB5QdogKkItJfQ9WEq9419GwwTPX2CVAtyP71VApSGlIWUj30UN24HpdHN4iHUpDSkDKQsl20wKo/IKyAUBco1Hms6nbqQ6lr1QS1BKxMX0WkJb52TEB5SDmkcdLAJpwhNUEqQipAykPKobtXX0VIeUhBt6oZUtjtGHqYwB5yXg9yWlbPe3bvqg2Qej6X9PacJ+rsXzOk1n/c5d33NflOifyqjKTcqrSA9heB0sSyF5TCkH5XfBblm0fubOGGMFcqupjND4JJ1fy4mIwj1Iq8SFyjNDAtcv7ET8mJiVE/hG+HbCdPnYxS7clI1TBPqro3HKnqMjHKlopGVf9wX4CU0+c+nCmrxH3aUS4yQiowqiySgxSDyljZT2EKxX9BlIfPTb5U3OSLEnkWZUr6wEgD42V3CPF7qztyqq2QQUJbicRTreH3Ptx6xho7yvQSfRxa7obXcUcGfEy//9HZ15Chrz5XSf31A6Yjuh5DjzYdAAAAAElFTkSuQmCCYMP+Wg==",
+                "origin": [
+                    108,
+                    12
+                ]
+            }
+        }
+    ]
+}

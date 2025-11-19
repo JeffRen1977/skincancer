@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13034655,
+            "classId": 20168,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:02:39.994Z",
+            "updatedAt": "2023-07-05T09:02:39.994Z",
+            "tags": [],
+            "classTitle": "melanoma",
+            "bitmap": {
+                "data": "eJwBEAXv+olQTkcNChoKAAAADUlIRFIAAAGzAAABfwEDAAAA+Qm1CwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAS4SURBVHic7dxBktsgEAVQT2XhJUfQUTga7HItjsIRWHqhEolt2ZZEI35/K0w5NWxTr0b072ZqHKPTqbZ+5TxW/3FnuZxz1LOvvyxf9O58ddmrnb05/Q7dzeWgZF93lpPSmdlpH9TOLivdgyk3+PV0UeXOT6eL3jzdpHLPsuge9PWYqiS+8nJ52JmVwx/Urhz8oOvHxKM/bxwa4bBxaIRu48CK/toysKLb7aHDu90eWphie1iC2/TQgpbbww6LcntYEAJDOk3YHhSgkVxqO0s6iQHBi9sDgpfSQ9wgunYQYlmAwjjZtR5ULktudmg56/Py+87UXNx3lbI0k6+x2wbP1fmtluW2QVeNsVqWa4Lneoxyl93WeNrZpam7/DvX4x923HXVCtNytbaxLedl51ouyK7FKu22E/uu24l9Xkl0O7HvOtN0csMMpLNNJzea41w7BrlB2zHIzrSd2NgD6RzgvOAAJjmgLOIgGdJZ0jnERa4sgoPKIrj20F5X4sopuIF0DnLlwEOsdFg5S2dIZzFXHDCOc8CZJDqwLMXBhHVZ6QbSWdI50G0PQpRtHBrDUQ6N7yiHxn6UM7Dzh7gBdmHlLOkc7OIhDmbrAxtvl7UzuFsdoI5z+BStD0LF9lbOKNzyYBoUbjkQlnRO4zzpAtNlK6eJb9nYmviWDj+UruvV2IZ0g8q9Gtup3KtBVezldDG8GlsXw8vpYng1tunkHgMxdHKPgbCkc0oXSfdobCV7NjbplO3Ju5Fqa95N3DjQLnPjwDvf2QXSRWpsHwOhdxfSjZ3d9C3Oks6pXaaOpdmpj5fZqY+JfB8I1umPibszhAtU7O85S7j4hnMf4gj2MS79OHF9Sn7/u+ud+6WzG0k3kS73dp50obOL3O8H2qUPcZfPcZZx44e4qb8berrc23nama4u/DhxxY9xzN+NP+54x/zdz7tAPmdv5zs77nMU2k2d3Ui6C++o/kydXezsAul8Z0d+Hsm6iXQj6S6kS6SLpAtvfC7Mfn7NOuIP3OlbnOvsbDfH/j/Q/f+rTDeXbk7/iyXenH4gwolrbE+604lr0Nk50lklm0j3+GLJQDqjdBfSpdlpGy2SLsxO26CedDOjv9+jdG9/D0np2O9LsS697azKxacbVC48nVE5T7onUw4E6Rbfq1QNxAFONRCsG993qkFi3eUA5xQuHeCswsUD3KBwgXR+4UwHt2CawV3d01AM4HiEUwzShXTLNtMMRFw5B7uwchZ2fuUG2J04t7l+ZFC3uV4FN1ok3bqceKN50q0Z3Gjb207/2hW31UBX3I4DXdo6h7lIukA6v3UWc1sGuvJW8gC58jIl5ooYQFfEAA58EQPoihgwJ1y6hg4K4TI65Mqy0HegocEtGTSA4t1313ZJcrbthO1BjSYxIAj5VQLtIKLodoO4PYwX3V4Q6VTd3m4Q4VrtVHG2yqbbuFQecyeI60+qv+fEVF3tJ91XNcDGS42qATbexFINMO67aoD726sG2Hxnk6W2Vw0wtVwliNBylYL6lqsUpsnkDQKvzjJUOSudFtpO6hjozWBlYZCfJnQM+Ea4oqAYo98Htyko/ka/1fPZBDurqcZiGdXTvdZ1g4lwJ7z2fwD+w8/rRpA7DQAAAABJRU5ErkJggnIrjqI=",
+                "origin": [
+                    120,
+                    19
+                ]
+            }
+        }
+    ]
+}

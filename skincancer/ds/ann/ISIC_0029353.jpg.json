@@ -1,0 +1,28 @@
+{
+    "description": "",
+    "tags": [],
+    "size": {
+        "height": 450,
+        "width": 600
+    },
+    "objects": [
+        {
+            "id": 13037875,
+            "classId": 20168,
+            "description": "",
+            "geometryType": "bitmap",
+            "labelerLogin": "iw@datasetninja.com",
+            "createdAt": "2023-07-05T09:32:18.053Z",
+            "updatedAt": "2023-07-05T09:32:18.053Z",
+            "tags": [],
+            "classTitle": "melanoma",
+            "bitmap": {
+                "data": "eJwBuARH+4lQTkcNChoKAAAADUlIRFIAAAHRAAABYAEDAAAA3pvRCAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAARgSURBVHic7dxJlpswEAZg+/XCSx2Bo+hKuYF0NB2FI7BkwYN4YBC4JFXVT0w7tlaxX38B1SARO63TiRxDR79fHma4jlpn3c0OXkMvw2No7EiHXk7tZIcgpeeZysNl1vYytLd3eROo1na4p/p2M03Z2pW9POwPL2nDytqHvbCmf17bMVX3ILQl+7Oy59HeJ1Ks8bX9edgzr1YukQ2PV/ObvmDNsw1T3hS2GRurWKNrG8++nKQqY0tJiq3f2FKScra0GqzteW09YGuJPa1tIVhZWwhWbIPQ2tX0NvMtdENsm22Okklyt783bqPrS7OxnqbbHyNHwnJowm5nRo9A2gqwDrAsShf0ueySlhcq2l7K7kjbUNYAtnpDaz/Muje0PEpaZuuTltn6u1tm+5LWMC21eVeAtYBlUmrj54aZ2vi5YaY2fse2Xhvl4XkjZM92eC4OI7DbYFmB3e5ITmI3oZbR1Zy5fT+PHrADYpckS9L7GC1gO8D2gF06gt+Au9j6IDtXpXmtbQ+yHWD7g+xwlPVvbBW98LFWsU7OdYVY+X4U7WZyumwM7iBrxXbZCCuxXTZgA1h5YTWzlSd4sfJAh8VaqfWLrQBrpHah8kBHVtyFkRV3UmzdQdYCthLaKL/iBO9lpcUR9YK4OBBbv7mVxrnZyZoX2vogGwDrD7KnnaywNvrfYIV91O1lhU8NiF1/4ve1/5vtfoMV1iTSg4hF1itojQ2RrYS2Bmx801ZqO8BGeVLYec5OYRvAtoCdwqWgkO1VLYjb4R2t/9qvzVpVD+5h3astsNZN1gK2Aqx5sZ02M81H0JPVFOUeVpPgbg9r5fao78xmi3y/qPieYLaKBM9WserUs3WAtYA1Yhtmi3zJLw/WO1r/tR9i5b1wlD19lkX+QxNiu4NsC9jmIFsDNgDWA/a0j5U+rPQ7WekDVvwxoxHaFrBRWYn/pTLZcy9/RKqVqY2s+Jq34VWZja3qsmNJqmgP3HKnKsbHaFUFFVurso0+VGNp6Gz4MOth6wBrX26BVWPQLZC49UAPeqD3ERuA9SoA6ySyLSB23AZVE26BbXB6ZLAKOz2qVJoLj1ZVHR6YcAAmPFmjsGNxqDI8FoeqpGeriPTyTCi3y7OoE9vlGdjcX11j5rlxI39rmjt3ynKrjLLcKvPAhQNlmRemrWHZmrS8NNGWV2UNbR1gLccmjhAwHJs4BoAVrNQRAo5hU0cIcEorefwAo5nSRxdYwDLClbSMC6dtOVxpWw6Xz+DSXeds6a5ztlTWIWcLd523+XDlbf6uCzYbroLNrlwl697Q2n9kfcHmIl226QWkSDP1wbCpquYdjkUHjHeYmCFtw7L0jAPL0jfteZa8aR4lI80+d42wxbOwpkFMuOFa4sKBbZ+j5dn2qSMkx7VtQy063m5TXI3EbrDMPp3YJBuqMI8jypSURsu14kS9OVOaEwitMsy3MdVXUNjpwho6VkitsvcCYff9dgD0WiBebU9/5j/9BYlvlr/LYUBBAAAAAElFTkSuQmCCmpRQEQ==",
+                "origin": [
+                    29,
+                    92
+                ]
+            }
+        }
+    ]
+}
