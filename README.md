@@ -23,6 +23,19 @@ The project uses the HAM10000 skin cancer dataset with 7 classes:
 6. Melanoma
 7. Vascular lesions
 
+### Downloading the HAM10000 dataset
+
+1. Visit the Dataset Ninja page for HAM10000: https://datasetninja.com/skin-cancer-ham10000  
+2. Click **Download** to grab the dataset in Supervisely format (≈2.6 GB) or use the `dataset-tools` helper:
+   ```bash
+   pip install --upgrade dataset-tools
+   python - <<'PY'
+   import dataset_tools as dtools
+   dtools.download(dataset='Skin Cancer: HAM10000', dst_dir='~/dataset-ninja/')
+   PY
+   ```
+3. Extract the archive so that the raw images and annotations are available locally, then run `python3 organize_data.py` (next section) to arrange them into the structure expected by this project.
+
 ## Installation
 
 Install required dependencies:
