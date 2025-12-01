@@ -1,2 +1,18 @@
 skincancer/
 checkpoints_*/
+
+# Ignore all non-Python files
+*.pth
+*.png
+*.jpg
+*.jpeg
+*.json
+*.md
+*.txt
+.DS_Store
+
+# But allow Python files and essential project files
+!*.py
+!.gitignore
+!README.md
+!requirements.txt
