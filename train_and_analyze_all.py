@@ -63,22 +63,34 @@ def main():
             run([sys.executable, "train_skincancer.py"], "Training EfficientNet (train_skincancer.py)")
 
     # -------------------------------------------------------------------------
-    # Analysis: run analyze_class_accuracy on each model
+    # Analysis: first_cnn uses built-in --analyze; others use analyze_class_accuracy.py
     # -------------------------------------------------------------------------
     if not args.skip_analysis:
+        # First CNN: built-in analyze in first_cnn_torch.py
+        first_cnn_path = root / "saves/first_cnn_model.pth"
+        if first_cnn_path.exists():
+            run(
+                [sys.executable, "first_cnn_torch.py", "--analyze",
+                 "--model", "saves/first_cnn_model.pth",
+                 "--data_dir", "skincancer/organized",
+                 "--max_images", str(args.max_images),
+                 "--output", "saves/class_accuracy_first_cnn.png"],
+                "Analyzing first_cnn (first_cnn_torch.py --analyze)"
+            )
+        else:
+            print("\nSkipping analysis for first_cnn: saves/first_cnn_model.pth not found")
+
+        # Other custom CNNs + EfficientNet: use analyze_class_accuracy.py
         analyze_cmd = [
             sys.executable, "analyze_class_accuracy.py",
             "--data_dir", "skincancer/organized",
             "--max_images", str(args.max_images),
         ]
-
         models = [
-            ("saves/first_cnn_model.pth", "first_cnn", "saves/class_accuracy_first_cnn.png"),
             ("saves/second_cnn_model.pth", "second_cnn", "saves/class_accuracy_second_cnn.png"),
             ("saves/image_cnn_model.pth", "image_cnn", "saves/class_accuracy_image_cnn.png"),
             ("saves/image2_cnn_model.pth", "image2_cnn", "saves/class_accuracy_image2_cnn.png"),
         ]
-
         for model_path, model_type, output_path in models:
             path = root / model_path
             if not path.exists():
