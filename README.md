@@ -140,7 +140,32 @@ This script will:
 - Copy images to `skincancer/organized/` organized by class folders
 - Print a summary of images organized per class
 
-3. **Train the model**:
+3. **Run the custom CNN homework script** (`first_cnn_torch.py`):
+
+   **Prerequisites**
+   - Same dataset layout as above: run `organize_data.py` first so that `skincancer/organized/` exists with one folder per class (e.g. `actinic_keratoses/`, `melanoma/`, etc.).
+   - The script expects image data in a folder whose subfolders are class names. By default it uses `skincancer`; to use the organized data, set `IMAGES_PATH` in the script to `pathlib.Path("skincancer/organized")`.
+   - Create a `saves` directory so the script can write code snapshots and (when the training block is implemented) models and printouts:
+     ```bash
+     mkdir -p saves
+     ```
+   - Install dependencies (including OpenCV for image loading):
+     ```bash
+     pip3 install -r requirements.txt
+     pip3 install opencv-python
+     ```
+
+   **Run from the project folder**
+   ```bash
+   cd Jasmine
+   python3 first_cnn_torch.py
+   ```
+
+   **Notes**
+   - The script uses device `'mps'` (Apple Silicon GPU). On a Mac without MPS or on Windows/Linux, change `.to('mps')` to `.to('cuda')` if you have a CUDA GPU, or `.to('cpu')` otherwise.
+   - The script currently calls `quit()` before the training loop, so it only loads data, builds the model, and exits. Remove or comment out the `quit()` line when you are ready to run a full training loop.
+
+4. **Train the model** (transfer learning with EfficientNet):
 ```bash
 python3 train_skincancer.py
 ```
@@ -152,10 +177,28 @@ This will:
 - Generate training history plots
 - Save final models
 
-4. **Run inference** on a new image:
+5. **Run inference** on a new image:
 ```bash
 python3 inference.py --model skincancer_model_adam.pth --image path/to/image.jpg
 ```
+
+6. **Analyze class-wise accuracy** (one image at a time):
+```bash
+python3 analyze_class_accuracy.py --model skincancer_model_adam.pth --data_dir skincancer/organized --max_images 50
+```
+
+This script will:
+- Test images from each class one at a time
+- Display each image with prediction results
+- Calculate per-class accuracy
+- Show which classes are more accurate or less accurate
+- Generate a visualization comparing class accuracies
+- Save results to `class_accuracy_analysis.png`
+
+Options:
+- `--max_images N`: Maximum number of images to test per class (default: 50)
+- `--no_display`: Skip displaying images during analysis (faster)
+- `--device`: Specify device (cpu, cuda, mps, or auto)
 
 ## Output Files
 

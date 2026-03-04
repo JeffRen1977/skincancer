@@ -1,5 +1,6 @@
 skincancer/
 checkpoints_*/
+saves/
 
 # Ignore all non-Python files
 *.pth
