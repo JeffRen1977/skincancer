@@ -7,6 +7,7 @@ Data is expected in a root folder with one subfolder per class (e.g. skincancer/
 """
 
 import torch
+import torch.nn.functional as F
 import pathlib
 import cv2
 import time
@@ -20,7 +21,7 @@ import matplotlib.pyplot as plt
 INPUT_SHAPE = (3, 256, 256)   # (channels, height, width) — PyTorch uses channels-first
 IMAGES_PATH = pathlib.Path("skincancer/organized")  # One subfolder per class (from organize_data.py)
 BATCH_SIZE = 32               # Number of samples per training step
-NUM_EPOCHS = 30               # More epochs needed for imbalanced data
+NUM_EPOCHS = 50               # More epochs for imbalanced 7-class data
 LEARNING_RATE = 1e-3           # Step size for optimizer
 TIME_STAMP = time.strftime("%Y_%m_%de_%H_%M")  # Used for unique save filenames
 
@@ -223,9 +224,11 @@ def get_dataloaders(
         idx = int(label.item()) if label.dim() == 0 else int(label[0].item())
         sample_weights.append(1.0 / max(1, train_class_counts[idx]))
     sampler = torch.utils.data.WeightedRandomSampler(
-        weights=sample_weights, num_samples=len(sample_weights), replacement=True
+        weights=sample_weights,
+        num_samples=4 * len(sample_weights),  # 4x oversampling: minority classes seen much more often
+        replacement=True
     )
-    print("Using WeightedRandomSampler to oversample minority classes")
+    print("Using WeightedRandomSampler to oversample minority classes (4x)")
     train = torch.utils.data.DataLoader(train_set, batch_size=batch_size, sampler=sampler)
     validation = torch.utils.data.DataLoader(validation_set, batch_size=batch_size)
     return train, validation
@@ -265,7 +268,17 @@ def main():
     )
     print(f"Class weights (inverse frequency): {[f'{w:.2f}' for w in class_weights.tolist()]}")
 
-    criterion = torch.nn.CrossEntropyLoss(weight=class_weights)
+    # Focal loss: down-weights easy examples, focuses on hard ones (helps with imbalanced data)
+    class FocalLoss(torch.nn.Module):
+        def __init__(self, weight=None, gamma=2.0):
+            super().__init__()
+            self.weight = weight
+            self.gamma = gamma
+        def forward(self, logits, targets):
+            ce = F.cross_entropy(logits, targets, weight=self.weight, reduction='none')
+            pt = torch.exp(-ce)
+            return ((1 - pt) ** self.gamma * ce).mean()
+    criterion = FocalLoss(weight=class_weights, gamma=2.0)
     optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
         optimizer, mode='min', factor=0.5, patience=3

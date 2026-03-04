@@ -1,4 +1,5 @@
 import torch
+import torch.nn.functional as F
 import pathlib
 import cv2
 import time
@@ -9,7 +10,7 @@ import matplotlib.pyplot as plt
 INPUT_SHAPE = (3, 160, 160)
 IMAGES_PATH = pathlib.Path("skincancer/organized")  # One subfolder per class (from organize_data.py)
 BATCH_SIZE = 32
-NUM_EPOCHS = 30               # More epochs needed for imbalanced data
+NUM_EPOCHS = 50               # More epochs for imbalanced 7-class data
 LEARNING_RATE = 0.001
 TIME_STAMP = time.strftime("%Y_%m_%de_%H_%M")
 
@@ -18,12 +19,10 @@ def clean_up() -> None:
     torch.save(model, "saves/model_" + str(epoch) + "_" + TIME_STAMP)
 
 class Dataset(torch.utils.data.Dataset):
-    """Represent the dataset as an object."""
-    def __init__(self, image_path: pathlib.Path):
-        """Provide a path where all the images are, 1 folder for each class.
-        This assumes that train and validation are mingled."""
+    """Represent the dataset as an object. Loads to CPU for compatibility."""
+    def __init__(self, image_path: pathlib.Path, device: str = "cpu"):
+        """Provide a path where all the images are, 1 folder for each class."""
         print("Loading images...")
-        # Use sorted order so class indices match analyze_class_accuracy.get_class_mapping()
         self.class_names = sorted(
             p.name for p in image_path.iterdir() if p.is_dir()
         )
@@ -35,20 +34,15 @@ class Dataset(torch.utils.data.Dataset):
                     if img is not None:
                         label = torch.tensor(
                             self.class_names.index(path.name),
-                            dtype = torch.float32,
-                            device = 'mps',
+                            dtype=torch.float32,
+                            device=device,
                         )
                         img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
                         img = cv2.resize(img, INPUT_SHAPE[1:])
-                        img = img/255.0 
-                        img = img.transpose([2, 0, 1]) #move channels to first
-                        img = torch.tensor(
-                            img,
-                            dtype = torch.float32,
-                            device = 'mps',
-                        )
+                        img = img / 255.0
+                        img = img.transpose([2, 0, 1])
+                        img = torch.tensor(img, dtype=torch.float32, device=device)
                         self.images.append((img, label))
-
         print("Images loaded.")
     def __len__(self) -> int:
         return len(self.images)
@@ -169,8 +163,11 @@ def get_dataloaders(dataset: Dataset, train_prop: float, batch_size: int,
         idx = int(label.item()) if label.dim() == 0 else int(label[0].item())
         sample_weights.append(1.0 / max(1, train_class_counts[idx]))
     sampler = torch.utils.data.WeightedRandomSampler(
-        weights=sample_weights, num_samples=len(sample_weights), replacement=True
+        weights=sample_weights,
+        num_samples=4 * len(sample_weights),  # 4x oversampling
+        replacement=True
     )
+    print("Using WeightedRandomSampler to oversample minority classes (4x)")
     train = torch.utils.data.DataLoader(train_set, batch_size=batch_size, sampler=sampler)
     validation = torch.utils.data.DataLoader(validation_set, batch_size=batch_size)
     return train, validation
@@ -190,12 +187,14 @@ def main():
 
     pathlib.Path("saves").mkdir(exist_ok=True)
     save_code()
-    dataset = Dataset(IMAGES_PATH)
+    dataset = Dataset(IMAGES_PATH, device="cpu")
     print(f"Found {len(dataset)} images.")
 
+    device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Using device: {device}")
+
     train, validation = get_dataloaders(dataset, 0.8, BATCH_SIZE, len(dataset.class_names))
-    model = Model(INPUT_SHAPE).to("mps")
-    device = "mps"
+    model = Model(INPUT_SHAPE).to(device)
 
     # Class weights to handle imbalance (melanocytic_nevi ~71% of data)
     class_counts = [0] * len(dataset.class_names)
@@ -210,7 +209,16 @@ def main():
     )
     print(f"Class weights (inverse frequency): {[f'{w:.2f}' for w in class_weights.tolist()]}")
 
-    criterion = torch.nn.CrossEntropyLoss(weight=class_weights)
+    class FocalLoss(torch.nn.Module):
+        def __init__(self, weight=None, gamma=2.0):
+            super().__init__()
+            self.weight = weight
+            self.gamma = gamma
+        def forward(self, logits, targets):
+            ce = F.cross_entropy(logits, targets, weight=self.weight, reduction='none')
+            pt = torch.exp(-ce)
+            return ((1 - pt) ** self.gamma * ce).mean()
+    criterion = FocalLoss(weight=class_weights, gamma=2.0)
     optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
         optimizer, mode='min', factor=0.5, patience=3
@@ -226,6 +234,7 @@ def main():
         train_correct = 0
         train_total = 0
         for images, labels in train:
+            images, labels = images.to(device), labels.to(device)
             labels = labels.long()
             optimizer.zero_grad()
             logits = model(images)
@@ -245,6 +254,7 @@ def main():
         total = 0
         with torch.no_grad():
             for images, labels in validation:
+                images, labels = images.to(device), labels.to(device)
                 labels = labels.long()
                 logits = model(images)
                 loss = criterion(logits, labels)
