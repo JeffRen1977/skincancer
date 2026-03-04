@@ -1,6 +1,6 @@
 """
 Class-wise accuracy analysis script.
-Tests images from each class one at a time and displays results.
+Tests images from each class and computes per-class accuracy.
 Shows which classes are more accurate or less accurate.
 
 This script helps identify:
@@ -478,17 +478,16 @@ def get_class_mapping():
 
 
 def analyze_class_accuracy(model, data_dir, class_names, device='cpu',
-                          max_images_per_class=50, show_images=True, model_type='efficientnet',
+                          max_images_per_class=50, model_type='efficientnet',
                           output_path='class_accuracy_analysis.png'):
     """
-    Analyze accuracy for each class, testing images one at a time.
+    Analyze accuracy for each class.
     
     This is the main analysis function that:
     1. Finds all images for each class
     2. Tests each image individually
     3. Tracks per-class statistics (correct/total, confidences)
-    4. Displays results for each image (optional)
-    5. Generates summary statistics and visualization
+    4. Generates summary statistics and visualization
     
     Args:
         model: Trained model in evaluation mode
@@ -497,8 +496,6 @@ def analyze_class_accuracy(model, data_dir, class_names, device='cpu',
         device (str or torch.device): Device to run inference on
         max_images_per_class (int): Maximum number of images to test per class
                                    (limits analysis time, uses random sampling)
-        show_images (bool): If True, display each image with prediction results
-                           (slower but more informative)
     
     Returns:
         class_stats (dict): Dictionary with statistics for each class
@@ -576,7 +573,7 @@ def analyze_class_accuracy(model, data_dir, class_names, device='cpu',
         # ====================================================================
         for img_idx, image_path in enumerate(images):
             # Load and preprocess image
-            image_tensor, original_image = preprocess_image(image_path, model_type)
+            image_tensor, _ = preprocess_image(image_path, model_type)
             if image_tensor is None:
                 # Skip if image loading failed
                 continue
@@ -611,49 +608,6 @@ def analyze_class_accuracy(model, data_dir, class_names, device='cpu',
             print(f"  True Class: {true_class_name}")
             print(f"  Predicted: {display_names[predicted_idx]}")
             print(f"  Confidence: {confidence*100:.2f}%")
-            
-            # ================================================================
-            # VISUALIZE IMAGE AND PREDICTIONS (OPTIONAL)
-            # ================================================================
-            if show_images:
-                # Create figure with two subplots
-                fig, axes = plt.subplots(1, 2, figsize=(14, 6))
-                
-                # Left plot: Show original image
-                axes[0].imshow(original_image)
-                axes[0].set_title(f'Image: {image_path.name}\nTrue Class: {true_class_name}', 
-                                 fontsize=12, fontweight='bold')
-                axes[0].axis('off')  # Remove axes for cleaner image display
-                
-                # Right plot: Show prediction probabilities for all classes
-                # Color coding:
-                #   - Green: Predicted class (what model thinks it is)
-                #   - Red: True class (what it actually is)
-                #   - Gray: Other classes
-                colors = ['green' if i == predicted_idx else 'red' if i == class_idx else 'gray' 
-                         for i in range(len(class_names))]
-                
-                # Create horizontal bar chart
-                bars = axes[1].barh(range(len(class_names)), probabilities * 100, color=colors)
-                axes[1].set_yticks(range(len(class_names)))
-                axes[1].set_yticklabels(display_names)
-                axes[1].set_xlabel('Probability (%)', fontsize=11)
-                axes[1].set_title(f'Prediction Probabilities\n{status}', 
-                                 fontsize=12, fontweight='bold')
-                axes[1].set_xlim([0, 100])  # Probability range 0-100%
-                axes[1].grid(axis='x', alpha=0.3)  # Add grid for readability
-                
-                # Add probability values on bars (only if > 1% to avoid clutter)
-                for i, (bar, prob) in enumerate(zip(bars, probabilities)):
-                    if prob > 0.01:  # Only show if > 1%
-                        axes[1].text(prob * 100 + 1, i, f'{prob*100:.1f}%', 
-                                    va='center', fontsize=9)
-                
-                # Display plot
-                plt.tight_layout()  # Adjust layout to prevent overlap
-                plt.show(block=False)  # Non-blocking display
-                plt.pause(0.5)  # Brief pause to allow image to render
-                plt.close()  # Close to free memory
             
             # ================================================================
             # PRINT RUNNING ACCURACY
@@ -751,14 +705,11 @@ def analyze_class_accuracy(model, data_dir, class_names, device='cpu',
     for i, (bar, acc) in enumerate(zip(bars, class_accs)):
         ax.text(acc + 1, i, f'{acc:.1f}%', va='center', fontsize=10, fontweight='bold')
     
-    # Save and display plot
+    # Save plot
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"Visualization saved to: {output_path}")
-    if show_images:
-        plt.show()  # Blocks until user closes window
-    else:
-        plt.close()  # Exit immediately when --no_display
+    plt.close()
     return class_stats
 
 
@@ -788,10 +739,6 @@ def main():
     # Optional argument: limit number of images per class (for faster analysis)
     parser.add_argument('--max_images', type=int, default=50,
                         help='Maximum number of images to test per class')
-    
-    # Optional flag: skip image display (faster analysis)
-    parser.add_argument('--no_display', action='store_true',
-                        help='Do not display images during analysis (faster)')
     
     # Optional argument: specify device manually
     parser.add_argument('--device', type=str, default='auto',
@@ -857,7 +804,6 @@ def main():
         class_names=class_names,
         device=device,
         max_images_per_class=args.max_images,
-        show_images=not args.no_display,
         model_type=args.model_type,
         output_path=args.output
     )

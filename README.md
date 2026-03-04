@@ -140,32 +140,9 @@ This script will:
 - Copy images to `skincancer/organized/` organized by class folders
 - Print a summary of images organized per class
 
-3. **Run the custom CNN homework script** (`first_cnn_torch.py`):
+3. **Train models** — see [Trainers](#trainers) below for all options.
 
-   **Prerequisites**
-   - Same dataset layout as above: run `organize_data.py` first so that `skincancer/organized/` exists with one folder per class (e.g. `actinic_keratoses/`, `melanoma/`, etc.).
-   - The script expects image data in a folder whose subfolders are class names. By default it uses `skincancer`; to use the organized data, set `IMAGES_PATH` in the script to `pathlib.Path("skincancer/organized")`.
-   - Create a `saves` directory so the script can write code snapshots and (when the training block is implemented) models and printouts:
-     ```bash
-     mkdir -p saves
-     ```
-   - Install dependencies (including OpenCV for image loading):
-     ```bash
-     pip3 install -r requirements.txt
-     pip3 install opencv-python
-     ```
-
-   **Run from the project folder**
-   ```bash
-   cd Jasmine
-   python3 first_cnn_torch.py
-   ```
-
-   **Notes**
-   - The script uses device `'mps'` (Apple Silicon GPU). On a Mac without MPS or on Windows/Linux, change `.to('mps')` to `.to('cuda')` if you have a CUDA GPU, or `.to('cpu')` otherwise.
-   - The script currently calls `quit()` before the training loop, so it only loads data, builds the model, and exits. Remove or comment out the `quit()` line when you are ready to run a full training loop.
-
-4. **Train the model** (transfer learning with EfficientNet):
+4. **Train the EfficientNet model** (transfer learning):
 ```bash
 python3 train_skincancer.py
 ```
@@ -182,30 +159,145 @@ This will:
 python3 inference.py --model skincancer_model_adam.pth --image path/to/image.jpg
 ```
 
-6. **Analyze class-wise accuracy** (one image at a time):
+6. **Analyze class-wise accuracy** — see [Class Accuracy Analysis](#class-accuracy-analysis) below.
+
+---
+
+## Trainers
+
+The project includes five trainers for skin cancer classification. All use the HAM10000 dataset from `skincancer/organized/` (run `organize_data.py` first).
+
+**Prerequisites:** Create `saves/` for model outputs, and install dependencies including OpenCV:
 ```bash
-python3 analyze_class_accuracy.py --model skincancer_model_adam.pth --data_dir skincancer/organized --max_images 50
+mkdir -p saves
+pip3 install -r requirements.txt
+pip3 install opencv-python
 ```
 
-This script will:
-- Test images from each class one at a time
-- Display each image with prediction results
-- Calculate per-class accuracy
-- Show which classes are more accurate or less accurate
-- Generate a visualization comparing class accuracies
-- Save results to `class_accuracy_analysis.png`
+### Trainer Comparison
 
-Options:
-- `--max_images N`: Maximum number of images to test per class (default: 50)
-- `--no_display`: Skip displaying images during analysis (faster)
-- `--device`: Specify device (cpu, cuda, mps, or auto)
+| Trainer | Script | Input Size | Architecture | Key Features | Output |
+|---------|--------|------------|--------------|--------------|--------|
+| **First CNN** | `first_cnn_torch.py` | 256×256 | Conv 13/7/3, ReLU, dropout | Class weights, focal loss, WeightedRandomSampler | `saves/first_cnn_model.pth` |
+| **Second CNN** | `second_cnn_torch.py` | 256×256 | Conv 13/7/3, LeakyReLU*, dropout | Data augmentation, WeightedRandomSampler | `saves/second_cnn_model.pth` |
+| **Image CNN** | `image_cnn_torch.py` | 256×256 | Conv 13/7/3, ReLU, no dropout | Original architecture | `saves/image_cnn_model.pth` |
+| **Image2 CNN** | `image2_cnn_torch.py` | 160×160 | Conv 9/5/3, ReLU, no dropout | Smaller input, smaller kernels | `saves/image2_cnn_model.pth` |
+| **EfficientNet** | `train_skincancer.py` | 224×224 | EfficientNet-B0 transfer learning | 3 optimizers (Adam, SGD, AdamW) | `skincancer_model_*.pth` |
+
+*Second CNN: configurable activation (relu, leaky_relu, gelu, silu, elu); default is LeakyReLU.
+
+### How to Run Each Trainer
+
+**Individual custom CNNs:**
+```bash
+python3 first_cnn_torch.py      # First CNN (ReLU, dropout, focal loss)
+python3 second_cnn_torch.py     # Second CNN (LeakyReLU, augmentation)
+python3 image_cnn_torch.py      # Image CNN (256×256, no dropout)
+python3 image2_cnn_torch.py     # Image2 CNN (160×160, no dropout)
+```
+
+**EfficientNet (transfer learning):**
+```bash
+python3 train_skincancer.py      # Trains 3 models: Adam, SGD, AdamW
+```
+
+**Train all models and run analysis:**
+```bash
+python3 train_and_analyze_all.py
+```
+
+Options for `train_and_analyze_all.py`:
+- `--skip-training` — Only run analysis on existing models
+- `--skip-analysis` — Only train models
+- `--skip-efficientnet` — Skip EfficientNet (saves ~30 min)
+- `--max-images N` — Max images per class for analysis (default: 50)
+
+### Trainer Differences (Custom CNNs)
+
+- **First CNN** vs **Image CNN**: Same conv layout (256×256, kernels 13/7/3). First CNN adds dropout, class weights, and focal loss for imbalanced data.
+- **Second CNN**: Same conv layout as First CNN, but uses configurable activation (LeakyReLU by default) and training-time data augmentation (flips, rotation, color jitter, affine).
+- **Image CNN** vs **Image2 CNN**: Image CNN uses 256×256 input and kernels 13/7/3; Image2 CNN uses 160×160 input and smaller kernels 9/5/3. Neither uses dropout.
+
+### Architecture Comparison
+
+| Aspect | First CNN | Second CNN | Image CNN | Image2 CNN | EfficientNet |
+|--------|-----------|------------|-----------|------------|--------------|
+| **Input size** | 256×256 | 256×256 | 256×256 | 160×160 | 224×224 |
+| **Approach** | From scratch | From scratch | From scratch | From scratch | Transfer learning |
+| **Conv layers** | 3 blocks (24→48→96 ch) | 3 blocks (24→48→96 ch) | 3 blocks (24→48→96 ch) | 3 blocks (24→48→96 ch) | EfficientNet-B0 backbone |
+| **Conv kernels** | 13, 7, 3 | 13, 7, 3 | 13, 7, 3 | 9, 5, 3 | Compound scaling |
+| **Strides** | 4, 2, 1 | 4, 2, 1 | 4, 2, 1 | 3, 2, 1 | — |
+| **Activation** | ReLU | LeakyReLU* | ReLU | ReLU | ReLU (in classifier) |
+| **Dropout** | 0.5 (linear) | 0.5 (linear) | None | None | 0.2 (classifier) |
+| **Classifier** | 864→256→64→7 | 864→256→64→7 | 864→256→64→7 | 864→256→64→7 | 1280→512→7 |
+| **Params** | ~0.5M | ~0.5M | ~0.5M | ~0.5M | ~5M (backbone frozen) |
+| **Epochs** | 50 | 50 | 50 | 50 | 10 |
+| **Batch size** | 32 | 32 | 32 | 32 | 32 |
+| **Optimizer** | Adam (1e-3) | Adam (1e-3) | Adam (1e-3) | Adam (1e-3) | Adam / SGD / AdamW (1e-4) |
+| **LR scheduler** | ReduceLROnPlateau | ReduceLROnPlateau | ReduceLROnPlateau | ReduceLROnPlateau | None |
+| **Loss** | Focal (γ=2) + class weights | Focal (γ=2) + class weights | Focal (γ=2) + class weights | Focal (γ=2) + class weights | CrossEntropy |
+| **Sampling** | WeightedRandomSampler (4×) | WeightedRandomSampler (4×) | WeightedRandomSampler (4×) | WeightedRandomSampler (4×) | Standard |
+| **Augmentation** | Horizontal flip (2×) | Flips, rotation, color jitter, affine (on-the-fly) | Horizontal flip (2×) | Horizontal flip (2×) | Standard ImageNet transforms |
+| **Pre-trained** | No | No | No | No | Yes (ImageNet) |
+
+*Second CNN: configurable (relu, leaky_relu, gelu, silu, elu).
+
+**Summary:**
+- **Custom CNNs** share a similar 3-conv + 3-linear layout but differ in: input size (Image2: 160 vs 256), kernels (Image2: 9/5/3 vs 13/7/3), dropout (First/Second: 0.5; Image/Image2: none), and activation (Second: LeakyReLU vs ReLU). All use focal loss, class weights, and WeightedRandomSampler for imbalance. Second CNN has the richest augmentation (flips, rotation, color jitter, affine); others use horizontal flip only.
+- **EfficientNet** uses a pre-trained backbone, freezes it, and trains only a small classifier head. Typically achieves higher accuracy with fewer epochs but requires more memory.
+
+---
+
+## Class Accuracy Analysis
+
+Use `analyze_class_accuracy.py` to evaluate per-class accuracy for any trained model.
+
+**Basic usage:**
+```bash
+python3 analyze_class_accuracy.py --model <path_to_model.pth> --model_type <type> [options]
+```
+
+**Examples:**
+```bash
+# Custom CNNs (must specify --model_type)
+python3 analyze_class_accuracy.py --model saves/first_cnn_model.pth --model_type first_cnn --output saves/class_accuracy_first_cnn.png
+python3 analyze_class_accuracy.py --model saves/second_cnn_model.pth --model_type second_cnn --output saves/class_accuracy_second_cnn.png
+python3 analyze_class_accuracy.py --model saves/image_cnn_model.pth --model_type image_cnn --output saves/class_accuracy_image_cnn.png
+python3 analyze_class_accuracy.py --model saves/image2_cnn_model.pth --model_type image2_cnn --output saves/class_accuracy_image2_cnn.png
+
+# EfficientNet (default model_type)
+python3 analyze_class_accuracy.py --model skincancer_model_adam.pth --data_dir skincancer/organized --output saves/class_accuracy_efficientnet_adam.png
+```
+
+**Options:**
+- `--model` — Path to trained model file (.pth)
+- `--model_type` — Architecture: `first_cnn`, `second_cnn`, `image_cnn`, `image2_cnn`, or `efficientnet` (default)
+- `--data_dir` — Path to organized data (default: `skincancer/organized`)
+- `--max_images N` — Max images per class (default: 50)
+- `--output` — Path for the accuracy plot (default: `class_accuracy_analysis.png`)
+- `--device` — Device: `cpu`, `cuda`, `mps`, or `auto`
+
+**What it does:**
+- Tests images from each of the 7 classes
+- Computes per-class accuracy
+- Produces a bar chart (green ≥80%, orange 60–80%, red &lt;60%)
+- Saves the plot to the specified output path
 
 ## Output Files
 
-After training, you'll have:
+After training and analysis, you'll have:
+
+**Custom CNN models (in `saves/`):**
+- `first_cnn_model.pth`, `second_cnn_model.pth`, `image_cnn_model.pth`, `image2_cnn_model.pth`
+- `training_history_first_cnn.png`, `training_history_second_cnn.png`, etc.
+
+**EfficientNet (in project root):**
 - `checkpoints_adam/`, `checkpoints_sgd/`, `checkpoints_adamw/` - Checkpoint directories
 - `skincancer_model_adam.pth`, `skincancer_model_sgd.pth`, `skincancer_model_adamw.pth` - Final models
 - `training_history_adam.png`, `training_history_sgd.png`, `training_history_adamw.png` - Training plots
+
+**Class accuracy analysis (in `saves/`):**
+- `class_accuracy_first_cnn.png`, `class_accuracy_second_cnn.png`, etc.
 
 ## Model Architecture
 

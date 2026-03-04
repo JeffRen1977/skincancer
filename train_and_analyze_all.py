@@ -41,8 +41,6 @@ def main():
     parser.add_argument("--skip-analysis", action="store_true", help="Skip analysis; only train models")
     parser.add_argument("--skip-efficientnet", action="store_true",
                         help="Skip train_skincancer.py (trains 3 optimizers, takes longer)")
-    parser.add_argument("--no-display", action="store_true",
-                        help="Pass --no_display to analyze_class_accuracy (faster)")
     parser.add_argument("--max-images", type=int, default=50,
                         help="Max images per class for analysis (default: 50)")
     args = parser.parse_args()
@@ -73,8 +71,6 @@ def main():
             "--data_dir", "skincancer/organized",
             "--max_images", str(args.max_images),
         ]
-        if args.no_display:
-            analyze_cmd.append("--no_display")
 
         models = [
             ("saves/first_cnn_model.pth", "first_cnn", "saves/class_accuracy_first_cnn.png"),
