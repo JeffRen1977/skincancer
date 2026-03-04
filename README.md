@@ -252,9 +252,10 @@ Options for `train_and_analyze_all.py`:
 
 Evaluate per-class accuracy for trained models.
 
-**First CNN** (built-in in `first_cnn_torch.py`):
+**First CNN** and **Second CNN** (built-in):
 ```bash
-python3 first_cnn_torch.py --analyze [--model saves/first_cnn_model.pth] [--data_dir skincancer/organized] [--max_images 50] [--output saves/class_accuracy_first_cnn.png]
+python3 first_cnn_torch.py --analyze [--model saves/first_cnn_model.pth] [--output saves/class_accuracy_first_cnn.png]
+python3 second_cnn_torch.py --analyze [--model saves/second_cnn_model.pth] [--output saves/class_accuracy_second_cnn.png]
 ```
 
 **Other models** (use `analyze_class_accuracy.py`):
@@ -264,11 +265,13 @@ python3 analyze_class_accuracy.py --model <path_to_model.pth> --model_type <type
 
 **Examples:**
 ```bash
-# First CNN: built-in analysis (no separate script)
+# First CNN: built-in analysis
 python3 first_cnn_torch.py --analyze --model saves/first_cnn_model.pth --output saves/class_accuracy_first_cnn.png
 
+# Second CNN: built-in analysis
+python3 second_cnn_torch.py --analyze --model saves/second_cnn_model.pth --output saves/class_accuracy_second_cnn.png
+
 # Other custom CNNs (must specify --model_type)
-python3 analyze_class_accuracy.py --model saves/second_cnn_model.pth --model_type second_cnn --output saves/class_accuracy_second_cnn.png
 python3 analyze_class_accuracy.py --model saves/image_cnn_model.pth --model_type image_cnn --output saves/class_accuracy_image_cnn.png
 python3 analyze_class_accuracy.py --model saves/image2_cnn_model.pth --model_type image2_cnn --output saves/class_accuracy_image2_cnn.png
 
