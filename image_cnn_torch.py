@@ -1,9 +1,20 @@
+"""
+Image CNN for skin cancer classification (PyTorch).
+256x256 input, ReLU, no dropout.
+
+Run training:  python image_cnn_torch.py
+Run analysis:  python image_cnn_torch.py --analyze [--model saves/image_cnn_model.pth] [--output saves/class_accuracy_image_cnn.png]
+"""
 import torch
 import torch.nn.functional as F
 import pathlib
 import cv2
 import time
+import random
+import argparse
 import atexit
+import numpy as np
+from collections import defaultdict
 import torchvision.transforms.v2
 import matplotlib.pyplot as plt
 
@@ -14,7 +25,6 @@ NUM_EPOCHS = 50               # More epochs for imbalanced 7-class data
 LEARNING_RATE = 0.001        
 TIME_STAMP = time.strftime("%Y_%m_%de_%H_%M")
 
-@atexit.register
 def clean_up() -> None:
     torch.save(model, "saves/model_" + str(epoch) + "_" + TIME_STAMP)
 
@@ -173,6 +183,134 @@ def get_dataloaders(dataset: Dataset, train_prop: float, batch_size: int,
     return train, validation
 
 
+# -----------------------------------------------------------------------------
+# Class accuracy analysis (image_cnn model only)
+# -----------------------------------------------------------------------------
+
+def _get_class_mapping():
+    dir_names = [
+        'actinic_keratoses', 'basal_cell_carcinoma', 'benign_keratosis-like_lesions',
+        'dermatofibroma', 'melanocytic_nevi', 'melanoma', 'vascular_lesions'
+    ]
+    display_names = [
+        'actinic keratoses', 'basal cell carcinoma', 'benign keratosis-like lesions',
+        'dermatofibroma', 'melanocytic nevi', 'melanoma', 'vascular lesions'
+    ]
+    return dir_names, display_names
+
+
+def _preprocess_image(image_path):
+    """Load and preprocess image for image_cnn (256x256, [0,1] range)."""
+    img = cv2.imread(str(image_path))
+    if img is None:
+        return None
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    img = cv2.resize(img, INPUT_SHAPE[1:])
+    img = img / 255.0
+    img = img.transpose([2, 0, 1])
+    return torch.tensor(img, dtype=torch.float32).unsqueeze(0)
+
+
+def analyze_class_accuracy(model_path="saves/image_cnn_model.pth", data_dir=None,
+                           max_images_per_class=50, output_path="saves/class_accuracy_image_cnn.png",
+                           device=None):
+    """Analyze per-class accuracy for the image_cnn model."""
+    if data_dir is None:
+        data_dir = IMAGES_PATH
+    data_path = pathlib.Path(data_dir)
+    if device is None:
+        device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
+    device = torch.device(device) if isinstance(device, str) else device
+
+    dir_names, display_names = _get_class_mapping()
+    model = Model(INPUT_SHAPE).to(device)
+    try:
+        state_dict = torch.load(model_path, map_location=device)
+        sd = state_dict.get('model_state_dict', state_dict)
+        model.load_state_dict(sd)
+    except Exception as e:
+        print(f"Error loading model: {e}")
+        return None
+    model.eval()
+
+    class_stats = defaultdict(lambda: {'correct': 0, 'total': 0, 'confidences': []})
+    all_images = {}
+    for i, dir_name in enumerate(dir_names):
+        class_dir = data_path / dir_name
+        if class_dir.exists():
+            images = list(class_dir.glob('*.jpg')) + list(class_dir.glob('*.png'))
+            random.shuffle(images)
+            all_images[i] = images[:max_images_per_class]
+            print(f"Found {len(images)} images in {dir_name}, testing {len(all_images[i])}")
+        else:
+            all_images[i] = []
+
+    print("\n" + "=" * 80)
+    print("CLASS-WISE ACCURACY ANALYSIS (Image CNN)")
+    print("=" * 80)
+    print(f"Testing up to {max_images_per_class} images per class\n")
+
+    for class_idx in range(len(display_names)):
+        images = all_images.get(class_idx, [])
+        if not images:
+            continue
+        true_class_name = display_names[class_idx]
+        print(f"\n--- {true_class_name} ({len(images)} images) ---")
+        for image_path in images:
+            tensor = _preprocess_image(image_path)
+            if tensor is None:
+                continue
+            tensor = tensor.to(device)
+            with torch.no_grad():
+                logits = model(tensor)
+                probs = F.softmax(logits[0], dim=0).cpu().numpy()
+                pred_idx = logits[0].argmax().item()
+                conf = probs[pred_idx]
+            is_correct = pred_idx == class_idx
+            class_stats[class_idx]['total'] += 1
+            if is_correct:
+                class_stats[class_idx]['correct'] += 1
+            class_stats[class_idx]['confidences'].append(conf)
+        acc = 100.0 * class_stats[class_idx]['correct'] / class_stats[class_idx]['total']
+        print(f"  Accuracy: {acc:.2f}% ({class_stats[class_idx]['correct']}/{class_stats[class_idx]['total']})")
+
+    print("\n" + "=" * 80)
+    print("OVERALL SUMMARY")
+    print("=" * 80)
+    sorted_classes = sorted(class_stats.items(),
+                            key=lambda x: (x[1]['correct'] / x[1]['total']) if x[1]['total'] > 0 else 0,
+                            reverse=True)
+    for rank, (cidx, stats) in enumerate(sorted_classes, 1):
+        if stats['total'] > 0:
+            acc = 100.0 * stats['correct'] / stats['total']
+            avg_conf = np.mean(stats['confidences']) * 100
+            print(f"{rank}. {display_names[cidx]:35s} Accuracy: {acc:6.2f}%  ({stats['correct']}/{stats['total']})  Avg conf: {avg_conf:.2f}%")
+
+    pathlib.Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    fig, ax = plt.subplots(1, 1, figsize=(10, 6))
+    class_accs, class_labels, colors_list = [], [], []
+    for cidx, stats in sorted_classes:
+        if stats['total'] > 0:
+            acc = 100.0 * stats['correct'] / stats['total']
+            class_accs.append(acc)
+            class_labels.append(display_names[cidx])
+            colors_list.append('green' if acc >= 80 else 'orange' if acc >= 60 else 'red')
+    bars = ax.barh(range(len(class_accs)), class_accs, color=colors_list)
+    ax.set_yticks(range(len(class_accs)))
+    ax.set_yticklabels(class_labels)
+    ax.set_xlabel('Accuracy (%)')
+    ax.set_title('Per-Class Accuracy (Image CNN)')
+    ax.set_xlim([0, 100])
+    ax.grid(axis='x', alpha=0.3)
+    for i, (bar, acc) in enumerate(zip(bars, class_accs)):
+        ax.text(acc + 1, i, f'{acc:.1f}%', va='center', fontsize=10, fontweight='bold')
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    print(f"\nPlot saved: {output_path}")
+    return dict(class_stats)
+
+
 def save_code() -> None:
     with open(__file__, 'r') as f:
         this_code = f.read()
@@ -181,7 +319,25 @@ def save_code() -> None:
     
 
 def main():
+    parser = argparse.ArgumentParser(description="Image CNN: train or analyze class accuracy")
+    parser.add_argument("--analyze", action="store_true", help="Run class accuracy analysis instead of training")
+    parser.add_argument("--model", default="saves/image_cnn_model.pth", help="Model path (for --analyze)")
+    parser.add_argument("--data_dir", default=None, help="Data directory (default: skincancer/organized)")
+    parser.add_argument("--max_images", type=int, default=50, help="Max images per class (for --analyze)")
+    parser.add_argument("--output", default="saves/class_accuracy_image_cnn.png", help="Output plot path (for --analyze)")
+    args = parser.parse_args()
+
+    if args.analyze:
+        analyze_class_accuracy(
+            model_path=args.model,
+            data_dir=args.data_dir or str(IMAGES_PATH),
+            max_images_per_class=args.max_images,
+            output_path=args.output,
+        )
+        return
+
     global model, epoch
+    atexit.register(clean_up)
 
     pathlib.Path("saves").mkdir(exist_ok=True)
     save_code()

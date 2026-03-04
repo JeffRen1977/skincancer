@@ -94,25 +94,40 @@ def main():
         else:
             print("\nSkipping analysis for second_cnn: saves/second_cnn_model.pth not found")
 
-        # Other custom CNNs + EfficientNet: use analyze_class_accuracy.py
+        # Image CNN: built-in analyze in image_cnn_torch.py
+        image_cnn_path = root / "saves/image_cnn_model.pth"
+        if image_cnn_path.exists():
+            run(
+                [sys.executable, "image_cnn_torch.py", "--analyze",
+                 "--model", "saves/image_cnn_model.pth",
+                 "--data_dir", "skincancer/organized",
+                 "--max_images", str(args.max_images),
+                 "--output", "saves/class_accuracy_image_cnn.png"],
+                "Analyzing image_cnn (image_cnn_torch.py --analyze)"
+            )
+        else:
+            print("\nSkipping analysis for image_cnn: saves/image_cnn_model.pth not found")
+
+        # Image2 CNN: built-in analyze in image2_cnn_torch.py
+        image2_cnn_path = root / "saves/image2_cnn_model.pth"
+        if image2_cnn_path.exists():
+            run(
+                [sys.executable, "image2_cnn_torch.py", "--analyze",
+                 "--model", "saves/image2_cnn_model.pth",
+                 "--data_dir", "skincancer/organized",
+                 "--max_images", str(args.max_images),
+                 "--output", "saves/class_accuracy_image2_cnn.png"],
+                "Analyzing image2_cnn (image2_cnn_torch.py --analyze)"
+            )
+        else:
+            print("\nSkipping analysis for image2_cnn: saves/image2_cnn_model.pth not found")
+
+        # EfficientNet models: use analyze_class_accuracy.py
         analyze_cmd = [
             sys.executable, "analyze_class_accuracy.py",
             "--data_dir", "skincancer/organized",
             "--max_images", str(args.max_images),
         ]
-        models = [
-            ("saves/image_cnn_model.pth", "image_cnn", "saves/class_accuracy_image_cnn.png"),
-            ("saves/image2_cnn_model.pth", "image2_cnn", "saves/class_accuracy_image2_cnn.png"),
-        ]
-        for model_path, model_type, output_path in models:
-            path = root / model_path
-            if not path.exists():
-                print(f"\nSkipping analysis for {model_type}: {model_path} not found")
-                continue
-            run(
-                analyze_cmd + ["--model", model_path, "--model_type", model_type, "--output", output_path],
-                f"Analyzing {model_type} ({model_path})"
-            )
 
         # EfficientNet models (from train_skincancer)
         efficientnet_models = [
