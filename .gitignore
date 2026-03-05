@@ -16,4 +16,5 @@ saves/
 !*.py
 !.gitignore
 !README.md
+!INSTRUCTIONS.md
 !requirements.txt
